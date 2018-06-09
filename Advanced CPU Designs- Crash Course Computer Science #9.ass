@@ -10,108 +10,114 @@ PlayResX: 1280
 PlayResY: 720
 
 [Aegisub Project Garbage]
+Last Style Storage: Default
 Audio File: Advanced CPU Designs- Crash Course Computer Science #9.mp4
 Video File: Advanced CPU Designs- Crash Course Computer Science #9.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Video Position: 76
+Scroll Position: 197
+Active Line: 211
+Video Position: 16691
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: 720,Noto Sans S Chinese Bold,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
+Style: FOOT-NOTE,Noto Sans S Chinese Bold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,4,10,10,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:03.14,0:00:05.14,720,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
 Dialogue: 0,0:00:03.15,0:00:06.15,720,,0,0,0,,大家好 我是凯莉·安 欢迎来到计算机速成课\N{\c&H00D8FF&\fs40}Hi, I'm Carrie Anne and welcome to Crash Course Computer Science!
-Dialogue: 0,0:00:06.15,0:00:09.30,720,,0,0,0,,一系列讲到 计算机取得了很大的进步\N{\c&H00D8FF&\fs40}As we've discussed throughout the series, computers have come a long way
-Dialogue: 0,0:00:09.30,0:00:12.50,720,,0,0,0,,从也许一秒一次计算的机械装置\N{\c&H00D8FF&\fs40}from mechanical devices capable of maybe one calculation per second,
-Dialogue: 0,0:00:12.50,0:00:15.50,720,,0,0,0,,到以kHz GHz运行的CPU\N{\c&H00D8FF&\fs40}to CPUs running at kilohertz and megahertz speeds.
-Dialogue: 0,0:00:15.50,0:00:18.60,720,,0,0,0,,你现在在看这个视频的设备肯定以大约\N{\c&H00D8FF&\fs40}The device you're watching this video on right now is almost certainly running
-Dialogue: 0,0:00:19.50,0:00:22.75,720,,0,0,0,,GHz的速度运行 也就是每秒执行数十亿的指令\N{\c&H00D8FF&\fs40}at Gigahertz speed - that's billions of instructions executed every second.
-Dialogue: 0,0:00:22.75,0:00:24.75,720,,0,0,0,,相信我 这绝对是庞大的计算\N{\c&H00D8FF&\fs40}Which, trust me, is a lot of computation!
-Dialogue: 0,0:00:24.75,0:00:28.45,720,,0,0,0,,早期的电子计算机中处理器通常是通过\N{\c&H00D8FF&\fs40}In the early days of electronic computing, processors were typically made faster
-Dialogue: 0,0:00:28.45,0:00:31.75,720,,0,0,0,,提高芯片中晶体管的转换时间来提高速度的\N{\c&H00D8FF&\fs40}by improving the switching time of the transistors inside the chip
-Dialogue: 0,0:00:31.75,0:00:34.25,720,,0,0,0,,芯片是由逻辑门 ALU\N{\c&H00D8FF&\fs40}- the ones that make up all the logic gates, ALUs
-Dialogue: 0,0:00:34.25,0:00:36.25,720,,0,0,0,,和其他东西组成 这些在前面几集谈到过\N{\c&H00D8FF&\fs40}and other stuff we've talked about over the past few episodes.
-Dialogue: 0,0:00:36.25,0:00:39.60,720,,0,0,0,,但是仅仅加快晶体管的速度也远远不够\N{\c&H00D8FF&\fs40}But just making transistors faster and more efficient only went so far,
-Dialogue: 0,0:00:39.60,0:00:44.20,720,,0,0,0,,所以处理器设计者发明了多种提升性能的技巧\N{\c&H00D8FF&\fs40}so processor designers have developed various techniques to boost performance allowing
-Dialogue: 0,0:00:44.20,0:00:46.40,720,,0,0,0,,不仅仅是使得简单的指令运行的快\N{\c&H00D8FF&\fs40}not only simple instructions to run fast,
-Dialogue: 0,0:00:46.40,0:00:49.50,720,,0,0,0,,更加复杂的运算也能运行\N{\c&H00D8FF&\fs40}but also performing much more sophisticated operations.
-Dialogue: 0,0:00:58.30,0:01:03.40,720,,0,0,0,,上一集中我们给CPU写了一段小程序让我们能相除两个数\N{\c&H00D8FF&\fs40}Last episode, we created a small program for our CPU that allowed us to divide two numbers.
-Dialogue: 0,0:01:03.40,0:01:08.35,720,,0,0,0,,我们通过多次连续的减法达到目的 比如16除以4\N{\c&H00D8FF&\fs40}We did this by doing many subtractions in a row... so, for example, 16 divided by 4
-Dialogue: 0,0:01:08.35,0:01:14.00,720,,0,0,0,,就可以分解为更小的问题 16减4 减4 减4 减4\N{\c&H00D8FF&\fs40}could be broken down into the smaller problem of 16 minus 4, minus 4, minus 4, minus 4.
-Dialogue: 0,0:01:14.00,0:01:17.25,720,,0,0,0,,当我们得到零 或者负数时就表明完成了\N{\c&H00D8FF&\fs40}When we hit zero, or a negative number, we knew that we we're done.
-Dialogue: 0,0:01:17.25,0:01:21.00,720,,0,0,0,,但是这个方法消耗了大量时钟周期 也极其不高效\N{\c&H00D8FF&\fs40}But this approach gobbles up a lot of clock cycles, and isn't particularly efficient.
-Dialogue: 0,0:01:21.00,0:01:24.25,720,,0,0,0,,所以绝大部分计算机的除法就是\N{\c&H00D8FF&\fs40}So most computer processors today have divide as one of the instructions
-Dialogue: 0,0:01:24.25,0:01:26.25,720,,0,0,0,,ALU可以执行的指令\N{\c&H00D8FF&\fs40}that the ALU can perform in hardware.
+Dialogue: 0,0:00:06.15,0:00:09.30,720,,0,0,0,,之前课程讲到了 计算机取得了长足的进步\N{\c&H00D8FF&\fs40}As we've discussed throughout the series, computers have come a long way
+Dialogue: 0,0:00:09.30,0:00:12.50,720,,0,0,0,,从每秒一次计算的机械装置\N{\c&H00D8FF&\fs40}from mechanical devices capable of maybe one calculation per second,
+Dialogue: 0,0:00:12.50,0:00:15.50,720,,0,0,0,,到以kHz GHz频率运行的CPU\N{\c&H00D8FF&\fs40}to CPUs running at kilohertz and megahertz speeds.
+Dialogue: 0,0:00:15.50,0:00:18.60,720,,0,0,0,,你现在用来看视频的设备\N{\c&H00D8FF&\fs40}The device you're watching this video on right now is almost certainly running
+Dialogue: 0,0:00:19.50,0:00:22.75,720,,0,0,0,,几乎肯定以GHz的速度运行 也就是每秒执行数十亿个指令\N{\c&H00D8FF&\fs40}at Gigahertz speed - that's billions of instructions executed every second.
+Dialogue: 0,0:00:22.75,0:00:24.75,720,,0,0,0,,相信我 这个计算量很大的\N{\c&H00D8FF&\fs40}Which, trust me, is a lot of computation!
+Dialogue: 0,0:00:24.75,0:00:28.45,720,,0,0,0,,早期电子计算机要提高处理器的速度提高\N{\c&H00D8FF&\fs40}In the early days of electronic computing, processors were typically made faster
+Dialogue: 0,0:00:28.45,0:00:31.75,720,,0,0,0,,通常是改善芯片中晶体管开关时间实现的\N{\c&H00D8FF&\fs40}by improving the switching time of the transistors inside the chip
+Dialogue: 0,0:00:31.75,0:00:34.25,720,,0,0,0,,这些晶体管组成了逻辑门 ALU\N{\c&H00D8FF&\fs40}- the ones that make up all the logic gates, ALUs
+Dialogue: 0,0:00:34.25,0:00:36.25,720,,0,0,0,,还有其他之前课程谈过的内容\N{\c&H00D8FF&\fs40}and other stuff we've talked about over the past few episodes.
+Dialogue: 0,0:00:36.25,0:00:39.60,720,,0,0,0,,但是提高晶体管速度和效率的作用也有限\N{\c&H00D8FF&\fs40}But just making transistors faster and more efficient only went so far,
+Dialogue: 0,0:00:39.60,0:00:44.20,720,,0,0,0,,所以处理器设计者发明了多种提升性能的技术\N{\c&H00D8FF&\fs40}so processor designers have developed various techniques to boost performance allowing
+Dialogue: 0,0:00:44.20,0:00:46.40,720,,0,0,0,,不仅能加快简单指令的运行速度\N{\c&H00D8FF&\fs40}not only simple instructions to run fast,
+Dialogue: 0,0:00:46.40,0:00:49.50,720,,0,0,0,,而且能支持复杂得多的指令\N{\c&H00D8FF&\fs40}but also performing much more sophisticated operations.
+Dialogue: 0,0:00:58.30,0:01:03.40,720,,0,0,0,,上集中我们给CPU写了一段小程序\N{\c&H00D8FF&\fs40}Last episode, we created a small program for our CPU
+Dialogue: 0,0:00:58.30,0:01:03.40,720,,0,0,0,,实现了两个数相除\N{\c&H00D8FF&\fs40}allowed us to divide two numbers.
+Dialogue: 0,0:01:03.40,0:01:08.35,720,,0,0,0,,这是多次连续的减法实现的\N{\c&H00D8FF&\fs40}We did this by doing many subtractions in a row... so, for example, 16 divided by 4
+Dialogue: 0,0:01:08.35,0:01:14.00,720,,0,0,0,,比如16除以4 可以分解为 16减4 减4 减4 减4\N{\c&H00D8FF&\fs40}could be broken down into the smaller problem of 16 minus 4, minus 4, minus 4, minus 4.
+Dialogue: 0,0:01:14.00,0:01:17.25,720,,0,0,0,,当结果是0或负数时 运算结束\N{\c&H00D8FF&\fs40}When we hit zero, or a negative number, we knew that we we're done.
+Dialogue: 0,0:01:17.25,0:01:21.00,720,,0,0,0,,但这个方法耗费了大量时钟周期 效率也不高\N{\c&H00D8FF&\fs40}But this approach gobbles up a lot of clock cycles, and isn't particularly efficient.
+Dialogue: 0,0:01:21.00,0:01:24.25,720,,0,0,0,,所以绝大部分现代处理器都内置了除法指令\N{\c&H00D8FF&\fs40}So most computer processors today have divide as one of the instructions
+Dialogue: 0,0:01:24.25,0:01:26.25,720,,0,0,0,,并且由ALU通过硬件执行（以提高速度和效率）\N{\c&H00D8FF&\fs40}that the ALU can perform in hardware.
 Dialogue: 0,0:01:26.25,0:01:30.35,720,,0,0,0,,显然这个额外的电路让ALU的设计更庞大和复杂\N{\c&H00D8FF&\fs40}Of course, this extra circuitry makes the ALU bigger and more complicated to design,
-Dialogue: 0,0:01:30.35,0:01:34.10,720,,0,0,0,,同时性能也更强 这是复杂度与速度的折衷\N{\c&H00D8FF&\fs40}but also more capable - a complexity-for-speed trade-off
-Dialogue: 0,0:01:34.10,0:01:36.10,720,,0,0,0,,计算机历史上很多次用到\N{\c&H00D8FF&\fs40}that has been made many times in computing history.
-Dialogue: 0,0:01:36.10,0:01:40.00,720,,0,0,0,,例如 现代计算机处理器对图形运算 解码压缩视频 加密文件等操作\N{\c&H00D8FF&\fs40}For instance, modern computer processors now have special circuits for things like
-Dialogue: 0,0:01:40.00,0:01:43.80,720,,0,0,0,,都有特殊的电路\N{\c&H00D8FF&\fs40}graphics operations, decoding compressed video, and encrypting files
-Dialogue: 0,0:01:43.80,0:01:47.10,720,,0,0,0,,如果用标准的运算\N{\c&H00D8FF&\fs40}- all of which are operations that would take many many many clock cycles
-Dialogue: 0,0:01:47.10,0:01:49.10,720,,0,0,0,,这些运算需要很多很多时钟周期\N{\c&H00D8FF&\fs40}to perform with standard operations.
-Dialogue: 0,0:01:49.10,0:01:53.30,720,,0,0,0,,你可能听过带有MMX 3DNow! 或者 SSE\N{\c&H00D8FF&\fs40}You may have even heard of processors with MMX, 3DNow!, or SSE.
-Dialogue: 0,0:01:49.10,0:01:53.30,720,,0,0,0,,{\pos(665,70)}【注：这些都是CPU的扩展指令集】
-Dialogue: 0,0:01:53.30,0:01:57.75,720,,0,0,0,,这些都是带有额外高级电路的处理器 能执行额外的高级指令\N{\c&H00D8FF&\fs40}These are processors with additional, fancy circuits that allow them to execute additional,
-Dialogue: 0,0:01:57.75,0:02:00.55,720,,0,0,0,,针对于游戏和加密\N{\c&H00D8FF&\fs40}fancy instructions - for things like gaming and encryption.
-Dialogue: 0,0:02:00.55,0:02:04.55,720,,0,0,0,,这些扩展指令集不断扩大\N{\c&H00D8FF&\fs40}These extensions to the instruction set have grown, and grown over time, and once people
-Dialogue: 0,0:02:04.55,0:02:07.55,720,,0,0,0,,一旦人们写的程序用到它们 就难以移除了have written programs to take advantage of them, it's hard to remove them.
+Dialogue: 0,0:01:30.35,0:01:34.10,720,,0,0,0,,同时性能也更强\N{\c&H00D8FF&\fs40}but also more capable - a complexity-for-speed trade-off
+Dialogue: 0,0:01:34.10,0:01:36.10,720,,0,0,0,,计算机历史上有过多次这样为了速度牺牲复杂度的折衷\N{\c&H00D8FF&\fs40}that has been made many times in computing history.
+Dialogue: 0,0:01:36.10,0:01:40.00,720,,0,0,0,,例如 现代计算机处理器有专用电路\N{\c&H00D8FF&\fs40}For instance, modern computer processors now have special circuits for things like
+Dialogue: 0,0:01:40.00,0:01:43.80,720,,0,0,0,,用于图形运算 解码压缩视频 以及加密文件\N{\c&H00D8FF&\fs40}graphics operations, decoding compressed video, and encrypting files
+Dialogue: 0,0:01:43.80,0:01:47.10,720,,0,0,0,,如果用标准运算完成这些操作\N{\c&H00D8FF&\fs40}- all of which are operations that would take many many many clock cycles
+Dialogue: 0,0:01:47.10,0:01:49.10,720,,0,0,0,,将耗费多得多的时钟周期\N{\c&H00D8FF&\fs40}to perform with standard operations.
+Dialogue: 0,0:01:49.10,0:01:53.30,720,,0,0,0,,你可能听过处理器支持MMX 3DNow! 或者 SSE\N{\c&H00D8FF&\fs40}You may have even heard of processors with MMX, 3DNow!, or SSE.
+Dialogue: 0,0:01:49.10,0:01:53.30,FOOT-NOTE,,0,0,0,,{\pos(29,102)}【注：MMX是Intel推出的多媒体增强指令集(Multi Media Extension)，优点是增加了\N处理器关于多媒体方面的处理能力，缺点是占用浮点数寄存器进行运算，AMD在此基础上\N发展出3D Now!指令集，3D Now!发布一年后，Intel在MMX基础上发展出SSE\N（Streaming SIMD Extensions）指令集，用来取代MMX】
+Dialogue: 0,0:01:53.30,0:01:57.75,720,,0,0,0,,这些处理器有额外的精巧电路\N{\c&H00D8FF&\fs40}These are processors with additional, fancy circuits that allow them to execute additional,
+Dialogue: 0,0:01:57.75,0:02:00.55,720,,0,0,0,,能够执行更多复杂的指令 比如游戏和加密中用到的那些\N{\c&H00D8FF&\fs40}fancy instructions - for things like gaming and encryption.
+Dialogue: 0,0:02:00.55,0:02:04.55,720,,0,0,0,,这些扩展指令集逐渐增长\N{\c&H00D8FF&\fs40}These extensions to the instruction set have grown, and grown over time, and once people
+Dialogue: 0,0:02:04.55,0:02:07.55,720,,0,0,0,,并且只要程序用过 就难以移除了\N{\c&H00D8FF&\fs40}have written programs to take advantage of them, it's hard to remove them.
 Dialogue: 0,0:02:07.55,0:02:10.85,720,,0,0,0,,结果就是指令集越来越大\N{\c&H00D8FF&\fs40}So instruction sets tend to keep getting larger and larger
-Dialogue: 0,0:02:10.85,0:02:13.60,720,,0,0,0,,由于向后兼容保存了所有旧的操作码\N{\c&H00D8FF&\fs40}keeping all the old opcodes around for backwards compatibility.
-Dialogue: 0,0:02:13.60,0:02:19.35,720,,0,0,0,,Intel4004 第一个真正的集成CPU 它有46条指令\N{\c&H00D8FF&\fs40}The Intel 4004, the first truly integrated CPU, had 46 instructions
+Dialogue: 0,0:02:10.85,0:02:13.60,720,,0,0,0,,为了向下兼容保存了所有旧操作码\N{\c&H00D8FF&\fs40}keeping all the old opcodes around for backwards compatibility.
+Dialogue: 0,0:02:13.60,0:02:19.35,720,,0,0,0,,Intel4004是第一个真正的集成CPU 拥有46条指令\N{\c&H00D8FF&\fs40}The Intel 4004, the first truly integrated CPU, had 46 instructions
 Dialogue: 0,0:02:19.35,0:02:21.35,720,,0,0,0,,这足够搭建一个功能完备的计算机\N{\c&H00D8FF&\fs40}- which was enough to build a fully functional computer.
-Dialogue: 0,0:02:21.35,0:02:24.85,720,,0,0,0,,但是现代计算机有几千条不同的指令\N{\c&H00D8FF&\fs40}But a modern computer processor has thousands of different instructions,
-Dialogue: 0,0:02:24.85,0:02:28.65,720,,0,0,0,,这利用了各种各样精巧复杂的内部电路\N{\c&H00D8FF&\fs40}which utilize all sorts of clever and complex internal circuitry.
-Dialogue: 0,0:02:28.65,0:02:32.70,720,,0,0,0,,现在高时钟频率和高级指令集引向了另一个问题\N{\c&H00D8FF&\fs40}Now, high clock speeds and fancy instruction sets lead to another problem
-Dialogue: 0,0:02:32.70,0:02:35.75,720,,0,0,0,,如何把数据足够快的输入输出CPU\N{\c&H00D8FF&\fs40}- getting data in and out of the CPU quickly enough.
-Dialogue: 0,0:02:35.75,0:02:40.10,720,,0,0,0,,就像是有一个大功率的蒸汽机火车头 但无铲进煤速度跟不上\N{\c&H00D8FF&\fs40}It's like having a powerful steam locomotive, but no way to shovel in coal fast enough.
-Dialogue: 0,0:02:40.10,0:02:42.10,720,,0,0,0,,这种情况下瓶颈就在RAM\N{\c&H00D8FF&\fs40}In this case, the bottleneck is RAM.
+Dialogue: 0,0:02:21.35,0:02:24.85,720,,0,0,0,,但是现代处理器有几千条不同的指令\N{\c&H00D8FF&\fs40}But a modern computer processor has thousands of different instructions,
+Dialogue: 0,0:02:24.85,0:02:28.65,720,,0,0,0,,这些指令利用了各种各样精巧复杂的内部电路\N{\c&H00D8FF&\fs40}which utilize all sorts of clever and complex internal circuitry.
+Dialogue: 0,0:02:28.65,0:02:32.70,720,,0,0,0,,现在 高频时钟和复杂指令集引出了另一个问题\N{\c&H00D8FF&\fs40}Now, high clock speeds and fancy instruction sets tend to lead to another problem
+Dialogue: 0,0:02:32.70,0:02:35.75,720,,0,0,0,,如何让CPU足够快的吞吐数据\N{\c&H00D8FF&\fs40}- getting data in and out of the CPU quickly enough.
+Dialogue: 0,0:02:35.75,0:02:40.10,720,,0,0,0,,就像是有了大功率蒸汽机火车头 但燃煤的供应却跟不上\N{\c&H00D8FF&\fs40}It's like having a powerful steam locomotive, but no way to shovel in coal fast enough.
+Dialogue: 0,0:02:40.10,0:02:42.10,720,,0,0,0,,这个瓶颈是RAM\N{\c&H00D8FF&\fs40}In this case, the bottleneck is RAM.
 Dialogue: 0,0:02:42.10,0:02:45.70,720,,0,0,0,,RAM通常是CPU外部的内存模块\N{\c&H00D8FF&\fs40}RAM is typically a memory module that lies outside the CPU.
-Dialogue: 0,0:02:45.70,0:02:49.60,720,,0,0,0,,这意味着数据需要通过数据线传输进出RAM\N{\c&H00D8FF&\fs40}This means that data has to be transmitted to and from RAM along sets of data wires,
-Dialogue: 0,0:02:49.60,0:02:50.90,720,,0,0,0,,这里的线叫做总线\N{\c&H00D8FF&\fs40}called a bus.
-Dialogue: 0,0:02:50.90,0:02:54.40,720,,0,0,0,,总线可能不过几厘米长 而且电子信号\N{\c&H00D8FF&\fs40}This bus might only be a few centimeters long, and remember those electrical signals are
-Dialogue: 0,0:02:54.40,0:02:58.00,720,,0,0,0,,以接近光速传播 但是当你以GHz速度运行\N{\c&H00D8FF&\fs40}traveling near the speed of light, but when you are operating at gigahertz speeds –
-Dialogue: 0,0:02:58.00,0:03:02.75,720,,0,0,0,,那就是几十亿分之一秒 即使这么小的延迟也变得麻烦\N{\c&H00D8FF&\fs40}that's billionths of a second – even this small delay starts to become problematic.
-Dialogue: 0,0:03:02.75,0:03:06.55,720,,0,0,0,,RAM自身查询地址 获取数据\N{\c&H00D8FF&\fs40}It also takes time for RAM itself to look up the address, retrieve the data,
-Dialogue: 0,0:03:06.55,0:03:07.90,720,,0,0,0,,配置输出\N{\c&H00D8FF&\fs40}and configure itself for output.
-Dialogue: 0,0:03:07.90,0:03:12.15,720,,0,0,0,,所以一个从RAM加载的指令就得花上几十个时钟循环来完成\N{\c&H00D8FF&\fs40}So a 'load from RAM' instruction might take dozens of clock cycles to complete,
-Dialogue: 0,0:03:12.15,0:03:15.90,720,,0,0,0,,这段时间里处理器就空闲着 等待数据\N{\c&H00D8FF&\fs40}and during this time the processor is just sitting there idly waiting for the data.
-Dialogue: 0,0:03:15.90,0:03:20.00,720,,0,0,0,,一个解决办法是把一小块RAM放在CPU里 叫做缓存\N{\c&H00D8FF&\fs40}One solution is to put a little piece of RAM right on the CPU - called a cache.
-Dialogue: 0,0:03:20.00,0:03:23.90,720,,0,0,0,,处理器里并没有很大空间 所以大部分缓存只是kB或\N{\c&H00D8FF&\fs40}There isn't a lot of space on a processor's chip, so most caches are just kilobytes or
-Dialogue: 0,0:03:23.90,0:03:27.30,720,,0,0,0,,可能是MB 而RAM则是GB\N{\c&H00D8FF&\fs40}maybe megabytes in size, where RAM is usually gigabytes.
-Dialogue: 0,0:03:27.30,0:03:29.45,720,,0,0,0,,添加缓存是一个巧妙地加速方法\N{\c&H00D8FF&\fs40}Having a cache speeds things up in a clever way.
-Dialogue: 0,0:03:29.45,0:03:31.90,720,,0,0,0,,当CPU从RAM里获取一个内存地址时 \N{\c&H00D8FF&\fs40}When the CPU requests a memory location from RAM,
-Dialogue: 0,0:03:31.90,0:03:36.20,720,,0,0,0,,RAM不只可以传输一个数据 而是一整块数据\N{\c&H00D8FF&\fs40} the RAM can transmit not just one single value, but a whole block of data.
-Dialogue: 0,0:03:36.20,0:03:40.90,720,,0,0,0,,这只需要多花费一点时间 就可以把数据块存到缓存里\N{\c&H00D8FF&\fs40}This takes only a little bit more time, but it allows this data block to be saved into the cache.
-Dialogue: 0,0:03:40.90,0:03:42.90,720,,0,0,0,,这很有帮助\N{\c&H00D8FF&\fs40}This tends to be really useful
-Dialogue: 0,0:03:42.90,0:03:46.05,720,,0,0,0,,因为常常连续排列和处理计算机数据\N{\c&H00D8FF&\fs40}because computer data is often arranged and processed sequentially.
+Dialogue: 0,0:02:45.70,0:02:49.60,720,,0,0,0,,这意味着RAM通过多组数据线接收和输出数据\N{\c&H00D8FF&\fs40}This means that data has to be transmitted to and from RAM along sets of data wires,
+Dialogue: 0,0:02:49.60,0:02:50.90,720,,0,0,0,,这些数据线称为总线\N{\c&H00D8FF&\fs40}called a bus.
+Dialogue: 0,0:02:50.90,0:02:54.40,720,,0,0,0,,总线可能不过几厘米长 而且电信号以近光速传播（传递时间很短）\N{\c&H00D8FF&\fs40}This bus might only be a few centimeters long, and remember those electrical signals are
+Dialogue: 0,0:02:54.40,0:02:58.00,720,,0,0,0,,但是当计算机以GHz频率运行时 只有几十亿分之一秒\N{\c&H00D8FF&\fs40}traveling near the speed of light, but when you are operating at gigahertz speeds –
+Dialogue: 0,0:02:58.00,0:03:02.75,720,,0,0,0,,即使这么小的延迟也显得棘手\N{\c&H00D8FF&\fs40}that's billionths of a second – even this small delay starts to become problematic.
+Dialogue: 0,0:02:58.00,0:03:02.75,FOOT-NOTE,,0,0,0,,{\pos(84,32)}【注：延迟指电信号在总线传递的时间，对CPU来说，这个传递时间就是延迟】
+Dialogue: 0,0:03:02.75,0:03:06.55,720,,0,0,0,,RAM查找内存地址 获取数据\N{\c&H00D8FF&\fs40}It also takes time for RAM itself to look up the address, retrieve the data,
+Dialogue: 0,0:03:06.55,0:03:07.90,720,,0,0,0,,准备输出这些操作也需要时间\N{\c&H00D8FF&\fs40}and configure itself for output.
+Dialogue: 0,0:03:07.90,0:03:12.15,720,,0,0,0,,所以完成“RAM加载”指令可能需要几十个时钟周期\N{\c&H00D8FF&\fs40}So a 'load from RAM' instruction might take dozens of clock cycles to complete,
+Dialogue: 0,0:03:12.15,0:03:15.90,720,,0,0,0,,而这段时间处理器什么也做不了 只能等待数据\N{\c&H00D8FF&\fs40}and during this time the processor is just sitting there idly waiting for the data.
+Dialogue: 0,0:03:15.90,0:03:20.00,720,,0,0,0,,一个解决办法是把一小块RAM放在CPU里 叫做高速缓存\N{\c&H00D8FF&\fs40}One solution is to put a little piece of RAM right on the CPU - called a cache.
+Dialogue: 0,0:03:20.00,0:03:23.90,720,,0,0,0,,处理器里空间有限 所以大部分高速缓存的容量以kB或MB为单位\N{\c&H00D8FF&\fs40}There isn't a lot of space on a processor's chip, so most caches are just kilobytes or
+Dialogue: 0,0:03:23.90,0:03:27.30,720,,0,0,0,,而RAM通常是GB\N{\c&H00D8FF&\fs40}maybe megabytes in size, where RAM is usually gigabytes.
+Dialogue: 0,0:03:27.30,0:03:29.45,720,,0,0,0,,利用高速缓存提速非常巧妙\N{\c&H00D8FF&\fs40}Having a cache speeds things up in a clever way.
+Dialogue: 0,0:03:29.45,0:03:31.90,720,,0,0,0,,当CPU向RAM请求一个内存地址时 \N{\c&H00D8FF&\fs40}When the CPU requests a memory location from RAM,
+Dialogue: 0,0:03:31.90,0:03:36.20,720,,0,0,0,,RAM不再只传单个数据 而是将整块都传给CPU\N{\c&H00D8FF&\fs40} the RAM can transmit not just one single value, but a whole block of data.
+Dialogue: 0,0:03:36.20,0:03:40.90,720,,0,0,0,,只要多一点时间 整块数据都可以存到高速缓存里\N{\c&H00D8FF&\fs40}This takes only a little bit more time, but it allows this data block to be saved into the cache.
+Dialogue: 0,0:03:40.90,0:03:42.90,720,,0,0,0,,这个机制很有用\N{\c&H00D8FF&\fs40}This tends to be really useful
+Dialogue: 0,0:03:42.90,0:03:46.05,720,,0,0,0,,因为计算机数据通常都是顺序排列并执行的\N{\c&H00D8FF&\fs40}because computer data is often arranged and processed sequentially.
 Dialogue: 0,0:03:46.05,0:03:50.25,720,,0,0,0,,例如 假设处理器在合计餐馆的日销量\N{\c&H00D8FF&\fs40}For example, let's say the processor is totaling up daily sales for a restaurant.
 Dialogue: 0,0:03:50.25,0:03:53.90,720,,0,0,0,,一开始从RAM的内存地址100获取第一笔交易\N{\c&H00D8FF&\fs40}It starts by fetching the first transaction from RAM at memory location 100.
-Dialogue: 0,0:03:53.90,0:03:58.55,720,,0,0,0,,RAM不仅是发送一个数据 而是一块数据\N{\c&H00D8FF&\fs40}The RAM, instead of sending back just that one value, sends a block of data,
-Dialogue: 0,0:03:58.55,0:04:02.75,720,,0,0,0,,从内存地址100到200都复制到缓存里\N{\c&H00D8FF&\fs40}from memory location 100 through 200, which are then all copied into the cache.
+Dialogue: 0,0:03:53.90,0:03:58.55,720,,0,0,0,,RAM不再发送单个数据 而是一整块\N{\c&H00D8FF&\fs40}The RAM, instead of sending back just that one value, sends a block of data,
+Dialogue: 0,0:03:58.55,0:04:02.75,720,,0,0,0,,把内存地址100到200的数据都复制到高速缓存里\N{\c&H00D8FF&\fs40}from memory location 100 through 200, which are then all copied into the cache.
 Dialogue: 0,0:04:02.75,0:04:06.50,720,,0,0,0,,当处理器要求下一条交易加到营业总额时\N{\c&H00D8FF&\fs40}Now, when the processor requests the next transaction to add to its running total,
-Dialogue: 0,0:04:06.50,0:04:10.90,720,,0,0,0,,对于地址101的数据 缓存就会说噢 我这里已经有了这个数据\N{\c&H00D8FF&\fs40}the value at address 101, the cache will say 'Oh, I've already got that value right here,
+Dialogue: 0,0:04:06.50,0:04:10.90,720,,0,0,0,,对于地址101的数据 高速缓存就会说 “噢 我这里已经有这个数据了”\N{\c&H00D8FF&\fs40}the value at address 101, the cache will say 'Oh, I've already got that value right here,
 Dialogue: 0,0:04:10.90,0:04:12.45,720,,0,0,0,,我可以立刻给你\N{\c&H00D8FF&\fs40}so I can give it to you right away!'
-Dialogue: 0,0:04:12.45,0:04:14.45,720,,0,0,0,,就不必再去RAM获取了\N{\c&H00D8FF&\fs40}And there's no need to go all the way to RAM.
-Dialogue: 0,0:04:14.45,0:04:16.45,720,,0,0,0,,因为缓存离处理器很近\N{\c&H00D8FF&\fs40}Because the cache is so close to the processor,
-Dialogue: 0,0:04:16.45,0:04:20.45,720,,0,0,0,,它通常可以在一个时钟周期内提供数据——不需要等待\N{\c&H00D8FF&\fs40} it can typically provide the data in a single clock cycle - no waiting required.
-Dialogue: 0,0:04:20.45,0:04:22.45,720,,0,0,0,,这大大加速了运行\N{\c&H00D8FF&\fs40}This speeds things up tremendously
-Dialogue: 0,0:04:22.45,0:04:24.90,720,,0,0,0,,原高于每次都来来回回从RAM传输\N{\c&H00D8FF&\fs40}over having to go back and forth to RAM every single time.
-Dialogue: 0,0:04:24.90,0:04:28.80,720,,0,0,0,,像这样如果需要的RAM数据已经被储存到缓存里 叫做缓存命中\N{\c&H00D8FF&\fs40}When data requested in RAM is already stored in the cache like this it's called a cache hit
-Dialogue: 0,0:04:28.80,0:04:32.75,720,,0,0,0,,如果不在 就得去RAM\N{\c&H00D8FF&\fs40}and if the data requested isn't in the cache, so you have to go to RAM,
+Dialogue: 0,0:04:12.45,0:04:14.45,720,,0,0,0,,不必再请求RAM\N{\c&H00D8FF&\fs40}And there's no need to go all the way to RAM.
+Dialogue: 0,0:04:14.45,0:04:16.45,720,,0,0,0,,因为高速缓存离处理器很近\N{\c&H00D8FF&\fs40}Because the cache is so close to the processor,
+Dialogue: 0,0:04:16.45,0:04:20.45,720,,0,0,0,,它通常可以在一个时钟周期内提供数据——不用再等了\N{\c&H00D8FF&\fs40} it can typically provide the data in a single clock cycle - no waiting required.
+Dialogue: 0,0:04:20.45,0:04:22.45,720,,0,0,0,,运行速度显著提高\N{\c&H00D8FF&\fs40}This speeds things up tremendously
+Dialogue: 0,0:04:22.45,0:04:24.90,720,,0,0,0,,远高于必须每次反复请求RAM时的情况\N{\c&H00D8FF&\fs40}over having to go back and forth to RAM every single time.
+Dialogue: 0,0:04:24.90,0:04:28.80,720,,0,0,0,,像这样如果需要的RAM数据已经被储存到高速缓存里 叫做缓存命中\N{\c&H00D8FF&\fs40}When data requested in RAM is already stored in the cache like this it's called a cache hit
+Dialogue: 0,0:04:28.80,0:04:32.75,720,,0,0,0,,如果不在缓存里 还是得请求RAM\N{\c&H00D8FF&\fs40}and if the data requested isn't in the cache, so you have to go to RAM,
 Dialogue: 0,0:04:32.75,0:04:34.15,720,,0,0,0,,叫做缓存未命中\N{\c&H00D8FF&\fs40}it's a called a cache miss.
-Dialogue: 0,0:04:34.15,0:04:37.75,720,,0,0,0,,缓存也可以作为暂存空间 储存中间数据\N{\c&H00D8FF&\fs40}The cache can also be used like a scratch space, storing intermediate values
-Dialogue: 0,0:04:37.75,0:04:41.10,720,,0,0,0,,当执行更长更复杂的计算时\N{\c&H00D8FF&\fs40} when performing a longer, or more complicated calculation.
-Dialogue: 0,0:04:41.10,0:04:44.60,720,,0,0,0,,继续餐馆的例子 这时处理器完成了总计\N{\c&H00D8FF&\fs40}Continuing our restaurant example, let's say the processor has finished totaling up
-Dialogue: 0,0:04:44.60,0:04:48.75,720,,0,0,0,,一天的销量 然后要把结果储存到内存地址150中\N{\c&H00D8FF&\fs40}all of the sales for the day, and wants to store the result in memory address 150.
+Dialogue: 0,0:04:34.15,0:04:37.75,720,,0,0,0,,缓存也可以作为暂存空间 \N{\c&H00D8FF&\fs40}The cache can also be used like a scratch space, storing intermediate values
+Dialogue: 0,0:04:37.75,0:04:41.10,720,,0,0,0,,当执行更长更复杂的计算时储存中间数据\N{\c&H00D8FF&\fs40} when performing a longer, or more complicated calculation.
+Dialogue: 0,0:04:41.10,0:04:44.60,720,,0,0,0,,继续餐馆的例子 这时处理器完成了总计一天的销量\N{\c&H00D8FF&\fs40}Continuing our restaurant example, let's say the processor has finished totaling up
+Dialogue: 0,0:04:44.60,0:04:48.75,720,,0,0,0,,要把结果储存到内存地址150中\N{\c&H00D8FF&\fs40}all of the sales for the day, and wants to store the result in memory address 150.
 Dialogue: 0,0:04:48.75,0:04:52.45,720,,0,0,0,,跟前面一样不是直接存到RAM里\N{\c&H00D8FF&\fs40}Like before, instead of going back all the way to RAM to save that value,
-Dialogue: 0,0:04:52.45,0:04:56.05,720,,0,0,0,,可以存在缓存里复制一份 储存的速度很快\N{\c&H00D8FF&\fs40}it can be stored in cached copy, which is faster to save to,
-Dialogue: 0,0:04:56.05,0:04:59.40,720,,0,0,0,,其他计算如果要用到获取也更快\N{\c&H00D8FF&\fs40}and also faster to access later if more calculations are needed.
-Dialogue: 0,0:04:59.40,0:05:01.95,720,,0,0,0,,但是这引发了一个有趣的问题\N{\c&H00D8FF&\fs40}But this introduces an interesting problem
-Dialogue: 0,0:05:01.95,0:05:05.70,720,,0,0,0,,现在缓存中复制的数据和真实RAM中不一样\N{\c&H00D8FF&\fs40}- the cache's copy of the data is now different to the real version stored in RAM.
+Dialogue: 0,0:04:52.45,0:04:56.05,720,,0,0,0,,可以存在缓存里复制一份 这样速度很快\N{\c&H00D8FF&\fs40}it can be stored in cached copy, which is faster to save to,
+Dialogue: 0,0:04:56.05,0:04:59.40,720,,0,0,0,,如果还有其他计算步骤 数据访问也很快\N{\c&H00D8FF&\fs40}and also faster to access later if more calculations are needed.
+Dialogue: 0,0:04:59.40,0:05:01.95,720,,0,0,0,,但是这带来了一个有趣的问题\N{\c&H00D8FF&\fs40}But this introduces an interesting problem
+Dialogue: 0,0:05:01.95,0:05:05.70,720,,0,0,0,,现在缓存中数据和RAM中的版本不一样\N{\c&H00D8FF&\fs40}- the cache's copy of the data is now different to the real version stored in RAM.
 Dialogue: 0,0:05:05.70,0:05:09.75,720,,0,0,0,,这种不匹配需要记录下来 这样某一时刻可以同步\N{\c&H00D8FF&\fs40}This mismatch has to be recorded, so that at some point everything can get synced up.
 Dialogue: 0,0:05:09.75,0:05:14.15,720,,0,0,0,,为此 缓存给每一块内存一个特殊的标志 叫做\N{\c&H00D8FF&\fs40}For this purpose, the cache has a special flag for each block of memory it stores, called
 Dialogue: 0,0:05:14.15,0:05:19.00,720,,0,0,0,,脏位 这大概是计算机学家创造的最棒的术语\N{\c&H00D8FF&\fs40}the dirty bit - which might just be the best term computer scientists have ever invented.
@@ -129,63 +135,63 @@ Dialogue: 0,0:05:49.15,0:05:51.15,720,,0,0,0,,再等30分钟完成\N{\c&H00D8FF&
 Dialogue: 0,0:05:51.15,0:05:53.60,720,,0,0,0,,这样1小时可以洗一批衣服\N{\c&H00D8FF&\fs40}This allows you to do one batch of sheets every hour.
 Dialogue: 0,0:05:53.60,0:05:57.15,720,,0,0,0,,注：如果你有30分钟烘完一批的烘干机\N{\c&H00D8FF&\fs40}Side note: if you have a dryer that can dry a load of laundry in 30 minutes,
 Dialogue: 0,0:05:57.15,0:05:59.05,720,,0,0,0,,请在评论区告诉我品牌和型号\N{\c&H00D8FF&\fs40} please tell me the brand and model in the comments,
-Dialogue: 0,0:05:59.05,0:06:01.60,720,,0,0,0,,我用的烘干机最低也要90分钟\N{\c&H00D8FF&\fs40} because I'm living with 90 minute dry times, minimum.
-Dialogue: 0,0:06:01.60,0:06:05.20,720,,0,0,0,,但是尽管有这个神奇的烘干机 你还可以加快更多\N{\c&H00D8FF&\fs40}But, even with this magic clothes dryer, you can speed things up even more
-Dialogue: 0,0:06:05.20,0:06:07.20,720,,0,0,0,,如果你同时操作\N{\c&H00D8FF&\fs40} if you parallelize your operation.
+Dialogue: 0,0:05:59.05,0:06:01.60,720,,0,0,0,,我用的烘干机至少要花90分钟\N{\c&H00D8FF&\fs40} because I'm living with 90 minute dry times, minimum.
+Dialogue: 0,0:06:01.60,0:06:05.20,720,,0,0,0,,但是尽管有这个神奇的烘干机 你还可以更快\N{\c&H00D8FF&\fs40}But, even with this magic clothes dryer, you can speed things up even more
+Dialogue: 0,0:06:05.20,0:06:07.20,720,,0,0,0,,只要你并行操作\N{\c&H00D8FF&\fs40} if you parallelize your operation.
 Dialogue: 0,0:06:07.20,0:06:10.45,720,,0,0,0,,跟前面一样开始时把一批床单放进洗衣机 \N{\c&H00D8FF&\fs40}As before, you start off putting one batch of sheets in the washer.
 Dialogue: 0,0:06:10.45,0:06:12.45,720,,0,0,0,,等待30分钟完成\N{\c&H00D8FF&\fs40}You wait 30 minutes for it to finish.
 Dialogue: 0,0:06:12.45,0:06:14.86,720,,0,0,0,,然后拿出湿床单 放进烘干机\N{\c&H00D8FF&\fs40}Then you take the wet sheets out and put them in the dryer.
-Dialogue: 0,0:06:14.86,0:06:17.86,720,,0,0,0,,不过这一次 不仅仅等待烘干机30分钟完成\N{\c&H00D8FF&\fs40}But this time, instead of just waiting 30 minutes for the dryer to finish,
+Dialogue: 0,0:06:14.86,0:06:17.86,720,,0,0,0,,不过这一次 不再等待烘干机30分钟完成\N{\c&H00D8FF&\fs40}But this time, instead of just waiting 30 minutes for the dryer to finish,
 Dialogue: 0,0:06:17.86,0:06:21.13,720,,0,0,0,,你同时开始处理另一批床单 放进洗衣机\N{\c&H00D8FF&\fs40}you simultaneously start another load in the washing machine.
 Dialogue: 0,0:06:21.13,0:06:23.13,720,,0,0,0,,现在两个机器同时进行\N{\c&H00D8FF&\fs40}Now you've got both machines going at once.
 Dialogue: 0,0:06:23.13,0:06:26.80,720,,0,0,0,,等待30分钟 现在有一批完成 有一批完成一半\N{\c&H00D8FF&\fs40}Wait 30 minutes, and one batch is now done, one batch is half done,
 Dialogue: 0,0:06:26.80,0:06:28.46,720,,0,0,0,,而另外一批正准备开始\N{\c&H00D8FF&\fs40}and another is ready to go in.
 Dialogue: 0,0:06:28.46,0:06:30.13,720,,0,0,0,,这有效的加倍了吞吐量\N{\c&H00D8FF&\fs40}This effectively doubles your throughput.
-Dialogue: 0,0:06:30.13,0:06:32.40,720,,0,0,0,,处理器设置可以采用同样的思想\N{\c&H00D8FF&\fs40}Processor designs can apply the same idea.
+Dialogue: 0,0:06:30.13,0:06:32.40,720,,0,0,0,,处理器设计可以采用同样的思想\N{\c&H00D8FF&\fs40}Processor designs can apply the same idea.
 Dialogue: 0,0:06:32.40,0:06:37.53,720,,0,0,0,,第7集中 示例处理器连续的执行了取指-译码-执行的周期\N{\c&H00D8FF&\fs40}In episode 7, our example processor performed the fetch-decode-execute cycle sequentially
 Dialogue: 0,0:06:37.53,0:06:38.80,720,,0,0,0,,并不断循环\N{\c&H00D8FF&\fs40}and in a continuous loop:
 Dialogue: 0,0:06:38.80,0:06:42.66,720,,0,0,0,,取指-译码-执行 取指-译码-执行 取指-译码-执行 等等\N{\c&H00D8FF&\fs40}Fetch-decode-execute, fetch-decode-execute, fetch-decode-execute, and so on.
 Dialogue: 0,0:06:42.66,0:06:46.40,720,,0,0,0,,这意味着设计执行1条指令需要3个时钟周期\N{\c&H00D8FF&\fs40}This meant our design required three clock cycles to execute one instruction.
 Dialogue: 0,0:06:46.40,0:06:49.00,720,,0,0,0,,但这三个阶段使用CPU的不同部分\N{\c&H00D8FF&\fs40}But each of these stages uses a different part of the CPU,
-Dialogue: 0,0:06:49.00,0:06:51.46,720,,0,0,0,,这样就有机会同时运行了\N{\c&H00D8FF&\fs40}meaning there is an opportunity to parallelize!
+Dialogue: 0,0:06:49.00,0:06:51.46,720,,0,0,0,,这样就有机会并行了\N{\c&H00D8FF&\fs40}meaning there is an opportunity to parallelize!
 Dialogue: 0,0:06:51.46,0:06:55.46,720,,0,0,0,,当一个指令开始执行 下一条指令就可以开始译码\N{\c&H00D8FF&\fs40}While one instruction is getting executed, the next instruction could be getting decoded,
 Dialogue: 0,0:06:55.46,0:06:57.80,720,,0,0,0,,再下一条就可以从内存取指\N{\c&H00D8FF&\fs40}and the instruction beyond that fetched from memory.
 Dialogue: 0,0:06:57.80,0:06:59.80,720,,0,0,0,,所有的步骤可以重叠\N{\c&H00D8FF&\fs40}All of these separate processes can overlap
 Dialogue: 0,0:06:59.80,0:07:02.60,720,,0,0,0,,这样CPU的所有部分在任何时间都在工作\N{\c&H00D8FF&\fs40} so that all parts of the CPU are active at any given time.
 Dialogue: 0,0:07:02.60,0:07:06.80,720,,0,0,0,,在这个流水线设计中每个时钟周期执行一条指令\N{\c&H00D8FF&\fs40}In this pipelined design, an instruction is executed every single clock cycle
 Dialogue: 0,0:07:06.80,0:07:08.13,720,,0,0,0,,使得吞吐量增大到三倍\N{\c&H00D8FF&\fs40}which triples the throughput.
-Dialogue: 0,0:07:08.13,0:07:10.86,720,,0,0,0,,但是就像是用到了缓存 这样可能导致麻烦的问题\N{\c&H00D8FF&\fs40}But just like with caching this can lead to some tricky problems.
-Dialogue: 0,0:07:10.86,0:07:13.60,720,,0,0,0,,一个很大的风险是指令间的相关\N{\c&H00D8FF&\fs40}A big hazard is a dependency in the instructions.
-Dialogue: 0,0:07:13.60,0:07:17.86,720,,0,0,0,,比如 你可能要获取那些当前正在执行的指令\N{\c&H00D8FF&\fs40}For example, you might fetch something that the currently executing instruction is just
-Dialogue: 0,0:07:17.86,0:07:21.26,720,,0,0,0,,即将修改的数据 那么你就会把旧数据留在流水线上\N{\c&H00D8FF&\fs40}about to modify, which means you'll end up with the old value in the pipeline.
-Dialogue: 0,0:07:21.26,0:07:25.53,720,,0,0,0,,为了弥补这个缺陷 流水线处理器需要提前寻找数据的相关关系\N{\c&H00D8FF&\fs40}To compensate for this, pipelined processors have to look ahead for data dependencies,
-Dialogue: 0,0:07:25.53,0:07:28.40,720,,0,0,0,,如果需要停下流水线来避免问题\N{\c&H00D8FF&\fs40}and if necessary, stall their pipelines to avoid problems.
-Dialogue: 0,0:07:28.40,0:07:31.13,720,,0,0,0,,高档的处理器 例如笔记本和智能手机里的\N{\c&H00D8FF&\fs40}High end processors, like those found in laptops and smartphones,
-Dialogue: 0,0:07:31.13,0:07:35.33,720,,0,0,0,,更加高级 能动态的记录相关的指令\N{\c&H00D8FF&\fs40}go one step further and can dynamically reorder instructions with dependencies
-Dialogue: 0,0:07:35.33,0:07:38.00,720,,0,0,0,,以最小化流水线的停止 让它保持活动\N{\c&H00D8FF&\fs40}in order to minimize stalls and keep the pipeline moving,
-Dialogue: 0,0:07:38.00,0:07:40.26,720,,0,0,0,,叫做超限额运算\N{\c&H00D8FF&\fs40}which is called out-of-order execution.
-Dialogue: 0,0:07:40.26,0:07:44.13,720,,0,0,0,,可以想象 完成这个的电路异常复杂\N{\c&H00D8FF&\fs40}As you might imagine, the circuits that figure this all out are incredibly complicated.
-Dialogue: 0,0:07:44.13,0:07:46.73,720,,0,0,0,,尽管这样 流水线还是极其高效\N{\c&H00D8FF&\fs40}Nonetheless, pipelining is tremendously effective
-Dialogue: 0,0:07:46.73,0:07:48.93,720,,0,0,0,,几乎被所有的处理器采用\N{\c&H00D8FF&\fs40} and almost all processors implement it today.
+Dialogue: 0,0:07:08.13,0:07:10.86,720,,0,0,0,,但是就像是用到了缓存 这样可能导致麻烦\N{\c&H00D8FF&\fs40}But just like with caching this can lead to some tricky problems.
+Dialogue: 0,0:07:10.86,0:07:13.60,720,,0,0,0,,一个很大的风险是指令相关性\N{\c&H00D8FF&\fs40}A big hazard is a dependency in the instructions.
+Dialogue: 0,0:07:13.60,0:07:17.86,720,,0,0,0,,比如 你可能要取当前执行指令马上要修改的内容\N{\c&H00D8FF&\fs40}For example, you might fetch something that the currently executing instruction is just
+Dialogue: 0,0:07:17.86,0:07:21.26,720,,0,0,0,,结果就是你会把旧数据留在流水线上\N{\c&H00D8FF&\fs40}about to modify, which means you'll end up with the old value in the pipeline.
+Dialogue: 0,0:07:21.26,0:07:25.53,720,,0,0,0,,为了弥补这个缺陷 流水线处理器需要提前判断数据相关性\N{\c&H00D8FF&\fs40}To compensate for this, pipelined processors have to look ahead for data dependencies,
+Dialogue: 0,0:07:25.53,0:07:28.40,720,,0,0,0,,必要时暂停流水线以避免问题\N{\c&H00D8FF&\fs40}and if necessary, stall their pipelines to avoid problems.
+Dialogue: 0,0:07:28.40,0:07:31.13,720,,0,0,0,,高端处理器 例如笔记本和智能手机里的\N{\c&H00D8FF&\fs40}High end processors, like those found in laptops and smartphones,
+Dialogue: 0,0:07:31.13,0:07:35.33,720,,0,0,0,,功能更强 能动态重排相关性指令\N{\c&H00D8FF&\fs40}go one step further and can dynamically reorder instructions with dependencies
+Dialogue: 0,0:07:35.33,0:07:38.00,720,,0,0,0,,尽可能减少暂停 保持流水线运转\N{\c&H00D8FF&\fs40}in order to minimize stalls and keep the pipeline moving,
+Dialogue: 0,0:07:38.00,0:07:40.26,720,,0,0,0,,这称为乱序执行\N{\c&H00D8FF&\fs40}which is called out-of-order execution.
+Dialogue: 0,0:07:40.26,0:07:44.13,720,,0,0,0,,实现这些功能的电路异常复杂\N{\c&H00D8FF&\fs40}As you might imagine, the circuits that figure this all out are incredibly complicated.
+Dialogue: 0,0:07:44.13,0:07:46.73,720,,0,0,0,,无论如何 流水线极其高效\N{\c&H00D8FF&\fs40}Nonetheless, pipelining is tremendously effective
+Dialogue: 0,0:07:46.73,0:07:48.93,720,,0,0,0,,几乎所有处理器都采用这个设计\N{\c&H00D8FF&\fs40} and almost all processors implement it today.
 Dialogue: 0,0:07:48.93,0:07:51.73,720,,0,0,0,,另一个大的风险是条件跳转指令\N{\c&H00D8FF&\fs40}Another big hazard are conditional jump instructions
 Dialogue: 0,0:07:51.73,0:07:55.06,720,,0,0,0,,上一集说到了{\u1}负数跳转{\u0}指令\N{\c&H00D8FF&\fs40}- we talked about one example, a JUMP_NEGATIVE, last episode.
 Dialogue: 0,0:07:55.06,0:07:58.93,720,,0,0,0,,这些指令可以根据数值改变程序的流程\N{\c&H00D8FF&\fs40}These instructions can change the execution flow of a program depending on a value.
-Dialogue: 0,0:07:58.93,0:08:03.40,720,,0,0,0,,简单的流水线处理器遇到跳转指令会停止很久\N{\c&H00D8FF&\fs40}A simple pipelined processor will perform a long stall when it sees a jump instruction,
+Dialogue: 0,0:07:58.93,0:08:03.40,720,,0,0,0,,简单的流水线处理器遇到跳转指令会长时间暂停\N{\c&H00D8FF&\fs40}A simple pipelined processor will perform a long stall when it sees a jump instruction,
 Dialogue: 0,0:08:03.40,0:08:05.40,720,,0,0,0,,等待数值最终确定\N{\c&H00D8FF&\fs40}waiting for the value to be finalized.
-Dialogue: 0,0:08:05.40,0:08:09.33,720,,0,0,0,,只有跳转结果明确了 处理去才开始重新填充流水线\N{\c&H00D8FF&\fs40}Only once the jump outcome is known, does the processor start refilling its pipeline.
+Dialogue: 0,0:08:05.40,0:08:09.33,720,,0,0,0,,只有跳转结果明确了 处理器才开始重新填充流水线\N{\c&H00D8FF&\fs40}Only once the jump outcome is known, does the processor start refilling its pipeline.
 Dialogue: 0,0:08:09.33,0:08:11.33,720,,0,0,0,,但是这可能造成长时间延迟\N{\c&H00D8FF&\fs40}But, this can produce long delays,
 Dialogue: 0,0:08:11.33,0:08:14.53,720,,0,0,0,,所以高端处理器对此也有技巧\N{\c&H00D8FF&\fs40}so high-end processors have some tricks to deal with this problem too.
 Dialogue: 0,0:08:14.53,0:08:18.26,720,,0,0,0,,想象即将的跳转指令是路上的岔口——分支\N{\c&H00D8FF&\fs40}Imagine an upcoming jump instruction as a fork in a road - a branch.
-Dialogue: 0,0:08:18.26,0:08:22.00,720,,0,0,0,,高级的CPU 猜测会走哪条路 然后开始基于这个猜测\N{\c&H00D8FF&\fs40}Advanced CPUs guess which way they are going to go, and start filling their pipeline with
-Dialogue: 0,0:08:22.00,0:08:26.66,720,,0,0,0,,填充流水线 这个技术叫做预测执行\N{\c&H00D8FF&\fs40}instructions based off that guess – a technique called speculative execution.
+Dialogue: 0,0:08:18.26,0:08:22.00,720,,0,0,0,,先进CPU会预测走哪条路 然后开始基于这个预测填充流水线\N{\c&H00D8FF&\fs40}Advanced CPUs guess which way they are going to go, and start filling their pipeline with
+Dialogue: 0,0:08:22.00,0:08:26.66,720,,0,0,0,,这个技术叫做预测执行\N{\c&H00D8FF&\fs40}instructions based off that guess – a technique called speculative execution.
 Dialogue: 0,0:08:26.66,0:08:31.00,720,,0,0,0,,当跳转指令解决后 如果CPU预测正确\N{\c&H00D8FF&\fs40}When the jump instruction is finally resolved, if the CPU guessed correctly,
 Dialogue: 0,0:08:31.00,0:08:33.40,720,,0,0,0,,那么流水线已经装载了正确的指令\N{\c&H00D8FF&\fs40}then the pipeline is already full of the correct instructions
 Dialogue: 0,0:08:33.40,0:08:35.06,720,,0,0,0,,可以不用停留的运行下去\N{\c&H00D8FF&\fs40}and it can motor along without delay.
 Dialogue: 0,0:08:35.06,0:08:38.73,720,,0,0,0,,但是 如果CPU预测错误 \N{\c&H00D8FF&\fs40}However, if the CPU guessed wrong, it has to discard all its speculative results
-Dialogue: 0,0:08:38.73,0:08:42.86,720,,0,0,0,,就会刷新流水线 有点像你错过了路口转弯就必须掉头\N{\c&H00D8FF&\fs40}and perform a pipeline flush - sort of like when you miss a turn and have to do a u-turn
-Dialogue: 0,0:08:42.86,0:08:46.13,720,,0,0,0,,回到正确路线上 让GPS不再发出警告\N{\c&H00D8FF&\fs40} to get back on route, and stop your GPS's insistent shouting.
-Dialogue: 0,0:08:46.13,0:08:50.06,720,,0,0,0,,为了减小刷新的影响 CPU制造者开发了\N{\c&H00D8FF&\fs40}To minimize the effects of these flushes, CPU manufacturers have developed
-Dialogue: 0,0:08:50.06,0:08:54.33,720,,0,0,0,,复杂的方法预测哪个要走向哪个分支 叫做分支预测\N{\c&H00D8FF&\fs40}sophisticated ways to guess which way branches will go, called branch prediction.
+Dialogue: 0,0:08:38.73,0:08:42.86,720,,0,0,0,,就会刷新流水线 有点像你错过了路口转弯\N{\c&H00D8FF&\fs40}and perform a pipeline flush - sort of like when you miss a turn and have to do a u-turn
+Dialogue: 0,0:08:42.86,0:08:46.13,720,,0,0,0,,就必须掉头回到正确路线上 让GPS不再发出警告\N{\c&H00D8FF&\fs40} to get back on route, and stop your GPS's insistent shouting.
+Dialogue: 0,0:08:46.13,0:08:50.06,720,,0,0,0,,为了减小刷新的影响 CPU厂商\N{\c&H00D8FF&\fs40}To minimize the effects of these flushes, CPU manufacturers have developed
+Dialogue: 0,0:08:50.06,0:08:54.33,720,,0,0,0,,开发了复杂的方法预测分支运行方向 叫做分支预测\N{\c&H00D8FF&\fs40}sophisticated ways to guess which way branches will go, called branch prediction.
 Dialogue: 0,0:08:54.33,0:08:59.40,720,,0,0,0,,不同于随机猜测如今的处理器都可以达到90%以上的正确率\N{\c&H00D8FF&\fs40}Instead of being a 50/50 guess, today's processors can often guess with over 90% accuracy!
 Dialogue: 0,0:08:59.40,0:09:03.46,720,,0,0,0,,理想情况下 流水线可以每一时钟周期完成一个指令\N{\c&H00D8FF&\fs40}In an ideal case, pipelining lets you complete one instruction every single clock cycle,
 Dialogue: 0,0:09:03.46,0:09:05.93,720,,0,0,0,,但是超标量处理器更高级\N{\c&H00D8FF&\fs40}but then superscalar processors came along
@@ -198,7 +204,7 @@ Dialogue: 0,0:09:21.53,0:09:25.53,720,,0,0,0,,那么为什么不同时取指 译
 Dialogue: 0,0:09:25.53,0:09:29.86,720,,0,0,0,,同时执行所有利用CPU不同部分的指令\N{\c&H00D8FF&\fs40} execute instructions that require different parts of the CPU all at the same time?
 Dialogue: 0,0:09:29.86,0:09:34.20,720,,0,0,0,,不过我们可以更进一步 给常用的指令增加重复的电路\N{\c&H00D8FF&\fs40}But we can take this one step further and add duplicate circuitry for popular instructions.
 Dialogue: 0,0:09:34.20,0:09:38.53,720,,0,0,0,,例如 很多处理器有4 8或者更多同样的ALU\N{\c&H00D8FF&\fs40}For example, many processors will have four, eight or more identical ALUs,
-Dialogue: 0,0:09:38.53,0:09:42.26,720,,0,0,0,,他们可以同步执行很多数学指令\N{\c&H00D8FF&\fs40}so they can execute many mathematical instructions all in parallel!
+Dialogue: 0,0:09:38.53,0:09:42.26,720,,0,0,0,,他们可以并行执行很多数学指令\N{\c&H00D8FF&\fs40}so they can execute many mathematical instructions all in parallel!
 Dialogue: 0,0:09:42.26,0:09:46.66,720,,0,0,0,,好了 目前我们讨论的主要是优化单个指令流的执行吞吐量\N{\c&H00D8FF&\fs40}OK, the techniques we've discussed so far primarily optimize the execution throughput
 Dialogue: 0,0:09:46.66,0:09:49.80,720,,0,0,0,,另一个方法是\N{\c&H00D8FF&\fs40}of a single stream of instructions, but another way to increase performance
 Dialogue: 0,0:09:49.80,0:09:54.13,720,,0,0,0,,用多核处理器同时运行多条指令流\N{\c&H00D8FF&\fs40}is to run several streams of instructions at once with multi-core processors.
@@ -215,24 +221,24 @@ Dialogue: 0,0:10:24.13,0:10:26.13,720,,0,0,0,,因为数百人同时在观看\N{\
 Dialogue: 0,0:10:26.13,0:10:29.33,720,,0,0,0,,现在双核或四核处理器的配置最常见\N{\c&H00D8FF&\fs40}Two- and four-processor configuration are the most common right now,
 Dialogue: 0,0:10:29.33,0:10:32.66,720,,0,0,0,,但是有时候那样的处理能力还不够\N{\c&H00D8FF&\fs40}but every now and again even that much processing power isn't enough.
 Dialogue: 0,0:10:32.66,0:10:36.20,720,,0,0,0,,因此人们志向更大了 建造出了超级计算机\N{\c&H00D8FF&\fs40}So we humans get extra ambitious and build ourselves a supercomputer!
-Dialogue: 0,0:10:36.20,0:10:39.06,720,,0,0,0,,如果你要做巨大的计算\N{\c&H00D8FF&\fs40}If you're looking to do some really monster calculations
+Dialogue: 0,0:10:36.20,0:10:39.06,720,,0,0,0,,如果你要完成变态的计算量\N{\c&H00D8FF&\fs40}If you're looking to do some really monster calculations
 Dialogue: 0,0:10:39.06,0:10:41.20,720,,0,0,0,,像是模拟宇宙的形成\N{\c&H00D8FF&\fs40}– like simulating the formation of the universe
 Dialogue: 0,0:10:41.20,0:10:43.86,720,,0,0,0,,你就需要非常大的计算能力\N{\c&H00D8FF&\fs40} - you'll need some pretty serious compute power.
-Dialogue: 0,0:10:43.86,0:10:47.40,720,,0,0,0,,笔记本上多几个处理器并不能搞定\N{\c&H00D8FF&\fs40}A few extra processors in a desktop computer just isn't going to cut it.
+Dialogue: 0,0:10:43.86,0:10:47.40,720,,0,0,0,,多加几个台式机处理器并不能搞定\N{\c&H00D8FF&\fs40}A few extra processors in a desktop computer just isn't going to cut it.
 Dialogue: 0,0:10:47.40,0:10:49.40,720,,0,0,0,,你需要很多处理器\N{\c&H00D8FF&\fs40}You're going to need a lot of processors.
 Dialogue: 0,0:10:49.40,0:10:52.60,720,,0,0,0,,不 还要更多 很多很多\N{\c&H00D8FF&\fs40}No.. no... even more than that. A lot more!
 Dialogue: 0,0:10:52.60,0:10:55.46,720,,0,0,0,,这个视频制作的时候 世界上最快的计算机位于\N{\c&H00D8FF&\fs40}When this video was made, the world's fastest computer was located
 Dialogue: 0,0:10:55.46,0:10:58.13,720,,0,0,0,,中国无锡国家超算中心\N{\c&H00D8FF&\fs40} in The National Supercomputing Center in Wuxi, China.
 Dialogue: 0,0:10:58.13,0:11:06.33,720,,0,0,0,,神威 太湖之光 有难以想象的40,960个CPU 每个有256个核\N{\c&H00D8FF&\fs40}The Sunway TaihuLight contains a brain-melting 40,960 CPUs, each with 256 cores!
 Dialogue: 0,0:11:06.33,0:11:11.46,720,,0,0,0,,也就是总计超过一千万的核 每个核以1.45GHz频率运行\N{\c&H00D8FF&\fs40}That's over ten million cores in total... and each one of those cores runs at 1.45 gigahertz.
-Dialogue: 0,0:11:11.46,0:11:16.66,720,,0,0,0,,总计 这个机器可以处理93夸克 即93千万亿的\N{\c&H00D8FF&\fs40}In total, this machine can process 93 Quadrillion - that's 93 million-billions
-Dialogue: 0,0:11:16.66,0:11:20.20,720,,0,0,0,,浮点数学运算每秒 记作FLOPS\N{\c&H00D8FF&\fs40} - floating point math operations per second, knows as FLOPS.
-Dialogue: 0,0:11:20.20,0:11:22.13,720,,0,0,0,,相信我 那是很高的每秒浮点运算次数\N{\c&H00D8FF&\fs40}And trust me, that's a lot of FLOPS!!
-Dialogue: 0,0:11:22.13,0:11:25.66,720,,0,0,0,,没有说明它是否能以最高的环境运行孤岛危机 不过我想是可以\N{\c&H00D8FF&\fs40}No word on whether it can run Crysis at max settings, but I suspect it might.
+Dialogue: 0,0:11:11.46,0:11:16.66,720,,0,0,0,,总计 这个机器可以处理93夸克\N{\c&H00D8FF&\fs40}In total, this machine can process 93 Quadrillion - that's 93 million-billions
+Dialogue: 0,0:11:16.66,0:11:20.20,720,,0,0,0,,即每秒93千万亿次浮点数学运算 记作FLOPS\N{\c&H00D8FF&\fs40} - floating point math operations per second, knows as FLOPS.
+Dialogue: 0,0:11:20.20,0:11:22.13,720,,0,0,0,,相信我 那是很高的FLOPS\N{\c&H00D8FF&\fs40}And trust me, that's a lot of FLOPS!!
+Dialogue: 0,0:11:22.13,0:11:25.66,720,,0,0,0,,不知道它是否能以最高配置运行孤岛危机 不过我想是可以\N{\c&H00D8FF&\fs40}No word on whether it can run c at max settings, but I suspect it might.
 Dialogue: 0,0:11:25.66,0:11:30.00,720,,0,0,0,,总之 计算机处理器多年来不仅变快了\N{\c&H00D8FF&\fs40}So long story short, not only have computer processors gotten a lot faster over the years,
-Dialogue: 0,0:11:30.00,0:11:34.00,720,,0,0,0,,还更复杂了 应用了各种各样巧妙地技巧\N{\c&H00D8FF&\fs40}but also a lot more sophisticated, employing all sorts of clever tricks to squeeze out
-Dialogue: 0,0:11:34.00,0:11:36.13,720,,0,0,0,,挤出了更多的没时钟周期的计算量\N{\c&H00D8FF&\fs40}more and more computation per clock cycle.
-Dialogue: 0,0:11:36.13,0:11:40.53,720,,0,0,0,,我们的工作就是利用这样极好的处理能力做酷的有用的事\N{\c&H00D8FF&\fs40}Our job is to wield that incredible processing power to do cool and useful things.
+Dialogue: 0,0:11:30.00,0:11:34.00,720,,0,0,0,,还更复杂了 应用了各种各样的巧妙手段\N{\c&H00D8FF&\fs40}but also a lot more sophisticated, employing all sorts of clever tricks to squeeze out
+Dialogue: 0,0:11:34.00,0:11:36.13,720,,0,0,0,,实现了更高的每时钟周期计算量\N{\c&H00D8FF&\fs40}more and more computation per clock cycle.
+Dialogue: 0,0:11:36.13,0:11:40.53,720,,0,0,0,,我们的工作就是利用这些不可思议的处理能力做酷且有用的事\N{\c&H00D8FF&\fs40}Our job is to wield that incredible processing power to do cool and useful things.
 Dialogue: 0,0:11:40.53,0:11:44.13,720,,0,0,0,,这就是编程的本质 我们下一集开始讨论\N{\c&H00D8FF&\fs40}That's the essence of programming, which we'll start discussing next episode.
 Dialogue: 0,0:11:44.13,0:11:46.13,720,,0,0,0,,再见\N{\c&H00D8FF&\fs40}See you next week.
 Dialogue: 0,0:11:46.13,0:11:48.13,720,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
