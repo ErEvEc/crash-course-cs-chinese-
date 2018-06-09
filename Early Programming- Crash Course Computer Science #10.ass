@@ -37,11 +37,11 @@ Dialogue: 0,0:00:13.58,0:00:17.30,720P-CN,,0,0,0,,以及如何使用数据完成
 Dialogue: 0,0:00:17.30,0:00:21.41,720P-CN,,0,0,0,,我们还简要提到了计算机程序\N{\c&H00D8FF&\fs40}We've even briefly talked about sequences of operations, which is a computer program.
 Dialogue: 0,0:00:21.41,0:00:24.94,720P-CN,,0,0,0,,但我们还没说明计算机如何加载程序\N{\c&H00D8FF&\fs40}What we haven't talked about is how a program gets into a computer.
 Dialogue: 0,0:00:24.94,0:00:26.84,720P-CN,,0,0,0,,记得吗 第7和第8期讲过\N{\c&H00D8FF&\fs40}You might remember in episode 7 and 8 ,
-Dialogue: 0,0:00:26.84,0:00:30.76,720P-CN,,0,0,0,,当我们步进当时编写的示例程序\N{\c&H00D8FF&\fs40}when we stepped through some simple example programs for the CPU that we had created.
-Dialogue: 0,0:00:30.76,0:00:33.30,720P-CN,,0,0,0,,为了简化\N{\c&H00D8FF&\fs40}For simplicity, we just waved our hands and
+Dialogue: 0,0:00:26.84,0:00:30.76,720P-CN,,0,0,0,,当我们在当时制造的CPU步进简单的示例程序\N{\c&H00D8FF&\fs40}when we stepped through some simple example programs for the CPU that we had created.
+Dialogue: 0,0:00:30.76,0:00:33.30,720P-CN,,0,0,0,,为了简化\N{\c&H00D8FF&\fs40}For simplicity, we just waved our hands
 Dialogue: 0,0:00:33.30,0:00:35.42,720P-CN,,0,0,0,,我们直接假设程序已经在内存里了\N{\c&H00D8FF&\fs40}and said that the program was already magically in memory.
 Dialogue: 0,0:00:35.42,0:00:38.74,720P-CN,,0,0,0,,但实际上 程序必须要经过加载\N{\c&H00D8FF&\fs40}But in reality, programs have to be loaded into a computer's memory.
-Dialogue: 0,0:00:38.74,0:00:40.74,720P-CN,,0,0,0,,这不是魔术 就是计算机科学\N{\c&H00D8FF&\fs40}It's not magic. It's computer science.
+Dialogue: 0,0:00:38.74,0:00:40.74,720P-CN,,0,0,0,,这不是魔术 这是计算机科学\N{\c&H00D8FF&\fs40}It's not magic. It's computer science.
 Dialogue: 0,0:00:49.96,0:00:53.52,720P-CN,,0,0,0,,对机器编程的需求远早于计算机的出现\N{\c&H00D8FF&\fs40}The need to programme machines existed way before the development of computers.
 Dialogue: 0,0:00:53.52,0:00:56.82,720P-CN,,0,0,0,,纺织业是一个典型的例子\N{\c&H00D8FF&\fs40}The most famous example of this was in textile manufacturing.
 Dialogue: 0,0:00:56.82,0:00:59.00,720P-CN,,0,0,0,,如果需要一张大的红桌布\N{\c&H00D8FF&\fs40}If you just wanted to weave a big red tablecloth,
