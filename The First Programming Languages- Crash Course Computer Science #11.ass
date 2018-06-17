@@ -10,216 +10,227 @@ PlayResX: 1280
 PlayResY: 720
 
 [Aegisub Project Garbage]
+Last Style Storage: Default
 Audio File: The First Programming Languages- Crash Course Computer Science #11.mp4
 Video File: The First Programming Languages- Crash Course Computer Science #11.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 196
-Video Position: 15014
+Scroll Position: 87
+Active Line: 95
+Video Position: 14305
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Noto Sans S Chinese Bold,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
+Style: 720P-CN,Noto Sans S Chinese Bold,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
+Style: OP-ED,Noto Sans S Chinese Bold,55,&H0000D8FF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: FOOT-NOTE,Noto Sans S Chinese Bold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,4,10,10,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:06.65,0:00:12.40,Default,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
-Dialogue: 0,0:00:06.66,0:00:08.80,Default,,0,0,0,,大家好 我是凯莉·安 欢迎来到计算机速成课\N{\c&H00D8FF&\fs40}Hi, I'm Carrie Anne and welcome to CrashCourse Computer Science!
-Dialogue: 0,0:00:08.80,0:00:13.33,Default,,0,0,0,,目前大部分的集数里我们关注于硬件 即计算机的物理部件\N{\c&H00D8FF&\fs40}So far, for most of this series, we've focused on hardware - the physical components of computing
-Dialogue: 0,0:00:13.33,0:00:17.60,Default,,0,0,0,,例如 电子电路 寄存器 RAM ALU CPU\N{\c&H00D8FF&\fs40}things like: electricity and circuits, registers and RAM, ALUs and CPUs.
-Dialogue: 0,0:00:17.60,0:00:20.13,Default,,0,0,0,,但是硬件层面的编程很笨重迟缓\N{\c&H00D8FF&\fs40}But programming at the hardware level is cumbersome and inflexible,
-Dialogue: 0,0:00:20.13,0:00:23.13,Default,,0,0,0,,所以程序员们想要一个更通用的编程方法\N{\c&H00D8FF&\fs40} so programmers wanted a more versatile way to program computers
-Dialogue: 0,0:00:23.13,0:00:27.46,Default,,0,0,0,,可以叫做‘柔和’的媒介 没错 我们将要讨论软件\N{\c&H00D8FF&\fs40}what you might call a 'softer' medium. That's right, we're going to talk about Software!
-Dialogue: 0,0:00:36.80,0:00:40.26,Default,,0,0,0,,第八集里 我们执行了一个设计简单的CPU程序\N{\c&H00D8FF&\fs40}In episode 8, we walked through a simple program for the CPU we designed.
-Dialogue: 0,0:00:40.26,0:00:46.20,Default,,0,0,0,,第一条执行的指令 即在内存0地址的是0010 1110\N{\c&H00D8FF&\fs40}The very first instruction to be executed, the one at memory address 0, was 0010 1110.
-Dialogue: 0,0:00:46.20,0:00:50.13,Default,,0,0,0,,之前说过 指令的前4位是操作码\N{\c&H00D8FF&\fs40}As we discussed, the first four bits of an instruction is the operation code,
-Dialogue: 0,0:00:50.13,0:00:51.66,Default,,0,0,0,,简称为OPCODE\N{\c&H00D8FF&\fs40} or OPCODE for short.
-Dialogue: 0,0:00:51.66,0:00:56.33,Default,,0,0,0,,我们假想的CPU中0010表示LOAD_A指令\N{\c&H00D8FF&\fs40}On our hypothetical CPU, 0010 indicated a LOAD_A instruction
-Dialogue: 0,0:00:56.33,0:00:59.20,Default,,0,0,0,,它把内存里的数值加载到寄存器A中\N{\c&H00D8FF&\fs40}which moves a value from memory into Register A.
-Dialogue: 0,0:00:59.20,0:01:01.86,Default,,0,0,0,,后4位定义了内存地址\N{\c&H00D8FF&\fs40}The second set of four bits defines the memory location,
-Dialogue: 0,0:01:01.86,0:01:05.26,Default,,0,0,0,,这个例子中 1110 是十进制的14\N{\c&H00D8FF&\fs40}in this case, 1110, which is 14 in decimal.
-Dialogue: 0,0:01:05.26,0:01:09.73,Default,,0,0,0,,所以这8位数字意思是把地址14的数值加载到寄存器A\N{\c&H00D8FF&\fs40}So what these eight numbers really mean is 'LOAD Address 14 into Register A'.
-Dialogue: 0,0:01:09.73,0:01:12.00,Default,,0,0,0,,我们刚才用了两种不同的语言 \N{\c&H00D8FF&\fs40}We're just using two different languages.
-Dialogue: 0,0:01:12.00,0:01:14.00,Default,,0,0,0,,你可以类比于英语和摩尔斯电码\N{\c&H00D8FF&\fs40}You can think of it like English and Morse Code.
-Dialogue: 0,0:01:14.00,0:01:18.40,Default,,0,0,0,,‘你好’和‘.... . .-.. .-.. ---’表达同一件事——你好\N{\c&H00D8FF&\fs40}'Hello' and '.... . .-.. .-.. ---' mean the same thing - hello!
-Dialogue: 0,0:01:18.40,0:01:20.26,Default,,0,0,0,,他们只是编码不同\N{\c&H00D8FF&\fs40}they're just encoded differently.
-Dialogue: 0,0:01:20.26,0:01:23.80,Default,,0,0,0,,英语和摩尔斯电码的复杂度不同\N{\c&H00D8FF&\fs40}English and Morse Code also have different levels of complexity.
-Dialogue: 0,0:01:23.80,0:01:27.66,Default,,0,0,0,,英语有26个字母的字母表和很多种发音\N{\c&H00D8FF&\fs40}English has 26 different letters in its alphabet and way more possible sounds.
-Dialogue: 0,0:01:27.66,0:01:30.00,Default,,0,0,0,,摩尔斯电码只有点和划\N{\c&H00D8FF&\fs40}Morse only has dots and dashes.
-Dialogue: 0,0:01:30.00,0:01:33.73,Default,,0,0,0,,但是他们传递同样的信息 而计算机语言也类似\N{\c&H00D8FF&\fs40}But, they can convey the same information, and computer languages are similar.
-Dialogue: 0,0:01:33.73,0:01:37.33,Default,,0,0,0,,我们知道 计算机硬件只能处理原始的二进制指令\N{\c&H00D8FF&\fs40}As we've seen, computer hardware can only handle raw, binary instructions.
-Dialogue: 0,0:01:37.33,0:01:40.53,Default,,0,0,0,,这是计算机处理器原生的语言\N{\c&H00D8FF&\fs40}This is the 'language' computer processors natively speak.
-Dialogue: 0,0:01:40.53,0:01:43.13,Default,,0,0,0,,实际也是他们唯一能理解的语言\N{\c&H00D8FF&\fs40}In fact, it's the only language they're able to speak.
-Dialogue: 0,0:01:43.13,0:01:45.93,Default,,0,0,0,,这叫做机器语言或机器码\N{\c&H00D8FF&\fs40}It's called Machine Language or Machine Code.
-Dialogue: 0,0:01:45.93,0:01:49.73,Default,,0,0,0,,计算机发展的早期 人们必须用机器码写整个程序 \N{\c&H00D8FF&\fs40}In the early days of computing, people had to write entire programs in machine code.
-Dialogue: 0,0:01:49.73,0:01:53.86,Default,,0,0,0,,具体来说 他们先在纸上用英语写出高级的程序版本\N{\c&H00D8FF&\fs40}More specifically, they'd first write a high-level version of a program on paper, in English,
-Dialogue: 0,0:01:53.86,0:01:59.33,Default,,0,0,0,,比如‘从内存获取下一条销售额 然后加到今日的总额中\N{\c&H00D8FF&\fs40}for example 'retrieve the next sale from memory, then add this to the running total for the day,
-Dialogue: 0,0:01:59.33,0:02:02.53,Default,,0,0,0,,然后周总额 年总额 接着计算税 等等’\N{\c&H00D8FF&\fs40}week and year, then calculate any tax to be added... and so on.'
-Dialogue: 0,0:02:02.53,0:02:07.26,Default,,0,0,0,,这种程序的非正式 高级描述叫做伪代码\N{\c&H00D8FF&\fs40}An informal, high-level description of a program like this is called Pseudo-Code.
-Dialogue: 0,0:02:07.26,0:02:10.73,Default,,0,0,0,,然后 当程序在纸上确定后 程序员会辛苦地详述并\N{\c&H00D8FF&\fs40}Then, when the program was all figured out on paper, they'd painstakingly expand and
-Dialogue: 0,0:02:10.73,0:02:15.06,Default,,0,0,0,,用操作码表把它们手动翻译成机器码 \N{\c&H00D8FF&\fs40}translate it into binary machine code by hand, using things like opcode tables.
-Dialogue: 0,0:02:15.06,0:02:19.20,Default,,0,0,0,,翻译完成后 程序就可以输入计算机运行了\N{\c&H00D8FF&\fs40}After the translation was complete, the program could be fed into the computer and run.
-Dialogue: 0,0:02:19.20,0:02:22.13,Default,,0,0,0,,想象得到 人们很快厌倦了这个过程\N{\c&H00D8FF&\fs40}As you might imagine, people quickly got fed up with this process.
-Dialogue: 0,0:02:22.13,0:02:25.40,Default,,0,0,0,,所以 20世纪40年代末到50年代 程序员开发了\N{\c&H00D8FF&\fs40}So, by the late 1940s and into the 50s, programmers had developed
-Dialogue: 0,0:02:25.40,0:02:28.40,Default,,0,0,0,,稍微高级的可读的语言\N{\c&H00D8FF&\fs40}slightly higher-level languages that were more human-readable.
-Dialogue: 0,0:02:28.40,0:02:31.06,Default,,0,0,0,,操作码有了简单的名字 叫做助记码\N{\c&H00D8FF&\fs40}Opcodes were given simple names, called mnemonics,
-Dialogue: 0,0:02:31.06,0:02:33.53,Default,,0,0,0,,后面是操作数 形成指令\N{\c&H00D8FF&\fs40}which were followed by operands, to form instructions.
-Dialogue: 0,0:02:33.53,0:02:37.06,Default,,0,0,0,,这样不再需要用一堆1和0去写指令\N{\c&H00D8FF&\fs40}So instead of having to write instructions as a bunch of 1's and 0's,
-Dialogue: 0,0:02:37.06,0:02:40.13,Default,,0,0,0,,程序员可以写成‘LOAD_A 14’的形式\N{\c&H00D8FF&\fs40} programmers could write something like 'LOAD_A 14'.
-Dialogue: 0,0:02:40.13,0:02:43.60,Default,,0,0,0,,我们在第8集使用了这个助记码 因为它很容易理解\N{\c&H00D8FF&\fs40}We used this mnemonic in Episode 8 because it's so much easier to understand!
-Dialogue: 0,0:02:43.60,0:02:46.66,Default,,0,0,0,,当然CPU不知道‘LOAD_A 14’是什么意思\N{\c&H00D8FF&\fs40}Of course, a CPU has no idea what 'LOAD_A 14' is.
-Dialogue: 0,0:02:46.66,0:02:49.33,Default,,0,0,0,,它不能理解文本语言 只能理解二进制数\N{\c&H00D8FF&\fs40}It doesn't understand text-based language, only binary.
-Dialogue: 0,0:02:49.33,0:02:51.33,Default,,0,0,0,,所以程序员想出了一个聪明的技巧\N{\c&H00D8FF&\fs40}And so programmers came up with a clever trick.
-Dialogue: 0,0:02:51.33,0:02:56.06,Default,,0,0,0,,他们创造出课重复使用的辅助二进制程序 可以读取文本指令\N{\c&H00D8FF&\fs40}They created reusable helper programs, in binary, that read in text-based instructions,
-Dialogue: 0,0:02:56.06,0:02:59.93,Default,,0,0,0,,自动地将它们汇编成对应的二进制指令\N{\c&H00D8FF&\fs40}and assemble them into the corresponding binary instructions automatically.
-Dialogue: 0,0:02:59.93,0:03:02.66,Default,,0,0,0,,这个程序叫做汇编器 \N{\c&H00D8FF&\fs40}This program is called - you guessed it - an Assembler.
-Dialogue: 0,0:03:02.66,0:03:06.00,Default,,0,0,0,,它读取汇编语言写成的程序并转换\N{\c&H00D8FF&\fs40}It reads in a program written in an Assembly Language and converts it
-Dialogue: 0,0:03:06.00,0:03:07.46,Default,,0,0,0,,成原始的机器码\N{\c&H00D8FF&\fs40}to native machine code.
-Dialogue: 0,0:03:07.46,0:03:10.46,Default,,0,0,0,,‘LOAD_A 14’就是汇编指令的一个例子\N{\c&H00D8FF&\fs40}'LOAD_A 14' is one example of an assembly instruction.
-Dialogue: 0,0:03:10.46,0:03:14.66,Default,,0,0,0,,汇编器逐渐获得了新的特性使得编程越来越简单\N{\c&H00D8FF&\fs40}Over time, Assemblers gained new features that made programming even easier.
-Dialogue: 0,0:03:14.66,0:03:18.13,Default,,0,0,0,,一个巧妙的特性是自动计算跳转的地址\N{\c&H00D8FF&\fs40}One nifty feature is automatically figuring out JUMP addresses.
-Dialogue: 0,0:03:18.13,0:03:20.13,Default,,0,0,0,,这是第8集的示例程序\N{\c&H00D8FF&\fs40}This was an example program I used in episode 8:
-Dialogue: 0,0:03:20.13,0:03:23.33,Default,,0,0,0,,注意到负数跳转指令跳到地址5\N{\c&H00D8FF&\fs40}Notice how our JUMP_NEGATIVE instruction jumps to address 5,
-Dialogue: 0,0:03:23.33,0:03:25.33,Default,,0,0,0,,而普通跳转跳到地址2\N{\c&H00D8FF&\fs40}and our regular JUMP goes to address 2.
-Dialogue: 0,0:03:25.33,0:03:28.66,Default,,0,0,0,,问题在于如果我们在程序开头增加一些代码\N{\c&H00D8FF&\fs40}The problem is, if we add more code to the beginning of this program,
-Dialogue: 0,0:03:28.66,0:03:30.20,Default,,0,0,0,,所有的地址就会改变\N{\c&H00D8FF&\fs40}all of the addresses would change.
-Dialogue: 0,0:03:30.20,0:03:32.60,Default,,0,0,0,,升级程序会是很大的烦恼\N{\c&H00D8FF&\fs40}That's a huge pain if you ever want to update your program!
-Dialogue: 0,0:03:32.60,0:03:35.73,Default,,0,0,0,,所以汇编器摈弃了原始的跳转地址\N{\c&H00D8FF&\fs40}And so an assembler does away with raw jump addresses,
-Dialogue: 0,0:03:35.73,0:03:38.13,Default,,0,0,0,,使你可以插入跳转转向的标记\N{\c&H00D8FF&\fs40}and lets you insert little labels that can be jumped to.
-Dialogue: 0,0:03:38.13,0:03:40.13,Default,,0,0,0,,当程序输入汇编器\N{\c&H00D8FF&\fs40}When this program is passed into the assembler,
-Dialogue: 0,0:03:40.13,0:03:42.40,Default,,0,0,0,,汇编器就计算出所有的跳转地址\N{\c&H00D8FF&\fs40}it does the work of figuring out all of the jump addresses.
-Dialogue: 0,0:03:42.40,0:03:44.93,Default,,0,0,0,,这样程序员就可以更多关注于编程\N{\c&H00D8FF&\fs40}Now the programmer can focus more on programming and
-Dialogue: 0,0:03:44.93,0:03:48.86,Default,,0,0,0,,而不去管内部的机制 从而搭建更高级的程序\N{\c&H00D8FF&\fs40}less on the underlying mechanics under the hood, enabling more sophisticated things
-Dialogue: 0,0:03:48.86,0:03:51.06,Default,,0,0,0,,通过隐藏不必要的复杂过程\N{\c&H00D8FF&\fs40}to be built by hiding unnecessary complexity.
-Dialogue: 0,0:03:51.06,0:03:53.60,Default,,0,0,0,,多次涉及的\N{\c&H00D8FF&\fs40}As we've done many times in this series,
-Dialogue: 0,0:03:53.60,0:03:56.00,Default,,0,0,0,,我们再次进入了新一层的抽象\N{\c&H00D8FF&\fs40}we're once again moving up another level of abstraction.
-Dialogue: 0,0:04:02.66,0:04:06.26,Default,,0,0,0,,然而 即使有了如自动连接JUMP指令到标记的精巧的汇编器的特性 \N{\c&H00D8FF&\fs40}However, even with nifty assembler features like auto-linking JUMPs to labels,
-Dialogue: 0,0:04:06.26,0:04:09.33,Default,,0,0,0,,汇编语言也只是机器码的简陋包装\N{\c&H00D8FF&\fs40}Assembly Languages are still a thin veneer over machine code.
-Dialogue: 0,0:04:09.33,0:04:13.20,Default,,0,0,0,,大体上 每个汇编语言指令直接转换一个对应的机器码\N{\c&H00D8FF&\fs40}In general, each assembly language instruction converts directly to
-Dialogue: 0,0:04:13.20,0:04:16.33,Default,,0,0,0,,是一一对应的映射\N{\c&H00D8FF&\fs40} a corresponding machine instruction - a one-to-one mapping -
-Dialogue: 0,0:04:16.33,0:04:18.86,Default,,0,0,0,,所以它根本上连接了内部的硬件\N{\c&H00D8FF&\fs40}so it's inherently tied to the underlying hardware.
-Dialogue: 0,0:04:18.86,0:04:21.40,Default,,0,0,0,,汇编器仍然要求程序员考虑\N{\c&H00D8FF&\fs40}And the assembler still forces programmers to think about
-Dialogue: 0,0:04:21.40,0:04:23.73,Default,,0,0,0,,用哪个寄存器哪个内存\N{\c&H00D8FF&\fs40} which registers and memory locations they will use.
-Dialogue: 0,0:04:23.73,0:04:26.00,Default,,0,0,0,,万一你突然需要一个额外的数据\N{\c&H00D8FF&\fs40}If you suddenly needed an extra value,
-Dialogue: 0,0:04:26.00,0:04:28.00,Default,,0,0,0,,你就得改变很多代码才能吸纳进去\N{\c&H00D8FF&\fs40} you might have to change a lot of code to fit it in.
-Dialogue: 0,0:04:28.00,0:04:29.66,Default,,0,0,0,,让我们进入思想泡泡\N{\c&H00D8FF&\fs40}Let's go to the Thought Bubble.
-Dialogue: 0,0:04:29.66,0:04:32.13,Default,,0,0,0,,葛丽丝·霍普博士解决了这个问题\N{\c&H00D8FF&\fs40}This problem did not escape Dr. Grace Hopper.
-Dialogue: 0,0:04:32.13,0:04:35.20,Default,,0,0,0,,作为美国海军军官 她是首批马克1号的程序员\N{\c&H00D8FF&\fs40}As a US naval officer, she was one of the first programmers
-Dialogue: 0,0:04:35.20,0:04:38.66,Default,,0,0,0,,第2集说到过\N{\c&H00D8FF&\fs40}on the Harvard Mark 1 computer, which we talked about in Episode 2.
-Dialogue: 0,0:04:38.66,0:04:42.40,Default,,0,0,0,,它是一个1944年完成的电子机械巨兽\N{\c&H00D8FF&\fs40}This was a colossal, electro-mechanical beast completed in 1944
-Dialogue: 0,0:04:42.40,0:04:44.40,Default,,0,0,0,,是盟军战争成就的一部分\N{\c&H00D8FF&\fs40}as part of the allied war effort.
-Dialogue: 0,0:04:44.40,0:04:47.40,Default,,0,0,0,,程序用打点的纸带储存并输入计算机\N{\c&H00D8FF&\fs40}Programs were stored and fed into the computer on punched paper tape.
-Dialogue: 0,0:04:47.40,0:04:51.26,Default,,0,0,0,,顺便一提 他们修补程序漏洞的方式是实在地\N{\c&H00D8FF&\fs40}By the way, as you can see, they 'patched' some bugs in this program by literally
-Dialogue: 0,0:04:51.26,0:04:54.60,Default,,0,0,0,,在纸带上打上补丁\N{\c&H00D8FF&\fs40} putting patches of paper over the holes on the punch tape.
-Dialogue: 0,0:04:54.60,0:04:58.40,Default,,0,0,0,,马克1号的指令集很简陋 甚至没有JUMP指令\N{\c&H00D8FF&\fs40}The Mark 1's instruction set was so primitive, there weren't even JUMP instructions.
-Dialogue: 0,0:04:58.40,0:05:01.60,Default,,0,0,0,,创造重复同样操作的代码\N{\c&H00D8FF&\fs40}To create code that repeated the same operation multiple times,
-Dialogue: 0,0:05:01.60,0:05:05.80,Default,,0,0,0,,就是把打孔纸袋两端粘起来 形成实在的环\N{\c&H00D8FF&\fs40} you'd tape the two ends of the punched tape together, creating a physical loop.
-Dialogue: 0,0:05:05.80,0:05:08.93,Default,,0,0,0,,换句话说 对马克1号编程是个噩梦\N{\c&H00D8FF&\fs40}In other words, programming the Mark 1 was kind of a nightmare!
-Dialogue: 0,0:05:08.93,0:05:11.73,Default,,0,0,0,,战后 霍普继续在计算机的前线工作\N{\c&H00D8FF&\fs40}After the war, Hopper continued to work at the forefront of computing.
-Dialogue: 0,0:05:11.73,0:05:16.00,Default,,0,0,0,,为了开发计算机的潜能 她设计了一个高级编程语言 \N{\c&H00D8FF&\fs40}To unleash the potential of computers, she designed a high-level programming language
-Dialogue: 0,0:05:16.00,0:05:19.33,Default,,0,0,0,,叫做 算数语言版本0 简称为A-0\N{\c&H00D8FF&\fs40}called 'Arithmetic Language Version 0', or A-0 for short.
-Dialogue: 0,0:05:19.33,0:05:23.26,Default,,0,0,0,,汇编语言与机器语言之间有直接的一对一的映射\N{\c&H00D8FF&\fs40}Assembly languages have direct, one-to-one mapping to machine instructions.
-Dialogue: 0,0:05:23.26,0:05:26.60,Default,,0,0,0,,但是单独一行高级程序语言可能导致\N{\c&H00D8FF&\fs40}But, a single line of a high-level programming language might result in
-Dialogue: 0,0:05:26.60,0:05:29.06,Default,,0,0,0,,CPU执行几十条指令\N{\c&H00D8FF&\fs40}dozens of instructions being executed by the CPU.
-Dialogue: 0,0:05:29.06,0:05:34.00,Default,,0,0,0,,为了完成这个复杂的翻译 霍普在1952年建造了第一个编译器\N{\c&H00D8FF&\fs40}To perform this complex translation, Hopper built the first compiler in 1952.
-Dialogue: 0,0:05:34.00,0:05:37.06,Default,,0,0,0,,这个专用程序把编程语言的源代码\N{\c&H00D8FF&\fs40}This is a specialized program that transforms 'source' code
-Dialogue: 0,0:05:37.06,0:05:40.40,Default,,0,0,0,,转化成低级的语言\N{\c&H00D8FF&\fs40} written in a programming language into a low-level language,
-Dialogue: 0,0:05:40.40,0:05:44.40,Default,,0,0,0,,像是汇编语言或是二进制机器码这种CPU可以直接处理的语言\N{\c&H00D8FF&\fs40}like assembly or the binary 'machine code' that the CPU can directly process.
-Dialogue: 0,0:05:44.40,0:05:45.66,Default,,0,0,0,,谢谢思想泡泡\N{\c&H00D8FF&\fs40}Thanks, Thought Bubble.
-Dialogue: 0,0:05:45.66,0:05:48.00,Default,,0,0,0,,尽管霍普保证这是更简单的编程\N{\c&H00D8FF&\fs40}So, despite the promise of easier programming,
-Dialogue: 0,0:05:48.00,0:05:50.00,Default,,0,0,0,,许多人怀疑她的想法\N{\c&H00D8FF&\fs40}many people were skeptical of Hopper's idea.
-Dialogue: 0,0:05:50.00,0:05:53.86,Default,,0,0,0,,她曾说 我有一个工作的编译器 但是没人愿意试用它\N{\c&H00D8FF&\fs40}She once said, 'I had a running compiler and nobody would touch it.
-Dialogue: 0,0:05:53.86,0:05:58.46,Default,,0,0,0,,他们认真地告诉我 计算机只能做算数 不能运行程序\N{\c&H00D8FF&\fs40}they carefully told me, computers could only do arithmetic; they could not do programs.'
-Dialogue: 0,0:05:58.46,0:06:01.73,Default,,0,0,0,,但是她的创意是对的 接着很多人努力\N{\c&H00D8FF&\fs40}But the idea was a good one, and soon many efforts were underway
-Dialogue: 0,0:06:01.73,0:06:04.93,Default,,0,0,0,,创造新的编程语言 如今有了几百种\N{\c&H00D8FF&\fs40}to craft new programming languages - today there are hundreds!
-Dialogue: 0,0:06:04.93,0:06:08.06,Default,,0,0,0,,可惜的是 A-0代码没有留存下来 \N{\c&H00D8FF&\fs40}Sadly, there are no surviving examples of A-0 code,
-Dialogue: 0,0:06:08.06,0:06:11.20,Default,,0,0,0,,所以我们用一种现代编程语言Python举例 \N{\c&H00D8FF&\fs40}so we'll use Python, a modern programming language, as an example.
-Dialogue: 0,0:06:11.20,0:06:14.00,Default,,0,0,0,,假设我们要相加两个数并储存结果\N{\c&H00D8FF&\fs40}Let's say we want to add two numbers and save that value.
-Dialogue: 0,0:06:14.00,0:06:17.00,Default,,0,0,0,,记住 在汇编码中 我们必须从内存获取数据\N{\c&H00D8FF&\fs40}Remember, in assembly code, we had to fetch values from memory,
-Dialogue: 0,0:06:17.00,0:06:19.60,Default,,0,0,0,,关注寄存器等其他低级的细节\N{\c&H00D8FF&\fs40}deal with registers, and other low-level details.
-Dialogue: 0,0:06:19.60,0:06:22.00,Default,,0,0,0,,但是同样的程序用Python写为\N{\c&H00D8FF&\fs40}But this same program can be written in python like so:
-Dialogue: 0,0:06:22.00,0:06:24.80,Default,,0,0,0,,注意不需要关注寄存器或是内存\N{\c&H00D8FF&\fs40}Notice how there are no registers or memory locations to deal with -
-Dialogue: 0,0:06:24.80,0:06:26.66,Default,,0,0,0,,这些由编译器管理\N{\c&H00D8FF&\fs40}the compiler takes care of that stuff,
-Dialogue: 0,0:06:26.66,0:06:29.86,Default,,0,0,0,,从许多低级的不必要的复杂细节抽象出来\N{\c&H00D8FF&\fs40}abstracting away a lot of low-level and unnecessary complexity.
-Dialogue: 0,0:06:29.86,0:06:33.46,Default,,0,0,0,,程序员只给内存地址创造抽象表达\N{\c&H00D8FF&\fs40}The programmer just creates abstractions for needed memory locations, 
-Dialogue: 0,0:06:33.46,0:06:35.53,Default,,0,0,0,,叫做变量 并给它们命名\N{\c&H00D8FF&\fs40}known as variables, and gives them names.
-Dialogue: 0,0:06:35.53,0:06:39.53,Default,,0,0,0,,我们把两个数字储存到命名后的变量里 \N{\c&H00D8FF&\fs40}So now we can just take our two numbers, store them in variables we give names to -
-Dialogue: 0,0:06:39.53,0:06:43.33,Default,,0,0,0,,这里选择a和b 不过可以是任意的名字\N{\c&H00D8FF&\fs40}in this case, I picked a and b but those variables could be anything -
-Dialogue: 0,0:06:43.33,0:06:47.86,Default,,0,0,0,,接着相加两个数 把结果存到另一个变量c里\N{\c&H00D8FF&\fs40} and then add those together, saving the result in c, another variable I created.
-Dialogue: 0,0:06:47.86,0:06:52.40,Default,,0,0,0,,也许编译器内部分配寄存器A储存a的数值\N{\c&H00D8FF&\fs40}It might be that the compiler assigns Register A under the hood to store the value in a,
-Dialogue: 0,0:06:52.40,0:06:54.26,Default,,0,0,0,,但是我不需要知道\N{\c&H00D8FF&\fs40}but I don't need to know about it!
-Dialogue: 0,0:06:54.26,0:06:55.46,Default,,0,0,0,,看不见 不必想\N{\c&H00D8FF&\fs40}Out of sight, out of mind!
-Dialogue: 0,0:06:55.46,0:07:00.53,Default,,0,0,0,,这是重要的历史里程碑 可是A-0以及它之后的翻版都没有广泛使用\N{\c&H00D8FF&\fs40}It was an important historical milestone, but A-0 and its later variants weren't widely used.
-Dialogue: 0,0:07:00.53,0:07:05.26,Default,,0,0,0,,得名于公式翻译的FORTRAN语言 几年后的1957年由IBM发布\N{\c&H00D8FF&\fs40}FORTRAN, derived from 'Formula Translation', was released by IBM a few years later,
-Dialogue: 0,0:07:05.26,0:07:08.66,Default,,0,0,0,,统治了早期的计算机编程领域\N{\c&H00D8FF&\fs40} in 1957, and came to dominate early computer programming.
-Dialogue: 0,0:07:08.66,0:07:11.13,Default,,0,0,0,,约翰·巴克斯 FORTRAN的项目主管 说到\N{\c&H00D8FF&\fs40}John Backus, the FORTRAN project director, said:
-Dialogue: 0,0:07:11.13,0:07:13.40,Default,,0,0,0,,我的很多成就来自于偷懒\N{\c&H00D8FF&\fs40}'Much of my work has come from being lazy.
-Dialogue: 0,0:07:13.40,0:07:17.60,Default,,0,0,0,,我不喜欢写程序 所以我研发了一套编程系统\N{\c&H00D8FF&\fs40}I didn't like writing programs, and so ... I started work on a programming system
-Dialogue: 0,0:07:17.60,0:07:19.26,Default,,0,0,0,,使得写程序更简单\N{\c&H00D8FF&\fs40} to make it easier to write programs.'
-Dialogue: 0,0:07:19.26,0:07:23.26,Default,,0,0,0,,你懂的典型的懒惰的人 他们总是创造自己的编程系统\N{\c&H00D8FF&\fs40}You know, typical lazy person. They're always creating their own programming systems.
-Dialogue: 0,0:07:23.26,0:07:26.93,Default,,0,0,0,,不管怎样 FORTRAN写的程序平均是\N{\c&H00D8FF&\fs40}Anyway, on average, programs written in FORTRAN were 20 times shorter
-Dialogue: 0,0:07:26.93,0:07:28.93,Default,,0,0,0,,手写的汇编码的二十分之一\N{\c&H00D8FF&\fs40} than equivalent handwritten assembly code.
-Dialogue: 0,0:07:28.93,0:07:32.80,Default,,0,0,0,,FORTRAN编译器则会翻译并\N{\c&H00D8FF&\fs40}Then the FORTRAN Compiler would translate and expand that into native machine code.
-Dialogue: 0,0:07:32.80,0:07:36.20,Default,,0,0,0,,公众怀疑它的表现不如手写的代码\N{\c&H00D8FF&\fs40}The community was skeptical that the performance would be as good as hand written code,
-Dialogue: 0,0:07:36.20,0:07:39.40,Default,,0,0,0,,但是程序员用它可以更快得写更多代码\N{\c&H00D8FF&\fs40}but the fact that programmers could write more code more quickly,
-Dialogue: 0,0:07:39.40,0:07:41.40,Default,,0,0,0,,从经济上来说是一个轻松的选择\N{\c&H00D8FF&\fs40}made it an easy choice economically:
-Dialogue: 0,0:07:41.40,0:07:46.33,Default,,0,0,0,,用计算时间的一点增长换取编程时间的大幅减少\N{\c&H00D8FF&\fs40}trading a small increase in computation time for a significant decrease in programmer time.
-Dialogue: 0,0:07:46.33,0:07:49.53,Default,,0,0,0,,当然IBM做卖计算机的生意 所以一开始\N{\c&H00D8FF&\fs40}Of course, IBM was in the business of selling computers, and so initially,
-Dialogue: 0,0:07:49.53,0:07:52.73,Default,,0,0,0,,FORTRAN只能在IBM的计算机上编译和运行 \N{\c&H00D8FF&\fs40} FORTRAN code could only be compiled and run on IBM computers.
-Dialogue: 0,0:07:52.73,0:07:55.93,Default,,0,0,0,,并且20世纪50年代绝大部分编程语言和编译器\N{\c&H00D8FF&\fs40}And most programming languages and compilers of the 1950s
-Dialogue: 0,0:07:55.93,0:07:57.93,Default,,0,0,0,,只能在一种类型的计算机上运行\N{\c&H00D8FF&\fs40}could only run on a single type of computer.
-Dialogue: 0,0:07:57.93,0:08:02.46,Default,,0,0,0,,所以如果你升级计算机 通常就要重写所有的代码\N{\c&H00D8FF&\fs40}So, if you upgraded your computer, you'd often have to re-write all the code too!
-Dialogue: 0,0:08:02.46,0:08:05.60,Default,,0,0,0,,为了应对这个问题 行业 学术和政府的专家\N{\c&H00D8FF&\fs40}In response, computer experts from industry, academia and government
-Dialogue: 0,0:08:05.60,0:08:09.53,Default,,0,0,0,,在1959年创办了一个协会 数据系统语言委员会 \N{\c&H00D8FF&\fs40}formed a consortium in 1959 - the Committee on Data Systems Languages,
-Dialogue: 0,0:08:09.53,0:08:12.66,Default,,0,0,0,,葛丽丝·霍普是顾问 指导开发\N{\c&H00D8FF&\fs40} advised by our friend Grace Hopper - to guide the development of
-Dialogue: 0,0:08:12.66,0:08:15.66,Default,,0,0,0,,不同机器通用的编程语言\N{\c&H00D8FkaifaF&\fs40}a common programming language that could be used across different machines.
-Dialogue: 0,0:08:15.66,0:08:19.86,Default,,0,0,0,,成果是高级的易用的通用商业语言 \N{\c&H00D8FF&\fs40}The result was the high-level, easy to use, Common Business-Oriented Language,
-Dialogue: 0,0:08:19.86,0:08:20.80,Default,,0,0,0,,简称COBOL\N{\c&H00D8FF&\fs40}or COBOL for short.
-Dialogue: 0,0:08:20.80,0:08:22.80,Default,,0,0,0,,应对不同的内部硬件\N{\c&H00D8FF&\fs40}To deal with different underlying hardware,
-Dialogue: 0,0:08:22.80,0:08:25.80,Default,,0,0,0,,每个计算机架构需要各自的COBOL编译器\N{\c&H00D8FF&\fs40}each computing architecture needed its own COBOL compiler.
-Dialogue: 0,0:08:25.80,0:08:29.73,Default,,0,0,0,,严格来说 这些编译器都能接受一样的COBOL源代码\N{\c&H00D8FF&\fs40}But critically, these compilers could all accept the same COBOL source code,
-Dialogue: 0,0:08:29.73,0:08:31.73,Default,,0,0,0,,不管是由什么计算机运行\N{\c&H00D8FF&\fs40}no matter what computer it was run on.
-Dialogue: 0,0:08:31.73,0:08:33.93,Default,,0,0,0,,这个概念叫做一次编写 随处适用\N{\c&H00D8FF&\fs40}This notion is called write once, run anywhere.
-Dialogue: 0,0:08:33.93,0:08:37.26,Default,,0,0,0,,今天的绝大多数编程语言都有 \N{\c&H00D8FF&\fs40}It's true of most programming languages today, a benefit of moving away from
-Dialogue: 0,0:08:37.26,0:08:39.66,Default,,0,0,0,,独立于 特定CPU决定的汇编和机器语言 的优点\N{\c&H00D8FF&\fs40} assembly and machine code, which is still CPU specific.
-Dialogue: 0,0:08:39.66,0:08:43.60,Default,,0,0,0,,最大的影响就是降低计算机的使用门槛\N{\c&H00D8FF&\fs40}The biggest impact of all this was reducing computing's barrier to entry.
-Dialogue: 0,0:08:43.60,0:08:46.20,Default,,0,0,0,,高级语言存在之前\N{\c&H00D8FF&\fs40}Before high level programming languages existed,
-Dialogue: 0,0:08:46.20,0:08:49.66,Default,,0,0,0,,它只是专给计算机专家和爱好者的领域\N{\c&H00D8FF&\fs40} it was a realm exclusive to computer experts and enthusiasts.
-Dialogue: 0,0:08:49.66,0:08:51.53,Default,,0,0,0,,并且通常是他们的全职工作\N{\c&H00D8FF&\fs40}And it was often their full time profession.
-Dialogue: 0,0:08:51.53,0:08:56.13,Default,,0,0,0,,但是现在 科学家 工程师 医生 经济学家 教师 等等\N{\c&H00D8FF&\fs40}But now, scientists, engineers, doctors, economists, teachers, and many others
-Dialogue: 0,0:08:56.13,0:08:58.13,Default,,0,0,0,,都可以采用计算机技术\N{\c&H00D8FF&\fs40} could incorporate computation into their work .
-Dialogue: 0,0:08:58.13,0:09:02.26,Default,,0,0,0,,多亏了这些语言 计算机从一个笨重且深奥的学科\N{\c&H00D8FF&\fs40}Thanks to these languages, computing went from a cumbersome and esoteric discipline
-Dialogue: 0,0:09:02.26,0:09:04.26,Default,,0,0,0,,变成了通用易用的工具\N{\c&H00D8FF&\fs40}to a general purpose and accessible tool.
-Dialogue: 0,0:09:04.26,0:09:07.80,Default,,0,0,0,,同时 抽象的编程使得计算机专家\N{\c&H00D8FF&\fs40}At the same time, abstraction in programming allowed those computer experts -
-Dialogue: 0,0:09:07.80,0:09:11.73,Default,,0,0,0,,现在叫做职业程序员 创造更加复杂巧妙的程序\N{\c&H00D8FF&\fs40}now 'professional programmers' - to create increasingly sophisticated programs,
-Dialogue: 0,0:09:11.73,0:09:16.00,Default,,0,0,0,,将会占用几百万 几千万甚至更多行的汇编代码行\N{\c&H00D8FF&\fs40}which would have taken millions, tens of millions, or even more lines of assembly code.
-Dialogue: 0,0:09:16.00,0:09:18.13,Default,,0,0,0,,编程语言的进程并不止于1959年\N{\c&H00D8FF&\fs40}Now, this history didn't end in 1959.
-Dialogue: 0,0:09:18.13,0:09:21.66,Default,,0,0,0,,实际上编程语言的黄金时期正开始\N{\c&H00D8FF&\fs40}In fact, a golden era in programming language design jump started,
-Dialogue: 0,0:09:21.66,0:09:25.26,Default,,0,0,0,,计算机硬件也同步发生巨大的发展\N{\c&H00D8FF&\fs40}evolving in lockstep with dramatic advances in computer hardware.
-Dialogue: 0,0:09:25.26,0:09:28.80,Default,,0,0,0,,20世纪60年代 有ALGOL LISP BASIC 等语言\N{\c&H00D8FF&\fs40}In the 1960s, we had languages like ALGOL, LISP and BASIC.
-Dialogue: 0,0:09:28.80,0:09:31.40,Default,,0,0,0,,70年代发布了Pascal C Smalltalk\N{\c&H00D8FF&\fs40}In the 70’s: Pascal, C and Smalltalk were released.
-Dialogue: 0,0:09:31.40,0:09:34.26,Default,,0,0,0,,80年代产生了C++ Objective-C Perl\N{\c&H00D8FF&\fs40}The 80's gave us C++, Objective-C, and Perl.
-Dialogue: 0,0:09:34.26,0:09:36.33,Default,,0,0,0,,90年代有python ruby Java\N{\c&H00D8FF&\fs40}And the 90's: python, ruby, and Java.
-Dialogue: 0,0:09:36.33,0:09:39.86,Default,,0,0,0,,千禧年后诞生了 Swift C# Go\N{\c&H00D8FF&\fs40}And the new millennium has seen the rise of Swift, C#, and Go
-Dialogue: 0,0:09:39.86,0:09:42.46,Default,,0,0,0,,不要同Let it go（歌曲）和Pokeman Go（游戏） 混淆了\N{\c&H00D8FF&\fs40}- not to be confused with Let it Go and Pokemon Go.
-Dialogue: 0,0:09:42.46,0:09:46.06,Default,,0,0,0,,有些听上去很熟悉 很多至今还在用\N{\c&H00D8FF&\fs40}Anyway, some of these might sound familiar - many are still around today.
-Dialogue: 0,0:09:46.06,0:09:48.73,Default,,0,0,0,,你正在用的网页浏览器很可能\N{\c&H00D8FF&\fs40}It's extremely likely that the web browser you're using right now
-Dialogue: 0,0:09:48.73,0:09:50.73,Default,,0,0,0,,是用C++或Objective-C写的\N{\c&H00D8FF&\fs40} was written in C++ or Objective-C.
-Dialogue: 0,0:09:50.73,0:09:53.66,Default,,0,0,0,,我给的这些名单只是冰山一角\N{\c&H00D8FF&\fs40}That list I just gave is the tip of the iceberg.
-Dialogue: 0,0:09:53.66,0:09:56.60,Default,,0,0,0,,有高级的新功能的语言一直在产生\N{\c&H00D8FF&\fs40}And languages with fancy, new features are proposed all the time.
-Dialogue: 0,0:09:56.60,0:09:59.46,Default,,0,0,0,,每种语言都使用新的灵活的抽象\N{\c&H00D8FF&\fs40}Each new language attempts to leverage new and clever abstractions to
-Dialogue: 0,0:09:59.46,0:10:01.66,Default,,0,0,0,,把编程的某方面变简单或是更强大\N{\c&H00D8FF&\fs40}make some aspect of programming easier or more powerful,
-Dialogue: 0,0:10:01.66,0:10:04.73,Default,,0,0,0,,或者是利用新生的技术 平台\N{\c&H00D8FF&\fs40}or take advantage of emerging technologies and platforms,
-Dialogue: 0,0:10:04.73,0:10:07.66,Default,,0,0,0,,让人们可以更快地做到更加不可思议的事\N{\c&H00D8FF&\fs40}so that more people can do more amazing things, more quickly.
-Dialogue: 0,0:10:07.66,0:10:11.13,Default,,0,0,0,,很多人认为编程的圣杯是使用平实的英语\N{\c&H00D8FF&\fs40}Many consider the holy grail of programming to be the use of  'plain ol' English',
-Dialogue: 0,0:10:11.13,0:10:13.86,Default,,0,0,0,,你只要说出你要计算机做什么\N{\c&H00D8FF&\fs40}where you can literally just speak what you want the computer to do,
-Dialogue: 0,0:10:13.86,0:10:15.40,Default,,0,0,0,,他就会听懂并执行\N{\c&H00D8FF&\fs40} it figures it out, and executes it.
-Dialogue: 0,0:10:15.40,0:10:18.53,Default,,0,0,0,,这种智能系统目前只是科幻\N{\c&H00D8FF&\fs40}This kind of intelligent system is science fiction… for now.
-Dialogue: 0,0:10:18.53,0:10:21.80,Default,,0,0,0,,2001：太空漫游的粉丝可能会有这个期待\N{\c&H00D8FF&\fs40}And fans of 2001: A Space Odyssey may be okay with that.
-Dialogue: 0,0:10:21.80,0:10:23.66,Default,,0,0,0,,现在你知道了编程语言的知识 \N{\c&H00D8FF&\fs40}Now that you know all about programming languages,
-Dialogue: 0,0:10:23.66,0:10:26.20,Default,,0,0,0,,接下来几集我们将要深入研究\N{\c&H00D8FF&\fs40}we're going to deep dive for the next couple of episodes,
-Dialogue: 0,0:10:26.18,0:10:32.06,Default,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
-Dialogue: 0,0:10:26.20,0:10:29.46,Default,,0,0,0,,逐渐理解编程语言\N{\c&H00D8FF&\fs40}and we'll continue to build your understanding of how programming languages,
-Dialogue: 0,0:10:29.46,0:10:33.40,Default,,0,0,0,,及它写成的程序是如何完成难以置信的事情的\N{\c&H00D8FF&\fs40}and the software they create, are used to do cool and unbelievable things.
-Dialogue: 0,0:10:33.40,0:10:35.40,Default,,0,0,0,,下集见\N{\c&H00D8FF&\fs40}See you next week.
+Dialogue: 0,0:00:00.00,0:00:06.60,OP-ED,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
+Dialogue: 0,0:00:06.66,0:00:08.80,720P-CN,,0,0,0,,大家好 我是凯莉·安 欢迎来到计算机速成课\N{\c&H00D8FF&\fs40}Hi, I'm Carrie Anne and welcome to CrashCourse Computer Science!
+Dialogue: 0,0:00:08.80,0:00:11.49,720P-CN,,0,0,0,,之前大部分课程的主题是硬件\N{\c&H00D8FF&\fs40}So far, for most of this series, we've focused on hardware
+Dialogue: 0,0:00:11.49,0:00:13.33,720P-CN,,0,0,0,,即计算机的物理构成\N{\c&H00D8FF&\fs40}- the physical components of computing
+Dialogue: 0,0:00:13.33,0:00:17.60,720P-CN,,0,0,0,,例如 电和电路 寄存器 RAM ALU CPU\N{\c&H00D8FF&\fs40}things like: electricity and circuits, registers and RAM, ALUs and CPUs.
+Dialogue: 0,0:00:17.60,0:00:20.13,720P-CN,,0,0,0,,但是硬件编程既麻烦又不灵活\N{\c&H00D8FF&\fs40}But programming at the hardware level is cumbersome and inflexible,
+Dialogue: 0,0:00:20.13,0:00:23.13,720P-CN,,0,0,0,,所以程序员需要更通用的编程方法\N{\c&H00D8FF&\fs40} so programmers wanted a more versatile way to program computers
+Dialogue: 0,0:00:23.13,0:00:27.46,720P-CN,,0,0,0,,一种没“那么硬”的方式 没错 要讲软件啦！\N{\c&H00D8FF&\fs40}what you might call a 'softer' medium. That's right, we're going to talk about Software!
+Dialogue: 0,0:00:36.80,0:00:40.26,720P-CN,,0,0,0,,第八集里 我们执行了一个简单的CPU程序\N{\c&H00D8FF&\fs40}In episode 8, we walked through a simple program for the CPU we designed.
+Dialogue: 0,0:00:40.26,0:00:46.20,720P-CN,,0,0,0,,第一条执行的指令 即在内存0地址的是{\u1}0010 1110{\u0}\N{\c&H00D8FF&\fs40}The very first instruction to be executed, the one at memory address 0, was 0010 1110.
+Dialogue: 0,0:00:46.20,0:00:50.13,720P-CN,,0,0,0,,之前说过 指令的前4位是操作码\N{\c&H00D8FF&\fs40}As we discussed, the first four bits of an instruction is the operation code,
+Dialogue: 0,0:00:50.13,0:00:51.66,720P-CN,,0,0,0,,简称为OPCODE\N{\c&H00D8FF&\fs40} or OPCODE for short.
+Dialogue: 0,0:00:51.66,0:00:56.33,720P-CN,,0,0,0,,我们假想的CPU中0010表示LOAD_A指令\N{\c&H00D8FF&\fs40}On our hypothetical CPU, 0010 indicated a LOAD_A instruction
+Dialogue: 0,0:00:56.33,0:00:59.20,720P-CN,,0,0,0,,它把内存里的数值加载到寄存器A中\N{\c&H00D8FF&\fs40}which moves a value from memory into Register A.
+Dialogue: 0,0:00:59.20,0:01:01.86,720P-CN,,0,0,0,,后4位定义了内存地址\N{\c&H00D8FF&\fs40}The second set of four bits defines the memory location,
+Dialogue: 0,0:01:01.86,0:01:05.26,720P-CN,,0,0,0,,这个例子中 {\u1}1110{\u0} 是十进制的14\N{\c&H00D8FF&\fs40}in this case, 1110, which is 14 in decimal.
+Dialogue: 0,0:01:05.26,0:01:09.73,720P-CN,,0,0,0,,所以这8位数字意思是“把地址14的数值加载到寄存器A”\N{\c&H00D8FF&\fs40}So what these eight numbers really mean is 'LOAD Address 14 into Register A'.
+Dialogue: 0,0:01:09.73,0:01:12.00,720P-CN,,0,0,0,,我们刚才用了两种不同的语言 \N{\c&H00D8FF&\fs40}We're just using two different languages.
+Dialogue: 0,0:01:12.00,0:01:14.00,720P-CN,,0,0,0,,你可以类比英语和摩尔斯电码\N{\c&H00D8FF&\fs40}You can think of it like English and Morse Code.
+Dialogue: 0,0:01:14.00,0:01:18.40,720P-CN,,0,0,0,,‘Hello’和‘.... . .-.. .-.. ---’意思一样——都是 你好\N{\c&H00D8FF&\fs40}'Hello' and '.... . .-.. .-.. ---' mean the same thing - hello!
+Dialogue: 0,0:01:18.40,0:01:20.26,720P-CN,,0,0,0,,只是编码不同\N{\c&H00D8FF&\fs40}they're just encoded differently.
+Dialogue: 0,0:01:20.26,0:01:23.80,720P-CN,,0,0,0,,英语和摩尔斯电码的复杂度不同\N{\c&H00D8FF&\fs40}English and Morse Code also have different levels of complexity.
+Dialogue: 0,0:01:23.80,0:01:27.66,720P-CN,,0,0,0,,英语有26个字母的字母表和很多种发音\N{\c&H00D8FF&\fs40}English has 26 different letters in its alphabet and way more possible sounds.
+Dialogue: 0,0:01:27.66,0:01:30.00,720P-CN,,0,0,0,,摩尔斯电码只有点和划\N{\c&H00D8FF&\fs40}Morse only has dots and dashes.
+Dialogue: 0,0:01:30.00,0:01:33.73,720P-CN,,0,0,0,,但是他们传递同样的信息 而计算机语言也类似\N{\c&H00D8FF&\fs40}But, they can convey the same information, and computer languages are similar.
+Dialogue: 0,0:01:33.73,0:01:37.33,720P-CN,,0,0,0,,我们知道 计算机硬件只能处理原始的二进制指令\N{\c&H00D8FF&\fs40}As we've seen, computer hardware can only handle raw, binary instructions.
+Dialogue: 0,0:01:37.33,0:01:40.53,720P-CN,,0,0,0,,这是计算机处理器原生的语言\N{\c&H00D8FF&\fs40}This is the 'language' computer processors natively speak.
+Dialogue: 0,0:01:40.53,0:01:43.13,720P-CN,,0,0,0,,实际也是他们唯一能理解的语言\N{\c&H00D8FF&\fs40}In fact, it's the only language they're able to speak.
+Dialogue: 0,0:01:43.13,0:01:45.93,720P-CN,,0,0,0,,这叫做机器语言或机器码\N{\c&H00D8FF&\fs40}It's called Machine Language or Machine Code.
+Dialogue: 0,0:01:45.93,0:01:49.73,720P-CN,,0,0,0,,计算机发展的早期 人们必须用机器码写整个程序 \N{\c&H00D8FF&\fs40}In the early days of computing, people had to write entire programs in machine code.
+Dialogue: 0,0:01:49.73,0:01:53.86,720P-CN,,0,0,0,,具体来说 他们先在纸上用英语写出高级的程序版本\N{\c&H00D8FF&\fs40}More specifically, they'd first write a high-level version of a program on paper, in English,
+Dialogue: 0,0:01:53.86,0:01:57.59,720P-CN,,0,0,0,,比如‘从内存获取下一条销售额\N{\c&H00D8FF&\fs40}for example 'retrieve the next sale from memory,
+Dialogue: 0,0:01:57.59,0:01:59.33,720P-CN,,0,0,0,,然后加到今日的总额中\N{\c&H00D8FF&\fs40}then add this to the running total for the day,
+Dialogue: 0,0:01:59.33,0:02:02.53,720P-CN,,0,0,0,,然后周总额 年总额 接着计算税 等等’\N{\c&H00D8FF&\fs40}week and year, then calculate any tax to be added... and so on.'
+Dialogue: 0,0:02:02.53,0:02:07.26,720P-CN,,0,0,0,,这种非正式 高层次的程序描述叫做伪代码\N{\c&H00D8FF&\fs40}An informal, high-level description of a program like this is called Pseudo-Code.
+Dialogue: 0,0:02:07.26,0:02:10.73,720P-CN,,0,0,0,,当伪代码写完后 程序员再辛苦地扩展\N{\c&H00D8FF&\fs40}Then, when the program was all figured out on paper, they'd painstakingly expand and
+Dialogue: 0,0:02:10.73,0:02:15.06,720P-CN,,0,0,0,,借助操作码表把程序手动翻译成机器码 \N{\c&H00D8FF&\fs40}translate it into binary machine code by hand, using things like opcode tables.
+Dialogue: 0,0:02:15.06,0:02:19.20,720P-CN,,0,0,0,,翻译完成后 程序就可以输入计算机运行了\N{\c&H00D8FF&\fs40}After the translation was complete, the program could be fed into the computer and run.
+Dialogue: 0,0:02:19.20,0:02:22.13,720P-CN,,0,0,0,,想象得到 人们很快就受不了这个过程了\N{\c&H00D8FF&\fs40}As you might imagine, people quickly got fed up with this process.
+Dialogue: 0,0:02:22.13,0:02:25.40,720P-CN,,0,0,0,,所以 20世纪40年代末到50年代初\N{\c&H00D8FF&\fs40}So, by the late 1940s and into the 50s, programmers had developed
+Dialogue: 0,0:02:25.40,0:02:28.40,720P-CN,,0,0,0,,程序员开发了稍微高层次的语言 它更可读\N{\c&H00D8FF&\fs40}slightly higher-level languages that were more human-readable.
+Dialogue: 0,0:02:28.40,0:02:31.06,720P-CN,,0,0,0,,操作码有了简单的名字 叫做助记码\N{\c&H00D8FF&\fs40}Opcodes were given simple names, called mnemonics,
+Dialogue: 0,0:02:31.06,0:02:33.53,720P-CN,,0,0,0,,后面是操作数 形成指令\N{\c&H00D8FF&\fs40}which were followed by operands, to form instructions.
+Dialogue: 0,0:02:33.53,0:02:37.06,720P-CN,,0,0,0,,这样不用再写二进制指令\N{\c&H00D8FF&\fs40}So instead of having to write instructions as a bunch of 1's and 0's,
+Dialogue: 0,0:02:37.06,0:02:40.13,720P-CN,,0,0,0,,程序员可以写‘LOAD_A 14’这样的代码\N{\c&H00D8FF&\fs40} programmers could write something like 'LOAD_A 14'.
+Dialogue: 0,0:02:40.13,0:02:43.60,720P-CN,,0,0,0,,我们在第8集使用了这个助记码 因为它很容易理解\N{\c&H00D8FF&\fs40}We used this mnemonic in Episode 8 because it's so much easier to understand!
+Dialogue: 0,0:02:43.60,0:02:46.66,720P-CN,,0,0,0,,当然CPU不知道‘LOAD_A 14’是什么意思\N{\c&H00D8FF&\fs40}Of course, a CPU has no idea what 'LOAD_A 14' is.
+Dialogue: 0,0:02:46.66,0:02:49.33,720P-CN,,0,0,0,,它不能理解文本语言 只能理解二进制数\N{\c&H00D8FF&\fs40}It doesn't understand text-based language, only binary.
+Dialogue: 0,0:02:49.33,0:02:51.33,720P-CN,,0,0,0,,所以程序员想出了一个好点子\N{\c&H00D8FF&\fs40}And so programmers came up with a clever trick.
+Dialogue: 0,0:02:51.33,0:02:56.06,720P-CN,,0,0,0,,他们写了可复用的辅助程序 这些程序可以读取文本指令\N{\c&H00D8FF&\fs40}They created reusable helper programs, in binary, that read in text-based instructions,
+Dialogue: 0,0:02:56.06,0:02:59.93,720P-CN,,0,0,0,,自动地将它们汇编成对应的二进制指令\N{\c&H00D8FF&\fs40}and assemble them into the corresponding binary instructions automatically.
+Dialogue: 0,0:02:59.93,0:03:02.66,720P-CN,,0,0,0,,这个程序叫做汇编器 \N{\c&H00D8FF&\fs40}This program is called - you guessed it - an Assembler.
+Dialogue: 0,0:03:02.66,0:03:06.00,720P-CN,,0,0,0,,它读取汇编语言写成的程序\N{\c&H00D8FF&\fs40}It reads in a program written in an Assembly Language and converts it
+Dialogue: 0,0:03:06.00,0:03:07.46,720P-CN,,0,0,0,,并转换成原始的机器码\N{\c&H00D8FF&\fs40}to native machine code.
+Dialogue: 0,0:03:07.46,0:03:10.46,720P-CN,,0,0,0,,‘LOAD_A 14’就是汇编指令的一个例子\N{\c&H00D8FF&\fs40}'LOAD_A 14' is one example of an assembly instruction.
+Dialogue: 0,0:03:10.46,0:03:14.66,720P-CN,,0,0,0,,汇编器逐渐获得了新的特性使得编程越来越简单\N{\c&H00D8FF&\fs40}Over time, Assemblers gained new features that made programming even easier.
+Dialogue: 0,0:03:14.66,0:03:18.13,720P-CN,,0,0,0,,一个巧妙的特性是自动计算跳转的地址\N{\c&H00D8FF&\fs40}One nifty feature is automatically figuring out JUMP addresses.
+Dialogue: 0,0:03:18.13,0:03:20.13,720P-CN,,0,0,0,,这是第8集的示例程序\N{\c&H00D8FF&\fs40}This was an example program I used in episode 8:
+Dialogue: 0,0:03:20.13,0:03:23.33,720P-CN,,0,0,0,,注意到JUMP_NEGATIVE指令跳到地址5\N{\c&H00D8FF&\fs40}Notice how our JUMP_NEGATIVE instruction jumps to address 5,
+Dialogue: 0,0:03:23.33,0:03:25.33,720P-CN,,0,0,0,,而普通JUMP指令跳到地址2\N{\c&H00D8FF&\fs40}and our regular JUMP goes to address 2.
+Dialogue: 0,0:03:25.33,0:03:28.66,720P-CN,,0,0,0,,问题在于如果我们在程序开头增加一些代码\N{\c&H00D8FF&\fs40}The problem is, if we add more code to the beginning of this program,
+Dialogue: 0,0:03:28.66,0:03:30.20,720P-CN,,0,0,0,,所有的地址就会改变\N{\c&H00D8FF&\fs40}all of the addresses would change.
+Dialogue: 0,0:03:30.20,0:03:32.60,720P-CN,,0,0,0,,更新程序会很麻烦\N{\c&H00D8FF&\fs40}That's a huge pain if you ever want to update your program!
+Dialogue: 0,0:03:32.60,0:03:35.73,720P-CN,,0,0,0,,所以汇编器摈弃了原始的跳转地址\N{\c&H00D8FF&\fs40}And so an assembler does away with raw jump addresses,
+Dialogue: 0,0:03:35.73,0:03:38.13,720P-CN,,0,0,0,,支持插入跳转转向的标记\N{\c&H00D8FF&\fs40}and lets you insert little labels that can be jumped to.
+Dialogue: 0,0:03:38.13,0:03:40.13,720P-CN,,0,0,0,,当程序输入汇编器\N{\c&H00D8FF&\fs40}When this program is passed into the assembler,
+Dialogue: 0,0:03:40.13,0:03:42.40,720P-CN,,0,0,0,,汇编器就计算出所有的跳转地址\N{\c&H00D8FF&\fs40}it does the work of figuring out all of the jump addresses.
+Dialogue: 0,0:03:42.40,0:03:44.93,720P-CN,,0,0,0,,这样程序员就可以更专注于编程\N{\c&H00D8FF&\fs40}Now the programmer can focus more on programming and
+Dialogue: 0,0:03:44.93,0:03:48.86,720P-CN,,0,0,0,,而不去管内部的实现机制\N{\c&H00D8FF&\fs40}less on the underlying mechanics under the hood,
+Dialogue: 0,0:03:48.86,0:03:51.06,720P-CN,,0,0,0,,通过隐藏不必要的复杂过程构建更复杂的程序 \N{\c&H00D8FF&\fs40}enabling more sophisticated things to be built by hiding unnecessary complexity.
+Dialogue: 0,0:03:51.06,0:03:53.60,720P-CN,,0,0,0,,我们已经在课程里讲过很多次了\N{\c&H00D8FF&\fs40}As we've done many times in this series,
+Dialogue: 0,0:03:53.60,0:03:56.00,720P-CN,,0,0,0,,又是一层的抽象\N{\c&H00D8FF&\fs40}we're once again moving up another level of abstraction.
+Dialogue: 0,0:04:02.66,0:04:06.26,720P-CN,,0,0,0,,然而 即使有了精巧的汇编器特性 能够自动连接JUMP指令与标记 \N{\c&H00D8FF&\fs40}However, even with nifty assembler features like auto-linking JUMPs to labels,
+Dialogue: 0,0:04:06.26,0:04:09.33,720P-CN,,0,0,0,,汇编语言也只是机器码的简陋包装\N{\c&H00D8FF&\fs40}Assembly Languages are still a thin veneer over machine code.
+Dialogue: 0,0:04:09.33,0:04:13.20,720P-CN,,0,0,0,,基本上每个汇编语言指令直接转换为一个对应机器码\N{\c&H00D8FF&\fs40}In general, each assembly language instruction converts directly to
+Dialogue: 0,0:04:13.20,0:04:16.33,720P-CN,,0,0,0,,二者一一对应\N{\c&H00D8FF&\fs40} a corresponding machine instruction - a one-to-one mapping -
+Dialogue: 0,0:04:16.33,0:04:18.86,720P-CN,,0,0,0,,所以它实际上绑定了底层硬件\N{\c&H00D8FF&\fs40}so it's inherently tied to the underlying hardware.
+Dialogue: 0,0:04:18.86,0:04:21.40,720P-CN,,0,0,0,,汇编器让程序员不得不考虑\N{\c&H00D8FF&\fs40}And the assembler still forces programmers to think about
+Dialogue: 0,0:04:21.40,0:04:23.73,720P-CN,,0,0,0,,用哪个寄存器/内存的位置\N{\c&H00D8FF&\fs40} which registers and memory locations they will use.
+Dialogue: 0,0:04:23.73,0:04:26.00,720P-CN,,0,0,0,,万一你突然需要额外的数据\N{\c&H00D8FF&\fs40}If you suddenly needed an extra value,
+Dialogue: 0,0:04:26.00,0:04:28.00,720P-CN,,0,0,0,,你就得修改很多代码\N{\c&H00D8FF&\fs40} you might have to change a lot of code to fit it in.
+Dialogue: 0,0:04:28.00,0:04:29.66,720P-CN,,0,0,0,,看看思想泡泡\N{\c&H00D8FF&\fs40}Let's go to the Thought Bubble.
+Dialogue: 0,0:04:29.66,0:04:32.13,720P-CN,,0,0,0,,格蕾丝·霍普博士解决了这个问题\N{\c&H00D8FF&\fs40}This problem did not escape Dr. Grace Hopper.
+Dialogue: 0,0:04:29.66,0:04:32.13,FOOT-NOTE,,0,0,0,,{\pos(224,24)}【格蕾丝·霍普本课程在第2期中首次出场，这里是第二次出现】
+Dialogue: 0,0:04:32.13,0:04:35.20,720P-CN,,0,0,0,,作为美国海军军官 她是首批马克1号程序员\N{\c&H00D8FF&\fs40}As a US naval officer, she was one of the first programmers
+Dialogue: 0,0:04:32.13,0:04:38.66,FOOT-NOTE,,0,0,0,,{\pos(26,74)}【格蕾丝·霍普，1906.12－1992.1，计算机科学家、美国海军准将，世界最早一批程\N序员，她是Harvard Mark I上第一个专职程序员，创造了现代第一个编译器A-0 系统，\N以及第一个高级商用计算机程序语言“COBOL”，被誉为“COBOL 之母”】
+Dialogue: 0,0:04:35.20,0:04:38.66,720P-CN,,0,0,0,,第2集说到过\N{\c&H00D8FF&\fs40}on the Harvard Mark 1 computer, which we talked about in Episode 2.
+Dialogue: 0,0:04:38.66,0:04:42.40,720P-CN,,0,0,0,,马克1号是1944年完成的巨大机电式巨兽\N{\c&H00D8FF&\fs40}This was a colossal, electro-mechanical beast completed in 1944
+Dialogue: 0,0:04:42.40,0:04:44.40,720P-CN,,0,0,0,,是盟军战争成就的一部分\N{\c&H00D8FF&\fs40}as part of the allied war effort.
+Dialogue: 0,0:04:44.40,0:04:47.40,720P-CN,,0,0,0,,程序用打孔纸带储存再输入计算机\N{\c&H00D8FF&\fs40}Programs were stored and fed into the computer on punched paper tape.
+Dialogue: 0,0:04:47.40,0:04:51.26,720P-CN,,0,0,0,,顺便一提 他们修补程序漏洞的方式是实实在在地\N{\c&H00D8FF&\fs40}By the way, as you can see, they 'patched' some bugs in this program by literally
+Dialogue: 0,0:04:51.26,0:04:54.60,720P-CN,,0,0,0,,在纸带上打补丁堵上漏洞\N{\c&H00D8FF&\fs40} putting patches of paper over the holes on the punch tape.
+Dialogue: 0,0:04:54.60,0:04:58.40,720P-CN,,0,0,0,,马克1号的指令集很简陋 甚至没有JUMP指令\N{\c&H00D8FF&\fs40}The Mark 1's instruction set was so primitive, there weren't even JUMP instructions.
+Dialogue: 0,0:04:58.40,0:05:01.60,720P-CN,,0,0,0,,要实现循环操作的代码\N{\c&H00D8FF&\fs40}To create code that repeated the same operation multiple times,
+Dialogue: 0,0:05:01.60,0:05:05.80,720P-CN,,0,0,0,,需要把打孔纸带两端粘起来 形成实体循环\N{\c&H00D8FF&\fs40} you'd tape the two ends of the punched tape together, creating a physical loop.
+Dialogue: 0,0:05:05.80,0:05:08.93,720P-CN,,0,0,0,,换句话说 编程马克1号简直像噩梦一样\N{\c&H00D8FF&\fs40}In other words, programming the Mark 1 was kind of a nightmare!
+Dialogue: 0,0:05:08.93,0:05:11.73,720P-CN,,0,0,0,,战后 霍普继续了计算机的前沿工作\N{\c&H00D8FF&\fs40}After the war, Hopper continued to work at the forefront of computing.
+Dialogue: 0,0:05:11.73,0:05:16.00,720P-CN,,0,0,0,,为了释放计算机潜能 她设计了一个高级编程语言 \N{\c&H00D8FF&\fs40}To unleash the potential of computers, she designed a high-level programming language
+Dialogue: 0,0:05:16.00,0:05:19.33,720P-CN,,0,0,0,,叫做 算数语言版本0 简称为A-0\N{\c&H00D8FF&\fs40}called 'Arithmetic Language Version 0', or A-0 for short.
+Dialogue: 0,0:05:19.33,0:05:23.26,720P-CN,,0,0,0,,汇编语言与机器语言之间有直接的一对一的映射\N{\c&H00D8FF&\fs40}Assembly languages have direct, one-to-one mapping to machine instructions.
+Dialogue: 0,0:05:23.26,0:05:26.60,720P-CN,,0,0,0,,但是一行高级程序语言\N{\c&H00D8FF&\fs40}But, a single line of a high-level programming language might result in
+Dialogue: 0,0:05:26.60,0:05:29.06,720P-CN,,0,0,0,,可能触发CPU执行几十条指令\N{\c&H00D8FF&\fs40}dozens of instructions being executed by the CPU.
+Dialogue: 0,0:05:29.06,0:05:34.00,720P-CN,,0,0,0,,为了完成这个复杂转换 霍普在1952年完成了第一个编译器\N{\c&H00D8FF&\fs40}To perform this complex translation, Hopper built the first compiler in 1952.
+Dialogue: 0,0:05:34.00,0:05:37.06,720P-CN,,0,0,0,,这个专用程序把编程语言的源代码\N{\c&H00D8FF&\fs40}This is a specialized program that transforms 'source' code
+Dialogue: 0,0:05:37.06,0:05:40.40,720P-CN,,0,0,0,,转化成低级的语言\N{\c&H00D8FF&\fs40} written in a programming language into a low-level language,
+Dialogue: 0,0:05:40.40,0:05:44.40,720P-CN,,0,0,0,,像是汇编语言或是二进制机器码这种CPU可以直接处理的语言\N{\c&H00D8FF&\fs40}like assembly or the binary 'machine code' that the CPU can directly process.
+Dialogue: 0,0:05:44.40,0:05:45.66,720P-CN,,0,0,0,,谢谢思想泡泡\N{\c&H00D8FF&\fs40}Thanks, Thought Bubble.
+Dialogue: 0,0:05:45.66,0:05:48.00,720P-CN,,0,0,0,,尽管霍普保证这让编程更容易\N{\c&H00D8FF&\fs40}So, despite the promise of easier programming,
+Dialogue: 0,0:05:48.00,0:05:50.00,720P-CN,,0,0,0,,许多人并不相信\N{\c&H00D8FF&\fs40}many people were skeptical of Hopper's idea.
+Dialogue: 0,0:05:50.00,0:05:53.86,720P-CN,,0,0,0,,她曾说 “我有一个可用的编译器 但是没人愿意尝试”\N{\c&H00D8FF&\fs40}She once said, 'I had a running compiler and nobody would touch it.
+Dialogue: 0,0:05:53.86,0:05:58.46,720P-CN,,0,0,0,,“他们认真地告诉我 计算机只能做算数 不能运行程序”\N{\c&H00D8FF&\fs40}they carefully told me, computers could only do arithmetic; they could not do programs.'
+Dialogue: 0,0:05:58.46,0:06:01.73,720P-CN,,0,0,0,,但是她的想法没错 很快更多人加入\N{\c&H00D8FF&\fs40}But the idea was a good one, and soon many efforts were underway
+Dialogue: 0,0:06:01.73,0:06:04.93,720P-CN,,0,0,0,,努力设计新的编程语言 现在已经有几百种\N{\c&H00D8FF&\fs40}to craft new programming languages - today there are hundreds!
+Dialogue: 0,0:06:04.93,0:06:08.06,720P-CN,,0,0,0,,可惜的是 A-0代码没有留存下来 \N{\c&H00D8FF&\fs40}Sadly, there are no surviving examples of A-0 code,
+Dialogue: 0,0:06:08.06,0:06:11.20,720P-CN,,0,0,0,,所以我们用一种现代编程语言Python举例 \N{\c&H00D8FF&\fs40}so we'll use Python, a modern programming language, as an example.
+Dialogue: 0,0:06:11.20,0:06:14.00,720P-CN,,0,0,0,,假设我们要相加两个数并储存结果\N{\c&H00D8FF&\fs40}Let's say we want to add two numbers and save that value.
+Dialogue: 0,0:06:14.00,0:06:17.00,720P-CN,,0,0,0,,记住 在汇编码中 我们必须从内存获取数据\N{\c&H00D8FF&\fs40}Remember, in assembly code, we had to fetch values from memory,
+Dialogue: 0,0:06:17.00,0:06:19.60,720P-CN,,0,0,0,,处理寄存器和其他的底层细节\N{\c&H00D8FF&\fs40}deal with registers, and other low-level details.
+Dialogue: 0,0:06:19.60,0:06:22.00,720P-CN,,0,0,0,,但是同样的程序用Python写很简单\N{\c&H00D8FF&\fs40}But this same program can be written in python like so:
+Dialogue: 0,0:06:22.00,0:06:24.80,720P-CN,,0,0,0,,注意不需要关注寄存器或是内存地址\N{\c&H00D8FF&\fs40}Notice how there are no registers or memory locations to deal with -
+Dialogue: 0,0:06:24.80,0:06:26.66,720P-CN,,0,0,0,,这些由编译器管理\N{\c&H00D8FF&\fs40}the compiler takes care of that stuff,
+Dialogue: 0,0:06:26.66,0:06:29.86,720P-CN,,0,0,0,,从许多底层的不必要的复杂细节抽象出来\N{\c&H00D8FF&\fs40}abstracting away a lot of low-level and unnecessary complexity.
+Dialogue: 0,0:06:29.86,0:06:33.46,720P-CN,,0,0,0,,程序员只用抽象表示必需的内存地址\N{\c&H00D8FF&\fs40}The programmer just creates abstractions for needed memory locations,
+Dialogue: 0,0:06:33.46,0:06:35.53,720P-CN,,0,0,0,,叫做变量 并给它们命名\N{\c&H00D8FF&\fs40}known as variables, and gives them names.
+Dialogue: 0,0:06:35.53,0:06:39.53,720P-CN,,0,0,0,,我们把两个数字储存到命名后的变量里 \N{\c&H00D8FF&\fs40}So now we can just take our two numbers, store them in variables we give names to -
+Dialogue: 0,0:06:39.53,0:06:43.33,720P-CN,,0,0,0,,这里选择a和b 不过可以是任意的名字\N{\c&H00D8FF&\fs40}in this case, I picked a and b but those variables could be anything -
+Dialogue: 0,0:06:43.33,0:06:47.86,720P-CN,,0,0,0,,接着相加两个数 把结果存到另一个变量c里\N{\c&H00D8FF&\fs40} and then add those together, saving the result in c, another variable I created.
+Dialogue: 0,0:06:47.86,0:06:52.40,720P-CN,,0,0,0,,也许编译器内部分配寄存器A储存a的数值\N{\c&H00D8FF&\fs40}It might be that the compiler assigns Register A under the hood to store the value in a,
+Dialogue: 0,0:06:52.40,0:06:54.26,720P-CN,,0,0,0,,但是我不需要知道\N{\c&H00D8FF&\fs40}but I don't need to know about it!
+Dialogue: 0,0:06:54.26,0:06:55.46,720P-CN,,0,0,0,,眼不见 心不烦\N{\c&H00D8FF&\fs40}Out of sight, out of mind!
+Dialogue: 0,0:06:55.46,0:07:00.53,720P-CN,,0,0,0,,这是重要的历史里程碑 可是A-0以及它之后的翻版都没有广泛使用\N{\c&H00D8FF&\fs40}It was an important historical milestone, but A-0 and its later variants weren't widely used.
+Dialogue: 0,0:07:00.53,0:07:03.23,720P-CN,,0,0,0,,FORTRAN语言 全名为“公式翻译语言”\N{\c&H00D8FF&\fs40}FORTRAN, derived from 'Formula Translation',
+Dialogue: 0,0:07:03.23,0:07:06.53,720P-CN,,0,0,0,,在几年后的1957年 由IBM发布\N{\c&H00D8FF&\fs40} was released by IBM a few years later, in 1957,
+Dialogue: 0,0:07:06.53,0:07:08.66,720P-CN,,0,0,0,,统治了早期的计算机编程领域\N{\c&H00D8FF&\fs40}and came to dominate early computer programming.
+Dialogue: 0,0:07:08.66,0:07:11.13,720P-CN,,0,0,0,,约翰·巴克斯 FORTRAN的项目主管 说到\N{\c&H00D8FF&\fs40}John Backus, the FORTRAN project director, said:
+Dialogue: 0,0:07:11.13,0:07:13.40,720P-CN,,0,0,0,,我的很多成就来自于偷懒\N{\c&H00D8FF&\fs40}'Much of my work has come from being lazy.
+Dialogue: 0,0:07:13.40,0:07:17.60,720P-CN,,0,0,0,,我不喜欢写程序 所以我研发了一套编程系统\N{\c&H00D8FF&\fs40}I didn't like writing programs, and so ... I started work on a programming system
+Dialogue: 0,0:07:17.60,0:07:19.26,720P-CN,,0,0,0,,使得写程序更简单\N{\c&H00D8FF&\fs40} to make it easier to write programs.'
+Dialogue: 0,0:07:19.26,0:07:23.26,720P-CN,,0,0,0,,你懂的 典型的懒人 他们总是创造自己的编程系统\N{\c&H00D8FF&\fs40}You know, typical lazy person. They're always creating their own programming systems.
+Dialogue: 0,0:07:23.26,0:07:26.93,720P-CN,,0,0,0,,不管怎样 FORTRAN写的程序平均是\N{\c&H00D8FF&\fs40}Anyway, on average, programs written in FORTRAN were 20 times shorter
+Dialogue: 0,0:07:26.93,0:07:28.93,720P-CN,,0,0,0,,手写的汇编码的二十分之一\N{\c&H00D8FF&\fs40} than equivalent handwritten assembly code.
+Dialogue: 0,0:07:28.93,0:07:32.80,720P-CN,,0,0,0,,FORTRAN编译器则会翻译并扩展程序为机器码\N{\c&H00D8FF&\fs40}Then the FORTRAN Compiler would translate and expand that into native machine code.
+Dialogue: 0,0:07:32.80,0:07:36.20,720P-CN,,0,0,0,,业界认为它的性能不如手写代码\N{\c&H00D8FF&\fs40}The community was skeptical that the performance would be as good as hand written code,
+Dialogue: 0,0:07:36.20,0:07:39.40,720P-CN,,0,0,0,,但是事实上 这样程序员写代码可以更快更多\N{\c&H00D8FF&\fs40}but the fact that programmers could write more code more quickly,
+Dialogue: 0,0:07:39.40,0:07:41.40,720P-CN,,0,0,0,,很划算\N{\c&H00D8FF&\fs40}made it an easy choice economically:
+Dialogue: 0,0:07:41.40,0:07:46.33,720P-CN,,0,0,0,,计算时间略增 但编程时间剧减\N{\c&H00D8FF&\fs40}trading a small increase in computation time for a significant decrease in programmer time.
+Dialogue: 0,0:07:46.33,0:07:49.53,720P-CN,,0,0,0,,当然 IBM是卖计算机的 所以一开始\N{\c&H00D8FF&\fs40}Of course, IBM was in the business of selling computers, and so initially,
+Dialogue: 0,0:07:49.53,0:07:52.73,720P-CN,,0,0,0,,FORTRAN只能在IBM的计算机上编译和运行 \N{\c&H00D8FF&\fs40} FORTRAN code could only be compiled and run on IBM computers.
+Dialogue: 0,0:07:52.73,0:07:55.93,720P-CN,,0,0,0,,并且20世纪50年代绝大部分编程语言和编译器\N{\c&H00D8FF&\fs40}And most programming languages and compilers of the 1950s
+Dialogue: 0,0:07:55.93,0:07:57.93,720P-CN,,0,0,0,,只能在某种计算机上运行\N{\c&H00D8FF&\fs40}could only run on a single type of computer.
+Dialogue: 0,0:07:57.93,0:08:02.46,720P-CN,,0,0,0,,所以如果你升级计算机 通常就要重写所有的代码\N{\c&H00D8FF&\fs40}So, if you upgraded your computer, you'd often have to re-write all the code too!
+Dialogue: 0,0:08:02.46,0:08:05.60,720P-CN,,0,0,0,,为了应对这个问题 行业 学术和政府的专家\N{\c&H00D8FF&\fs40}In response, computer experts from industry, academia and government
+Dialogue: 0,0:08:05.60,0:08:09.53,720P-CN,,0,0,0,,在1959年创办了一个协会 数据系统语言委员会 \N{\c&H00D8FF&\fs40}formed a consortium in 1959 - the Committee on Data Systems Languages,
+Dialogue: 0,0:08:09.53,0:08:12.66,720P-CN,,0,0,0,,格蕾丝·霍普是顾问 指导开发\N{\c&H00D8FF&\fs40} advised by our friend Grace Hopper - to guide the development of
+Dialogue: 0,0:08:12.66,0:08:15.66,720P-CN,,0,0,0,,不同机器通用的编程语言\N{\c&H00D8FF&\fs40}a common programming language that could be used across different machines.
+Dialogue: 0,0:08:15.66,0:08:19.86,720P-CN,,0,0,0,,成果是高级易用的 通用商业语言 \N{\c&H00D8FF&\fs40}The result was the high-level, easy to use, Common Business-Oriented Language,
+Dialogue: 0,0:08:19.86,0:08:20.80,720P-CN,,0,0,0,,简称COBOL\N{\c&H00D8FF&\fs40}or COBOL for short.
+Dialogue: 0,0:08:20.80,0:08:22.80,720P-CN,,0,0,0,,为了兼容不同的底层硬件\N{\c&H00D8FF&\fs40}To deal with different underlying hardware,
+Dialogue: 0,0:08:22.80,0:08:25.80,720P-CN,,0,0,0,,每种计算机架构需要专用的COBOL编译器\N{\c&H00D8FF&\fs40}each computing architecture needed its own COBOL compiler.
+Dialogue: 0,0:08:25.80,0:08:29.73,720P-CN,,0,0,0,,但是基本上这些编译器都能接受相同的COBOL源代码\N{\c&H00D8FF&\fs40}But critically, these compilers could all accept the same COBOL source code,
+Dialogue: 0,0:08:29.73,0:08:31.73,720P-CN,,0,0,0,,不论编译器在哪种计算机运行\N{\c&H00D8FF&\fs40}no matter what computer it was run on.
+Dialogue: 0,0:08:31.73,0:08:33.93,720P-CN,,0,0,0,,这个概念叫做一次编写 随处运行\N{\c&H00D8FF&\fs40}This notion is called write once, run anywhere.
+Dialogue: 0,0:08:31.73,0:08:33.93,FOOT-NOTE,,0,0,0,,{\pos(34,30)}【write once, run anywhere 是SUN公司为宣传Java语言的跨平台性能而设计的口号】
+Dialogue: 0,0:08:33.93,0:08:35.61,720P-CN,,0,0,0,,今天的绝大多数编程语言都是这样\N{\c&H00D8FF&\fs40}It's true of most programming languages today, a benefit of moving away from
+Dialogue: 0,0:08:35.61,0:08:39.66,720P-CN,,0,0,0,,不再依赖与CPU绑定的汇编语言和机器码\N{\c&H00D8FF&\fs40}a benefit of moving away from assembly and machine code, which is still CPU specific.
+Dialogue: 0,0:08:39.66,0:08:43.60,720P-CN,,0,0,0,,这降低了计算机的使用门槛\N{\c&H00D8FF&\fs40}The biggest impact of all this was reducing computing's barrier to entry.
+Dialogue: 0,0:08:43.60,0:08:46.20,720P-CN,,0,0,0,,高级语言出现之前\N{\c&H00D8FF&\fs40}Before high level programming languages existed,
+Dialogue: 0,0:08:46.20,0:08:49.66,720P-CN,,0,0,0,,计算机是专家和爱好者的专属领域\N{\c&H00D8FF&\fs40} it was a realm exclusive to computer experts and enthusiasts.
+Dialogue: 0,0:08:49.66,0:08:51.53,720P-CN,,0,0,0,,并且通常是他们的全职工作\N{\c&H00D8FF&\fs40}And it was often their full time profession.
+Dialogue: 0,0:08:51.53,0:08:56.13,720P-CN,,0,0,0,,但是现在 科学家 工程师 医生 经济学家 教师 等等\N{\c&H00D8FF&\fs40}But now, scientists, engineers, doctors, economists, teachers, and many others
+Dialogue: 0,0:08:56.13,0:08:58.13,720P-CN,,0,0,0,,都在工作中使用计算机\N{\c&H00D8FF&\fs40} could incorporate computation into their work .
+Dialogue: 0,0:08:58.13,0:09:02.26,720P-CN,,0,0,0,,多亏了这些语言 计算机从一个繁琐且深奥的学科\N{\c&H00D8FF&\fs40}Thanks to these languages, computing went from a cumbersome and esoteric discipline
+Dialogue: 0,0:09:02.26,0:09:04.26,720P-CN,,0,0,0,,变成了通用易用的工具\N{\c&H00D8FF&\fs40}to a general purpose and accessible tool.
+Dialogue: 0,0:09:04.26,0:09:07.80,720P-CN,,0,0,0,,同时 编程宣传抽象使得计算机专家\N{\c&H00D8FF&\fs40}At the same time, abstraction in programming allowed those computer experts -
+Dialogue: 0,0:09:07.80,0:09:11.73,720P-CN,,0,0,0,,现在叫做职业程序员 能够创造更加复杂高深的程序\N{\c&H00D8FF&\fs40}now 'professional programmers' - to create increasingly sophisticated programs,
+Dialogue: 0,0:09:11.73,0:09:16.00,720P-CN,,0,0,0,,需要成百上千万甚至更多行的汇编代码来实现\N{\c&H00D8FF&\fs40}which would have taken millions, tens of millions, or even more lines of assembly code.
+Dialogue: 0,0:09:16.00,0:09:18.13,720P-CN,,0,0,0,,编程语言的发展并未止步于1959年\N{\c&H00D8FF&\fs40}Now, this history didn't end in 1959.
+Dialogue: 0,0:09:18.13,0:09:21.66,720P-CN,,0,0,0,,实际上设计编程语言的黄金时期才刚开始\N{\c&H00D8FF&\fs40}In fact, a golden era in programming language design jump started,
+Dialogue: 0,0:09:21.66,0:09:25.26,720P-CN,,0,0,0,,计算机硬件也同步发生巨大的发展\N{\c&H00D8FF&\fs40}evolving in lockstep with dramatic advances in computer hardware.
+Dialogue: 0,0:09:25.26,0:09:28.80,720P-CN,,0,0,0,,20世纪60年代 有ALGOL LISP BASIC 等语言\N{\c&H00D8FF&\fs40}In the 1960s, we had languages like ALGOL, LISP and BASIC.
+Dialogue: 0,0:09:28.80,0:09:31.40,720P-CN,,0,0,0,,70年代发布了Pascal C Smalltalk\N{\c&H00D8FF&\fs40}In the 70’s: Pascal, C and Smalltalk were released.
+Dialogue: 0,0:09:31.40,0:09:34.26,720P-CN,,0,0,0,,80年代产生了C++ Objective-C Perl\N{\c&H00D8FF&\fs40}The 80's gave us C++, Objective-C, and Perl.
+Dialogue: 0,0:09:34.26,0:09:36.33,720P-CN,,0,0,0,,90年代有Python Ruby Java\N{\c&H00D8FF&\fs40}And the 90's: python, ruby, and Java.
+Dialogue: 0,0:09:36.33,0:09:39.86,720P-CN,,0,0,0,,千禧年后诞生了 Swift C# Go\N{\c&H00D8FF&\fs40}And the new millennium has seen the rise of Swift, C#, and Go
+Dialogue: 0,0:09:39.86,0:09:42.46,720P-CN,,0,0,0,,不要同Let it go（歌曲）和Pokeman Go（游戏） 混淆了\N{\c&H00D8FF&\fs40}- not to be confused with Let it Go and Pokemon Go.
+Dialogue: 0,0:09:42.46,0:09:46.06,720P-CN,,0,0,0,,有些听上去很熟悉 很多至今还在用\N{\c&H00D8FF&\fs40}Anyway, some of these might sound familiar - many are still around today.
+Dialogue: 0,0:09:46.06,0:09:48.73,720P-CN,,0,0,0,,你正在用的网页浏览器很可能\N{\c&H00D8FF&\fs40}It's extremely likely that the web browser you're using right now
+Dialogue: 0,0:09:48.73,0:09:50.73,720P-CN,,0,0,0,,是用C++或Objective-C写的\N{\c&H00D8FF&\fs40} was written in C++ or Objective-C.
+Dialogue: 0,0:09:50.73,0:09:53.66,720P-CN,,0,0,0,,我给的这些名单只是冰山一角\N{\c&H00D8FF&\fs40}That list I just gave is the tip of the iceberg.
+Dialogue: 0,0:09:53.66,0:09:56.60,720P-CN,,0,0,0,,有高级新功能的语言不断出现\N{\c&H00D8FF&\fs40}And languages with fancy, new features are proposed all the time.
+Dialogue: 0,0:09:56.60,0:09:59.46,720P-CN,,0,0,0,,每种语言都使用新的精巧抽象\N{\c&H00D8FF&\fs40}Each new language attempts to leverage new and clever abstractions to
+Dialogue: 0,0:09:59.46,0:10:01.66,720P-CN,,0,0,0,,把编程的某方面变简单或是更强大\N{\c&H00D8FF&\fs40}make some aspect of programming easier or more powerful,
+Dialogue: 0,0:10:01.66,0:10:04.73,720P-CN,,0,0,0,,或者利用新兴技术和平台\N{\c&H00D8FF&\fs40}or take advantage of emerging technologies and platforms,
+Dialogue: 0,0:10:04.73,0:10:07.66,720P-CN,,0,0,0,,让人们可以更快地做到更加不可思议的事\N{\c&H00D8FF&\fs40}so that more people can do more amazing things, more quickly.
+Dialogue: 0,0:10:07.66,0:10:11.13,720P-CN,,0,0,0,,很多人认为终极编程是使用日常英语\N{\c&H00D8FF&\fs40}Many consider the holy grail of programming to be the use of  'plain ol' English',
+Dialogue: 0,0:10:11.13,0:10:13.86,720P-CN,,0,0,0,,你只要说出指令\N{\c&H00D8FF&\fs40}where you can literally just speak what you want the computer to do,
+Dialogue: 0,0:10:13.86,0:10:15.40,720P-CN,,0,0,0,,计算机就会听懂并执行\N{\c&H00D8FF&\fs40} it figures it out, and executes it.
+Dialogue: 0,0:10:15.40,0:10:18.53,720P-CN,,0,0,0,,这种智能系统目前只是科幻\N{\c&H00D8FF&\fs40}This kind of intelligent system is science fiction… for now.
+Dialogue: 0,0:10:18.53,0:10:21.80,720P-CN,,0,0,0,,《2001：太空漫游》的粉丝可能会有这个期待\N{\c&H00D8FF&\fs40}And fans of 2001: A Space Odyssey may be okay with that.
+Dialogue: 0,0:10:21.80,0:10:23.66,720P-CN,,0,0,0,,现在你知道了编程语言的知识 \N{\c&H00D8FF&\fs40}Now that you know all about programming languages,
+Dialogue: 0,0:10:23.66,0:10:26.20,720P-CN,,0,0,0,,接下来几集我们将要深入研究\N{\c&H00D8FF&\fs40}we're going to deep dive for the next couple of episodes,
+Dialogue: 0,0:10:26.20,0:10:29.46,720P-CN,,0,0,0,,让你逐步理解编程语言及通过其编写的软件\N{\c&H00D8FF&\fs40}and we'll continue to build your understanding of how programming languages,
+Dialogue: 0,0:10:29.46,0:10:33.40,720P-CN,,0,0,0,,如何完成难以置信的事情\N{\c&H00D8FF&\fs40}and the software they create, are used to do cool and unbelievable things.
+Dialogue: 0,0:10:33.40,0:10:35.40,720P-CN,,0,0,0,,下周见\N{\c&H00D8FF&\fs40}See you next week.
+Dialogue: 0,0:10:35.40,0:10:37.40,OP-ED,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
