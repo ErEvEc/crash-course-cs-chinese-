@@ -16,8 +16,8 @@ Video File: The First Programming Languages- Crash Course Computer Science #11.m
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 177
-Active Line: 190
+Scroll Position: 87
+Active Line: 95
 Video Position: 14305
 
 [V4+ Styles]
@@ -60,7 +60,7 @@ Dialogue: 0,0:01:40.53,0:01:43.13,720P-CN,,0,0,0,,实际也是他们唯一能理
 Dialogue: 0,0:01:43.13,0:01:45.93,720P-CN,,0,0,0,,这叫做机器语言或机器码\N{\c&H00D8FF&\fs40}It's called Machine Language or Machine Code.
 Dialogue: 0,0:01:45.93,0:01:49.73,720P-CN,,0,0,0,,计算机发展的早期 人们必须用机器码写整个程序 \N{\c&H00D8FF&\fs40}In the early days of computing, people had to write entire programs in machine code.
 Dialogue: 0,0:01:49.73,0:01:53.86,720P-CN,,0,0,0,,具体来说 他们先在纸上用英语写出高级的程序版本\N{\c&H00D8FF&\fs40}More specifically, they'd first write a high-level version of a program on paper, in English,
-Dialogue: 0,0:01:53.86,0:01:57.59,720P-CN,,0,0,0,,比如‘从内存获取下一条销售额\N{\c&H00D8FF&\fs40}for example 'retrieve the next sale from memory, 
+Dialogue: 0,0:01:53.86,0:01:57.59,720P-CN,,0,0,0,,比如‘从内存获取下一条销售额\N{\c&H00D8FF&\fs40}for example 'retrieve the next sale from memory,
 Dialogue: 0,0:01:57.59,0:01:59.33,720P-CN,,0,0,0,,然后加到今日的总额中\N{\c&H00D8FF&\fs40}then add this to the running total for the day,
 Dialogue: 0,0:01:59.33,0:02:02.53,720P-CN,,0,0,0,,然后周总额 年总额 接着计算税 等等’\N{\c&H00D8FF&\fs40}week and year, then calculate any tax to be added... and so on.'
 Dialogue: 0,0:02:02.53,0:02:07.26,720P-CN,,0,0,0,,这种非正式 高层次的程序描述叫做伪代码\N{\c&H00D8FF&\fs40}An informal, high-level description of a program like this is called Pseudo-Code.
@@ -97,7 +97,7 @@ Dialogue: 0,0:03:35.73,0:03:38.13,720P-CN,,0,0,0,,支持插入跳转转向的标
 Dialogue: 0,0:03:38.13,0:03:40.13,720P-CN,,0,0,0,,当程序输入汇编器\N{\c&H00D8FF&\fs40}When this program is passed into the assembler,
 Dialogue: 0,0:03:40.13,0:03:42.40,720P-CN,,0,0,0,,汇编器就计算出所有的跳转地址\N{\c&H00D8FF&\fs40}it does the work of figuring out all of the jump addresses.
 Dialogue: 0,0:03:42.40,0:03:44.93,720P-CN,,0,0,0,,这样程序员就可以更专注于编程\N{\c&H00D8FF&\fs40}Now the programmer can focus more on programming and
-Dialogue: 0,0:03:44.93,0:03:48.86,720P-CN,,0,0,0,,而不去管内部的实现机制\N{\c&H00D8FF&\fs40}less on the underlying mechanics under the hood, 
+Dialogue: 0,0:03:44.93,0:03:48.86,720P-CN,,0,0,0,,而不去管内部的实现机制\N{\c&H00D8FF&\fs40}less on the underlying mechanics under the hood,
 Dialogue: 0,0:03:48.86,0:03:51.06,720P-CN,,0,0,0,,通过隐藏不必要的复杂过程构建更复杂的程序 \N{\c&H00D8FF&\fs40}enabling more sophisticated things to be built by hiding unnecessary complexity.
 Dialogue: 0,0:03:51.06,0:03:53.60,720P-CN,,0,0,0,,我们已经在课程里讲过很多次了\N{\c&H00D8FF&\fs40}As we've done many times in this series,
 Dialogue: 0,0:03:53.60,0:03:56.00,720P-CN,,0,0,0,,又是一层的抽象\N{\c&H00D8FF&\fs40}we're once again moving up another level of abstraction.
@@ -113,18 +113,18 @@ Dialogue: 0,0:04:26.00,0:04:28.00,720P-CN,,0,0,0,,你就得修改很多代码\N{
 Dialogue: 0,0:04:28.00,0:04:29.66,720P-CN,,0,0,0,,看看思想泡泡\N{\c&H00D8FF&\fs40}Let's go to the Thought Bubble.
 Dialogue: 0,0:04:29.66,0:04:32.13,720P-CN,,0,0,0,,格蕾丝·霍普博士解决了这个问题\N{\c&H00D8FF&\fs40}This problem did not escape Dr. Grace Hopper.
 Dialogue: 0,0:04:29.66,0:04:32.13,FOOT-NOTE,,0,0,0,,{\pos(224,24)}【格蕾丝·霍普本课程在第2期中首次出场，这里是第二次出现】
-Dialogue: 0,0:04:32.13,0:04:35.20,720P-CN,,0,0,0,,作为美国海军军官 她是首批哈佛1号程序员\N{\c&H00D8FF&\fs40}As a US naval officer, she was one of the first programmers
+Dialogue: 0,0:04:32.13,0:04:35.20,720P-CN,,0,0,0,,作为美国海军军官 她是首批马克1号程序员\N{\c&H00D8FF&\fs40}As a US naval officer, she was one of the first programmers
 Dialogue: 0,0:04:32.13,0:04:38.66,FOOT-NOTE,,0,0,0,,{\pos(26,74)}【格蕾丝·霍普，1906.12－1992.1，计算机科学家、美国海军准将，世界最早一批程\N序员，她是Harvard Mark I上第一个专职程序员，创造了现代第一个编译器A-0 系统，\N以及第一个高级商用计算机程序语言“COBOL”，被誉为“COBOL 之母”】
 Dialogue: 0,0:04:35.20,0:04:38.66,720P-CN,,0,0,0,,第2集说到过\N{\c&H00D8FF&\fs40}on the Harvard Mark 1 computer, which we talked about in Episode 2.
-Dialogue: 0,0:04:38.66,0:04:42.40,720P-CN,,0,0,0,,哈佛1号是1944年完成的巨大机电式巨兽\N{\c&H00D8FF&\fs40}This was a colossal, electro-mechanical beast completed in 1944
+Dialogue: 0,0:04:38.66,0:04:42.40,720P-CN,,0,0,0,,马克1号是1944年完成的巨大机电式巨兽\N{\c&H00D8FF&\fs40}This was a colossal, electro-mechanical beast completed in 1944
 Dialogue: 0,0:04:42.40,0:04:44.40,720P-CN,,0,0,0,,是盟军战争成就的一部分\N{\c&H00D8FF&\fs40}as part of the allied war effort.
 Dialogue: 0,0:04:44.40,0:04:47.40,720P-CN,,0,0,0,,程序用打孔纸带储存再输入计算机\N{\c&H00D8FF&\fs40}Programs were stored and fed into the computer on punched paper tape.
 Dialogue: 0,0:04:47.40,0:04:51.26,720P-CN,,0,0,0,,顺便一提 他们修补程序漏洞的方式是实实在在地\N{\c&H00D8FF&\fs40}By the way, as you can see, they 'patched' some bugs in this program by literally
 Dialogue: 0,0:04:51.26,0:04:54.60,720P-CN,,0,0,0,,在纸带上打补丁堵上漏洞\N{\c&H00D8FF&\fs40} putting patches of paper over the holes on the punch tape.
-Dialogue: 0,0:04:54.60,0:04:58.40,720P-CN,,0,0,0,,哈佛1号的指令集很简陋 甚至没有JUMP指令\N{\c&H00D8FF&\fs40}The Mark 1's instruction set was so primitive, there weren't even JUMP instructions.
+Dialogue: 0,0:04:54.60,0:04:58.40,720P-CN,,0,0,0,,马克1号的指令集很简陋 甚至没有JUMP指令\N{\c&H00D8FF&\fs40}The Mark 1's instruction set was so primitive, there weren't even JUMP instructions.
 Dialogue: 0,0:04:58.40,0:05:01.60,720P-CN,,0,0,0,,要实现循环操作的代码\N{\c&H00D8FF&\fs40}To create code that repeated the same operation multiple times,
 Dialogue: 0,0:05:01.60,0:05:05.80,720P-CN,,0,0,0,,需要把打孔纸带两端粘起来 形成实体循环\N{\c&H00D8FF&\fs40} you'd tape the two ends of the punched tape together, creating a physical loop.
-Dialogue: 0,0:05:05.80,0:05:08.93,720P-CN,,0,0,0,,换句话说 编程哈佛1号简直像噩梦一样\N{\c&H00D8FF&\fs40}In other words, programming the Mark 1 was kind of a nightmare!
+Dialogue: 0,0:05:05.80,0:05:08.93,720P-CN,,0,0,0,,换句话说 编程马克1号简直像噩梦一样\N{\c&H00D8FF&\fs40}In other words, programming the Mark 1 was kind of a nightmare!
 Dialogue: 0,0:05:08.93,0:05:11.73,720P-CN,,0,0,0,,战后 霍普继续了计算机的前沿工作\N{\c&H00D8FF&\fs40}After the war, Hopper continued to work at the forefront of computing.
 Dialogue: 0,0:05:11.73,0:05:16.00,720P-CN,,0,0,0,,为了释放计算机潜能 她设计了一个高级编程语言 \N{\c&H00D8FF&\fs40}To unleash the potential of computers, she designed a high-level programming language
 Dialogue: 0,0:05:16.00,0:05:19.33,720P-CN,,0,0,0,,叫做 算数语言版本0 简称为A-0\N{\c&H00D8FF&\fs40}called 'Arithmetic Language Version 0', or A-0 for short.
@@ -160,8 +160,8 @@ Dialogue: 0,0:06:47.86,0:06:52.40,720P-CN,,0,0,0,,也许编译器内部分配寄
 Dialogue: 0,0:06:52.40,0:06:54.26,720P-CN,,0,0,0,,但是我不需要知道\N{\c&H00D8FF&\fs40}but I don't need to know about it!
 Dialogue: 0,0:06:54.26,0:06:55.46,720P-CN,,0,0,0,,眼不见 心不烦\N{\c&H00D8FF&\fs40}Out of sight, out of mind!
 Dialogue: 0,0:06:55.46,0:07:00.53,720P-CN,,0,0,0,,这是重要的历史里程碑 可是A-0以及它之后的翻版都没有广泛使用\N{\c&H00D8FF&\fs40}It was an important historical milestone, but A-0 and its later variants weren't widely used.
-Dialogue: 0,0:07:00.53,0:07:03.23,720P-CN,,0,0,0,,FORTRAN语言 全名为“公式翻译语言”\N{\c&H00D8FF&\fs40}FORTRAN, derived from 'Formula Translation', 
-Dialogue: 0,0:07:03.23,0:07:06.53,720P-CN,,0,0,0,,在几年后的1957年 由IBM发布\N{\c&H00D8FF&\fs40} was released by IBM a few years later, in 1957, 
+Dialogue: 0,0:07:00.53,0:07:03.23,720P-CN,,0,0,0,,FORTRAN语言 全名为“公式翻译语言”\N{\c&H00D8FF&\fs40}FORTRAN, derived from 'Formula Translation',
+Dialogue: 0,0:07:03.23,0:07:06.53,720P-CN,,0,0,0,,在几年后的1957年 由IBM发布\N{\c&H00D8FF&\fs40} was released by IBM a few years later, in 1957,
 Dialogue: 0,0:07:06.53,0:07:08.66,720P-CN,,0,0,0,,统治了早期的计算机编程领域\N{\c&H00D8FF&\fs40}and came to dominate early computer programming.
 Dialogue: 0,0:07:08.66,0:07:11.13,720P-CN,,0,0,0,,约翰·巴克斯 FORTRAN的项目主管 说到\N{\c&H00D8FF&\fs40}John Backus, the FORTRAN project director, said:
 Dialogue: 0,0:07:11.13,0:07:13.40,720P-CN,,0,0,0,,我的很多成就来自于偷懒\N{\c&H00D8FF&\fs40}'Much of my work has come from being lazy.
