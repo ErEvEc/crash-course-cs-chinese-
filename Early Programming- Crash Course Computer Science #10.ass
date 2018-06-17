@@ -70,7 +70,7 @@ Dialogue: 0,0:01:57.66,0:01:59.22,720P-CN,,0,0,0,,对于普查的每个问题\N{
 Dialogue: 0,0:01:59.22,0:02:02.36,720P-CN,,0,0,0,,工作人员都会在对应答案的位置打孔\N{\c&H00D8FF&\fs40}a census worker would punch out a hole of the appropriate position.
 Dialogue: 0,0:02:02.36,0:02:04.82,720P-CN,,0,0,0,,当把卡片插入编表机时\N{\c&H00D8FF&\fs40}When a card was fed into the tabulating machine,
 Dialogue: 0,0:02:04.82,0:02:08.84,720P-CN,,0,0,0,,卡片上的孔会让其对应结果的总数加1\N{\c&H00D8FF&\fs40}a hole would cause the running total for that specific answer to be increased by one.
-Dialogue: 0,0:02:08.84,0:02:12.02,720P-CN,,0,0,0,,这样可以输入整个辖区民众的数据\N{\c&H00D8FF&\fs40}In this way you could feed the entire county's worth of people
+Dialogue: 0,0:02:08.84,0:02:12.02,720P-CN,,0,0,0,,这样可以输入整个国家民众的数据\N{\c&H00D8FF&\fs40}In this way you could feed the entire county's worth of people
 Dialogue: 0,0:02:12.02,0:02:15.32,720P-CN,,0,0,0,,并最终得到所有普查问题的结果\N{\c&H00D8FF&\fs40}and at the end you'd have running totals for all of the questions that you asked.
 Dialogue: 0,0:02:15.32,0:02:19.70,720P-CN,,0,0,0,,需要指出一点 早期的编表机并不是计算机\N{\c&H00D8FF&\fs40}It is important to note here that early tabulating machines were not truly computers
 Dialogue: 0,0:02:19.70,0:02:21.92,720P-CN,,0,0,0,,因为它只能完成一样工作——汇总数据\N{\c&H00D8FF&\fs40}as they can only do one thing-tabulate.
@@ -79,7 +79,7 @@ Dialogue: 0,0:02:24.40,0:02:27.00,720P-CN,,0,0,0,,打孔卡仅仅记录数据而
 Dialogue: 0,0:02:27.00,0:02:30.60,720P-CN,,0,0,0,,在其后的60年 这些机器的性能不断提升\N{\c&H00D8FF&\fs40}Over the next 60 years, these business machines grew in capability,
 Dialogue: 0,0:02:30.60,0:02:33.34,720P-CN,,0,0,0,,实现了减法 乘法 除法\N{\c&H00D8FF&\fs40}adding features to subtract, multiply, divide,
 Dialogue: 0,0:02:33.34,0:02:36.48,720P-CN,,0,0,0,,甚至能够完成何时执行某个特定操作的简单决策\N{\c&H00D8FF&\fs40}and even make simple decisions about when to perform certain operations.
-Dialogue: 0,0:02:36.48,0:02:40.94,720P-CN,,0,0,0,,为了顺利触发这些功能以便完成计算\N{\c&H00D8FF&\fs40}To trigger these functions appropriately, so that different calculations could be performed,
+Dialogue: 0,0:02:36.48,0:02:40.94,720P-CN,,0,0,0,,为了能触发能够完成计算的恰当功能\N{\c&H00D8FF&\fs40}To trigger these functions appropriately, so that different calculations could be performed,
 Dialogue: 0,0:02:40.94,0:02:43.22,720P-CN,,0,0,0,,程序员发明了控制台\N{\c&H00D8FF&\fs40}a programmer accessed a control panel.
 Dialogue: 0,0:02:43.22,0:02:45.14,720P-CN,,0,0,0,,面板上排满了小插孔\N{\c&H00D8FF&\fs40}This panel was full of little sockets,
 Dialogue: 0,0:02:45.14,0:02:48.52,720P-CN,,0,0,0,,程序员可以将电缆插入孔中\N{\c&H00D8FF&\fs40}into which a programmer would plug cables to pass values and signals
@@ -98,9 +98,9 @@ Dialogue: 0,0:03:18.82,0:03:23.22,720P-CN,,0,0,0,,用的是IBM 402会计机 它�
 Dialogue: 0,0:03:23.22,0:03:27.42,720P-CN,,0,0,0,,插线板这种编程方式对机电式计算机来说也不是孤例\N{\c&H00D8FF&\fs40}And this style of plug board programming wasn't unique to electromechanical computers.
 Dialogue: 0,0:03:27.42,0:03:31.06,720P-CN,,0,0,0,,1946年完工的第一台通用电子计算机ENIAC\N{\c&H00D8FF&\fs40}The world's first General-Purpose electronic computer, the ENIAC, completed in 1946,
 Dialogue: 0,0:03:31.06,0:03:33.92,720P-CN,,0,0,0,,也大量使用了插线板\N{\c&H00D8FF&\fs40}used a ton of them.
-Dialogue: 0,0:03:33.92,0:03:37.00,720P-CN,,0,0,0,,即便在程序能够完全写在纸上之后\N{\c&H00D8FF&\fs40}Even after a program had been completely figured out on paper,
+Dialogue: 0,0:03:33.92,0:03:37.00,720P-CN,,0,0,0,,即便在程序在纸上写完之后\N{\c&H00D8FF&\fs40}Even after a program had been completely figured out on paper,
 Dialogue: 0,0:03:37.00,0:03:40.44,720P-CN,,0,0,0,,线缆连接ENIAC并让程序能够运行\N{\c&H00D8FF&\fs40}physically wiring up the ENIAC and getting the program to run
-Dialogue: 0,0:03:40.44,0:03:42.42,720P-CN,,0,0,0,,也可能花费多达3周\N{\c&H00D8FF&\fs40}could take upwards of three weeks.
+Dialogue: 0,0:03:40.44,0:03:42.42,720P-CN,,0,0,0,,也可能花费3周以上时间\N{\c&H00D8FF&\fs40}could take upwards of three weeks.
 Dialogue: 0,0:03:42.42,0:03:44.84,720P-CN,,0,0,0,,考虑到这些早期计算机开销之巨\N{\c&H00D8FF&\fs40}Given the enormous cost of these early computers,
 Dialogue: 0,0:03:44.84,0:03:48.14,720P-CN,,0,0,0,,仅仅切换程序就需要宕机数周令人难以接受\N{\c&H00D8FF&\fs40}weeks of downtime simply to switch programs was unacceptable
 Dialogue: 0,0:03:48.14,0:03:51.78,720P-CN,,0,0,0,,因此急需更新 更快 更灵活的编程方式\N{\c&H00D8FF&\fs40}and the new, faster, more flexible way to programme machines was badly needed.
@@ -143,7 +143,7 @@ Dialogue: 0,0:05:31.54,0:05:35.24,720P-CN,,0,0,0,,只要程序数据进入内存
 Dialogue: 0,0:05:35.24,0:05:39.00,720P-CN,,0,0,0,,当然 即便简单的程序也会有上百行指令\N{\c&H00D8FF&\fs40}Of course, even simple computer programs might have hundreds of instructions,
 Dialogue: 0,0:05:39.00,0:05:41.98,720P-CN,,0,0,0,,这意味着程序是保存在一堆打孔卡里的\N{\c&H00D8FF&\fs40}which meant that programs were stored as stacks of punch cards.
 Dialogue: 0,0:05:41.98,0:05:45.36,720P-CN,,0,0,0,,如果你不小心把卡片掉地上了\N{\c&H00D8FF&\fs40}So if you ever have the misfortune of accidentally dropping your program on the floor,
-Dialogue: 0,0:05:45.36,0:05:49.36,720P-CN,,0,0,0,,可能要花数小时乃至数天才能把代码的顺序复原\N{\c&H00D8FF&\fs40}it could take you hours, days, or even weeks to put the code back in the right order.
+Dialogue: 0,0:05:45.36,0:05:49.36,720P-CN,,0,0,0,,可能要花数小时乃至数天才能把代码按顺序复原\N{\c&H00D8FF&\fs40}it could take you hours, days, or even weeks to put the code back in the right order.
 Dialogue: 0,0:05:49.36,0:05:53.58,720P-CN,,0,0,0,,一个常用技巧是在卡堆的侧面画一条对角线\N{\c&H00D8FF&\fs40}A common trick was to draw a diagonal line on the side of the card stack called striping,
 Dialogue: 0,0:05:53.58,0:05:56.96,720P-CN,,0,0,0,,这样整理时至少有迹可循\N{\c&H00D8FF&\fs40}so you'd have at least some clue how to get it back into the right order.
 Dialogue: 0,0:05:56.96,0:06:00.00,720P-CN,,0,0,0,,打孔卡记录的最大程序\N{\c&H00D8FF&\fs40}The largest program ever punched into punch cards
@@ -182,10 +182,10 @@ Dialogue: 0,0:07:36.74,0:07:39.58,720P-CN,,0,0,0,,组装散件版受到了业余
 Dialogue: 0,0:07:39.58,0:07:44.61,720P-CN,,0,0,0,,它在1975年以售价史无前例的低价发售 约400美元\N{\c&H00D8FF&\fs40}sold for the then unprecedented low price of around $400 in 1975
 Dialogue: 0,0:07:44.61,0:07:47.20,720P-CN,,0,0,0,,相当于2017年的2000美元\N{\c&H00D8FF&\fs40} or about $2,000 in 2017.
 Dialogue: 0,0:07:47.20,0:07:50.99,720P-CN,,0,0,0,,8800的编程就是拨弄前面板上的开关\N{\c&H00D8FF&\fs40}To program 8800 you'd literally toggle the switches on the front panel
-Dialogue: 0,0:07:50.99,0:07:53.82,720P-CN,,0,0,0,,用来输入指令对应的二进制操作码\N{\c&H00D8FF&\fs40}to enter the binary Op codes for the instruction you wanted.
+Dialogue: 0,0:07:50.99,0:07:53.82,720P-CN,,0,0,0,,用来输入指令对应的二进制操作码\N{\c&H00D8FF&\fs40}to enter the binary opcodes for the instruction you wanted.
 Dialogue: 0,0:07:53.82,0:07:57.52,720P-CN,,0,0,0,,然后按下保存按钮把数据写入内存\N{\c&H00D8FF&\fs40}Then you press the deposit button to write that value into memory.
 Dialogue: 0,0:07:57.52,0:07:59.62,720P-CN,,0,0,0,,随后在内存的下一个位置\N{\c&H00D8FF&\fs40}Then in the next location in memory,
-Dialogue: 0,0:07:59.62,0:08:03.90,720P-CN,,0,0,0,,再拨弄下一个指令对应的开关 再按保存 以此类推\N{\c&H00D8FF&\fs40}you toggle the switches again for your next instruction, deposit it and so on.
+Dialogue: 0,0:07:59.62,0:08:03.90,720P-CN,,0,0,0,,再拨弄开关进入下一个指令 再按保存 以此类推\N{\c&H00D8FF&\fs40}you toggle the switches again for your next instruction, deposit it and so on.
 Dialogue: 0,0:08:03.90,0:08:06.40,720P-CN,,0,0,0,,当把程序全部输入内存后\N{\c&H00D8FF&\fs40}When you had finally entered your whole program into memory,
 Dialogue: 0,0:08:06.40,0:08:09.34,720P-CN,,0,0,0,,拨弄开关 把内存地址复零位\N{\c&H00D8FF&\fs40}you would toggle the switches, move back to memory address zero,
 Dialogue: 0,0:08:09.34,0:08:12.10,720P-CN,,0,0,0,,按下运行按钮 观察指示灯闪烁\N{\c&H00D8FF&\fs40}press the run button, and watch the little lights blink.
@@ -194,7 +194,7 @@ Dialogue: 0,0:08:14.80,0:08:17.93,720P-CN,,0,0,0,,不管是插线板开关还是
 Dialogue: 0,0:08:17.93,0:08:20.70,720P-CN,,0,0,0,,为早期计算机编程都是专家的差事\N{\c&H00D8FF&\fs40}programming these early computers was the realm of experts.
 Dialogue: 0,0:08:20.70,0:08:24.54,720P-CN,,0,0,0,,要么是专业程序员 要么是技术狂人\N{\c&H00D8FF&\fs40}Either professionals who did this for a living, or technology enthusiasts.
 Dialogue: 0,0:08:24.54,0:08:27.24,720P-CN,,0,0,0,,你需要精通底层硬件\N{\c&H00D8FF&\fs40}You needed intimate knowledge of the underlying hardware,
-Dialogue: 0,0:08:27.24,0:08:30.82,720P-CN,,0,0,0,,比如处理器的操作码以及寄存器位宽才能写出程序\N{\c&H00D8FF&\fs40}so things like processor Op codes and register width to write programs.
+Dialogue: 0,0:08:27.24,0:08:30.82,720P-CN,,0,0,0,,比如处理器的操作码以及寄存器位宽才能写出程序\N{\c&H00D8FF&\fs40}so as things like processor opcodes and register width to write programs.
 Dialogue: 0,0:08:30.82,0:08:33.24,720P-CN,,0,0,0,,这样的编程既困难又无趣\N{\c&H00D8FF&\fs40}This meant programming was hard and tedious.
 Dialogue: 0,0:08:33.24,0:08:35.91,720P-CN,,0,0,0,,甚至连专业工程师和科学家使用时\N{\c&H00D8FF&\fs40}And even professional engineers and scientists struggle
 Dialogue: 0,0:08:35.91,0:08:38.20,720P-CN,,0,0,0,,也是捉襟见肘\N{\c&H00D8FF&\fs40}to take full advantage of what computing could offer.
