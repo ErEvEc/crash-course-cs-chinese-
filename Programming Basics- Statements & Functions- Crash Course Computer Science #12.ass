@@ -57,7 +57,7 @@ Dialogue: 0,0:01:20.30,0:01:23.80,720P-CN,,0,0,0,,这个程序告诉计算机赋
 Dialogue: 0,0:01:23.80,0:01:27.46,720P-CN,,0,0,0,,B=10 最终将A和B相加\N{\c&H00D8FF&\fs40}variable 'B' to 10, and finally to add 'A' and 'B' together,
 Dialogue: 0,0:01:27.46,0:01:31.28,720P-CN,,0,0,0,,并将和——15——赋值给C\N{\c&H00D8FF&\fs40}and put that result, which is 15, into -- you guessed it -- variable C.
 Dialogue: 0,0:01:31.28,0:01:33.32,720P-CN,,0,0,0,,注意下 变量可以随意命名\N{\c&H00D8FF&\fs40}Note that we can call variables whatever we want.
-Dialogue: 0,0:01:33.32,0:01:36.08,720P-CN,,0,0,0,,可以不叫ABC，而是apple pears 和fruits\N{\c&H00D8FF&\fs40}Instead of A, B and C, it could be apples, pears, and fruits.
+Dialogue: 0,0:01:33.32,0:01:36.08,720P-CN,,0,0,0,,可以不叫A B C，而是apple pears和fruits\N{\c&H00D8FF&\fs40}Instead of A, B and C, it could be apples, pears, and fruits.
 Dialogue: 0,0:01:36.08,0:01:39.36,720P-CN,,0,0,0,,只要名字唯一 计算机不关心具体叫什么\N{\c&H00D8FF&\fs40}The computer doesn't care, as long as variables are uniquely named.
 Dialogue: 0,0:01:39.36,0:01:42.08,720P-CN,,0,0,0,,但最佳实践是给变量取有意义的名字\N{\c&H00D8FF&\fs40}But it's probably best practice to name them things that make sense
 Dialogue: 0,0:01:42.08,0:01:44.52,720P-CN,,0,0,0,,以便他人理解代码\N{\c&H00D8FF&\fs40}in case someone else is trying to understand your code.
@@ -71,11 +71,11 @@ Dialogue: 0,0:02:00.56,0:02:03.80,720P-CN,,0,0,0,,当然现在还不是写完整
 Dialogue: 0,0:02:03.80,0:02:06.93,720P-CN,,0,0,0,,所以 我们将根据例子写些零星代码\N{\c&H00D8FF&\fs40}so instead, we'll use our example to write little snippets of code 
 Dialogue: 0,0:02:06.93,0:02:08.84,720P-CN,,0,0,0,,学习编程的基础\N{\c&H00D8FF&\fs40}that cover some programming fundamentals.
 Dialogue: 0,0:02:08.84,0:02:12.73,720P-CN,,0,0,0,,假设我们在写一个老式街机游戏\N{\c&H00D8FF&\fs40}Imagine we're building an old-school arcade game where Grace Hopper has to capture bugs
-Dialogue: 0,0:02:12.73,0:02:15.30,720P-CN,,0,0,0,,格蕾丝·霍普老师要在虫子飞进哈佛1号造成破坏之前灭了它们\N{\c&H00D8FF&\fs40}before they get into the Harvard Mark 1 and crash the computer!
+Dialogue: 0,0:02:12.73,0:02:15.30,720P-CN,,0,0,0,,格蕾丝·霍普老师要在虫子飞进马克1号造成破坏之前灭了它们\N{\c&H00D8FF&\fs40}before they get into the Harvard Mark 1 and crash the computer!
 Dialogue: 0,0:02:15.30,0:02:17.86,720P-CN,,0,0,0,,每到新关卡 虫子的数量会增加\N{\c&H00D8FF&\fs40}On every level, the number of bugs increases.
 Dialogue: 0,0:02:17.86,0:02:21.36,720P-CN,,0,0,0,,格蕾丝必须在虫子破坏继电器前灭了它们\N{\c&H00D8FF&\fs40}Grace has to catch them before they wear out any relays in the machine.
 Dialogue: 0,0:02:21.36,0:02:24.46,720P-CN,,0,0,0,,还好 她还有备用的继电器\N{\c&H00D8FF&\fs40}Fortunately, she has a few extra relays for repairs.
-Dialogue: 0,0:02:24.46,0:02:26.95,720P-CN,,0,0,0,,开始之前 我们要保存一些参数的值\N{\c&H00D8FF&\fs40}To get started, we'll need to keep track of a bunch of values
+Dialogue: 0,0:02:24.46,0:02:26.95,720P-CN,,0,0,0,,开始之前 我们要记录一些参数的值\N{\c&H00D8FF&\fs40}To get started, we'll need to keep track of a bunch of values
 Dialogue: 0,0:02:26.95,0:02:28.24,720P-CN,,0,0,0,,这是游戏运行的重要参数\N{\c&H00D8FF&\fs40}that are important for gameplay, 
 Dialogue: 0,0:02:28.24,0:02:31.76,720P-CN,,0,0,0,,比如当前游戏的关卡 分数 剩余虫子数\N{\c&H00D8FF&\fs40}like what level the player is on, the score, the number of bugs remaining, 
 Dialogue: 0,0:02:31.76,0:02:34.52,720P-CN,,0,0,0,,还有物品栏里备用继电器的数量\N{\c&H00D8FF&\fs40}as well as the number of spare relays in Grace's inventory.
@@ -91,7 +91,7 @@ Dialogue: 0,0:02:58.98,0:03:02.60,720P-CN,,0,0,0,,换成英语的例子就是 �
 Dialogue: 0,0:03:02.60,0:03:06.46,720P-CN,,0,0,0,,所以如果“我累了”这个表述为{\u1}真{\u0} 那么我就喝茶\N{\c&H00D8FF&\fs40}So if "I am tired" is a true statement, then I will go get tea
 Dialogue: 0,0:03:06.46,0:03:09.58,720P-CN,,0,0,0,,如果为{\u1}假{\u0} 我就不喝\N{\c&H00D8FF&\fs40}If "I am tired" is false, then I will not go get tea.
 Dialogue: 0,0:03:09.58,0:03:11.67,720P-CN,,0,0,0,,IF语句就像分叉路口\N{\c&H00D8FF&\fs40}An IF statement is like a fork in the road. 
-Dialogue: 0,0:03:11.67,0:03:15.38,720P-CN,,0,0,0,,选择那条路取决于表达式的值为{\u1}真{\u0}还是{\u1}假{\u0}\N{\c&H00D8FF&\fs40}Which path you take is conditional on whether the expression is true or false
+Dialogue: 0,0:03:11.67,0:03:15.38,720P-CN,,0,0,0,,选择哪条路取决于表达式的值为{\u1}真{\u0}还是{\u1}假{\u0}\N{\c&H00D8FF&\fs40}Which path you take is conditional on whether the expression is true or false
 Dialogue: 0,0:03:15.38,0:03:17.88,720P-CN,,0,0,0,,因此这些表达式称为条件语句\N{\c&H00D8FF&\fs40}-- so these expressions are called Conditional Statements.
 Dialogue: 0,0:03:17.88,0:03:20.92,720P-CN,,0,0,0,,大多数编程语言中IF语句看起像这样\N{\c&H00D8FF&\fs40}In most programming languages, an if statement looks something like
 Dialogue: 0,0:03:20.92,0:03:24.56,720P-CN,,0,0,0,,“IF 表达式 THEN 代码 IF语句结束”\N{\c&H00D8FF&\fs40} "If, expression, then, some code, then end the if statement"
@@ -100,9 +100,9 @@ Dialogue: 0,0:03:29.30,0:03:32.16,720P-CN,,0,0,0,,为了简化 再把虫子数�
 Dialogue: 0,0:03:32.16,0:03:35.27,720P-CN,,0,0,0,,注意下 依赖IF条件的代码\N{\c&H00D8FF&\fs40}Notice the lines of code that are conditional on the if-statement 
 Dialogue: 0,0:03:35.27,0:03:36.98,720P-CN,,0,0,0,,位于IF 和END IF之间\N{\c&H00D8FF&\fs40}are nested between the IF and END IF.
 Dialogue: 0,0:03:36.98,0:03:40.48,720P-CN,,0,0,0,,当然 条件语句可以随意设定\N{\c&H00D8FF&\fs40}Of course, we can change the conditional expression to whatever we want to test,
-Dialogue: 0,0:03:40.48,0:03:43.16,720P-CN,,0,0,0,,比如 “如果分数大于10” 或 “虫子数小于1”\N{\c&H00D8FF&\fs40} like "is score greater than 10" or "is bugs less than 1".
+Dialogue: 0,0:03:40.48,0:03:43.16,720P-CN,,0,0,0,,比如 “是否分数大于10” 或 “是否虫子数小于1”\N{\c&H00D8FF&\fs40} like "is score greater than 10" or "is bugs less than 1".
 Dialogue: 0,0:03:43.16,0:03:45.66,720P-CN,,0,0,0,,IF语句还可以和ELSE语句结合使用\N{\c&H00D8FF&\fs40}And If-Statements can be combined with an ELSE statement, 
-Dialogue: 0,0:03:45.66,0:03:47.44,720P-CN,,0,0,0,,当IF表达式为{\u1}假{\u0}时 ELSE语句就执行\N{\c&H00D8FF&\fs40}which acts as a catch-all if the expression is false.
+Dialogue: 0,0:03:45.66,0:03:47.44,720P-CN,,0,0,0,,当IF表达式为{\u1}假{\u0}时 ELSE语句就补充执行\N{\c&H00D8FF&\fs40}which acts as a catch-all if the expression is false.
 Dialogue: 0,0:03:47.44,0:03:51.16,720P-CN,,0,0,0,,如果关卡不是1 ELSE代码块就会执行\N{\c&H00D8FF&\fs40}If the level is not 1, the code inside the ELSE block will be executed instead, 
 Dialogue: 0,0:03:51.16,0:03:54.96,720P-CN,,0,0,0,,需要消灭的虫子数=当前关卡*3\N{\c&H00D8FF&\fs40}and the number of bugs that Grace has to battle is set to 3 times the level number.
 Dialogue: 0,0:03:54.96,0:03:59.24,720P-CN,,0,0,0,,所以第2关6只虫 第3关有9只 以此类推\N{\c&H00D8FF&\fs40}So on level 2, it would be six bugs, and on level 3 there's 9, and so on.
@@ -116,7 +116,7 @@ Dialogue: 0,0:04:18.96,0:04:22.10,720P-CN,,0,0,0,,其中一种是WHILE语句 又
 Dialogue: 0,0:04:22.10,0:04:25.41,720P-CN,,0,0,0,,跟你想的一样 只要条件为{\u1}真{\u0} 它就一直循环执行\N{\c&H00D8FF&\fs40}As you might have guessed, this loops a piece of code "while" a condition is true. 
 Dialogue: 0,0:04:25.41,0:04:28.78,720P-CN,,0,0,0,,不管编程语言如何 WHLE循环看起来都像这样\N{\c&H00D8FF&\fs40}Regardless of the programming language, they look something like this:
 Dialogue: 0,0:04:28.78,0:04:30.62,720P-CN,,0,0,0,,回到我们的游戏 假如到了某个时候\N{\c&H00D8FF&\fs40}In our game, let's say at certain points, 
-Dialogue: 0,0:04:30.62,0:04:33.42,720P-CN,,0,0,0,,友好的同事会重新补充格蕾丝的继电器库存 太棒了\N{\c&H00D8FF&\fs40}a friendly colleague restocks Grace with relays! Hooray!
+Dialogue: 0,0:04:30.62,0:04:33.42,720P-CN,,0,0,0,,友好的同事会补充格蕾丝的继电器库存 太棒了\N{\c&H00D8FF&\fs40}a friendly colleague restocks Grace with relays! Hooray!
 Dialogue: 0,0:04:33.42,0:04:37.62,720P-CN,,0,0,0,,为了动态展示他补满库存到4的过程 我们使用WHILE循环\N{\c&H00D8FF&\fs40}To animate him replenishing our stock back up to a maximum of 4, we can use a while loop.
 Dialogue: 0,0:04:37.62,0:04:39.00,720P-CN,,0,0,0,,来看看这个代码\N{\c&H00D8FF&\fs40}Let's walk through this code.
 Dialogue: 0,0:04:39.00,0:04:43.28,720P-CN,,0,0,0,,首先假设同事出现时 格蕾丝只剩1个继电器了\N{\c&H00D8FF&\fs40}First we'll assume that Grace only has 1 tube left when her colleague enters.
@@ -133,7 +133,7 @@ Dialogue: 0,0:05:16.06,0:05:17.84,720P-CN,,0,0,0,,现在继电器数的值是2\N
 Dialogue: 0,0:05:17.84,0:05:21.00,720P-CN,,0,0,0,,一次WHILE循环结束 然后再重新开始\N{\c&H00D8FF&\fs40}We've hit the end of the while loop, which jumps the program back up.
 Dialogue: 0,0:05:21.00,0:05:24.44,720P-CN,,0,0,0,,和之前一样 检查是否满足循环执行条件\N{\c&H00D8FF&\fs40}Just as before, we test the conditional to see if we're going to enter the loop.
 Dialogue: 0,0:05:24.44,0:05:29.40,720P-CN,,0,0,0,,继电器数小于4吗 是的 继电器数现在为2 所以继续执行循环\N{\c&H00D8FF&\fs40}Is relays less than 4? Well, yes, relays now equals 2, so we enter the loop again!
-Dialogue: 0,0:05:29.40,0:05:33.28,720P-CN,,0,0,0,,2+1=3 所以继电器数现在3 再执行循环\N{\c&H00D8FF&\fs40}2 plus 1 equals 3. So 3 is saved into relays. Loop again.
+Dialogue: 0,0:05:29.40,0:05:33.28,720P-CN,,0,0,0,,2+1=3 所以继电器数现在是3 再执行循环\N{\c&H00D8FF&\fs40}2 plus 1 equals 3. So 3 is saved into relays. Loop again.
 Dialogue: 0,0:05:33.28,0:05:36.44,720P-CN,,0,0,0,,3小于4吗 是的 再次执行循环\N{\c&H00D8FF&\fs40}Is 3 less than 4? Yes it is! Into the loop again.
 Dialogue: 0,0:05:36.44,0:05:40.46,720P-CN,,0,0,0,,3+1=4 继电器数现在是4 再次执行循环\N{\c&H00D8FF&\fs40}3 plus 1 equals 4. So we save 4 into relays. Loop again.
 Dialogue: 0,0:05:40.46,0:05:43.96,720P-CN,,0,0,0,,4小于4吗 不是的 所以条件现在为{\u1}假{\u0}\N{\c&H00D8FF&\fs40}Is 4 less than 4?....No! So the condition is now false,
@@ -154,8 +154,8 @@ Dialogue: 0,0:06:23.44,0:06:25.88,720P-CN,,0,0,0,,奖励分值由剩余继电器
 Dialogue: 0,0:06:25.88,0:06:29.20,720P-CN,,0,0,0,,随着游戏难度提高 只有技术更好才能剩下继电器\N{\c&H00D8FF&\fs40}As the game gets harder, it takes more skill to have unused relays,
 Dialogue: 0,0:06:29.20,0:06:32.24,720P-CN,,0,0,0,,所以奖励分数将按照当前关卡以指数形式增长\N{\c&H00D8FF&\fs40}so we want the bonus to go up exponentially based on the level.
 Dialogue: 0,0:06:32.24,0:06:35.24,720P-CN,,0,0,0,,需要写一段代码计算指数幂\N{\c&H00D8FF&\fs40}We need to write a piece of code that calculates exponents 
-Dialogue: 0,0:06:35.24,0:06:40.16,720P-CN,,0,0,0,,指数幂是一个数按一定次数与自身反复相乘 循环非常适合计算指数幂\N{\c&H00D8FF&\fs40}- that is, multiplying a number by itself a specific number of times. A loop is perfect for this!
-Dialogue: 0,0:06:40.16,0:06:43.90,720P-CN,,0,0,0,,首先初始化称为“Bounus(奖励)”的参数 并将其置为1\N{\c&H00D8FF&\fs40}First lets initialize a new variable called "bonus" and set it to 1.
+Dialogue: 0,0:06:35.24,0:06:40.16,720P-CN,,0,0,0,,指数幂是一个数与自身反复相乘一定次数 循环非常适合计算指数幂\N{\c&H00D8FF&\fs40}- that is, multiplying a number by itself a specific number of times. A loop is perfect for this!
+Dialogue: 0,0:06:40.16,0:06:43.90,720P-CN,,0,0,0,,首先初始化称为“Bounus(奖励)”的参数 并将其置为1\N{\c&H00D8FF&\fs40}First let's initialize a new variable called "bonus" and set it to 1.
 Dialogue: 0,0:06:43.90,0:06:48.08,720P-CN,,0,0,0,,然后 创建FOR循环 从1开始执行到当前关卡数\N{\c&H00D8FF&\fs40}Then, we create a FOR loop starting at 1, and looping up to the level number.
 Dialogue: 0,0:06:48.08,0:06:51.56,720P-CN,,0,0,0,,在循环内部 将奖励分值与继电器数相乘\N{\c&H00D8FF&\fs40}Inside that loop, we multiply bonus times the number of relays, 
 Dialogue: 0,0:06:51.56,0:06:53.72,720P-CN,,0,0,0,,并将新值覆盖原值\N{\c&H00D8FF&\fs40}and save that new value back into bonus.
@@ -172,7 +172,7 @@ Dialogue: 0,0:07:23.66,0:07:24.70,720P-CN,,0,0,0,,少就是多！\N{\c&H00D8FF&\
 Dialogue: 0,0:07:24.70,0:07:27.34,720P-CN,,0,0,0,,我们需要封装指数计算的代码\N{\c&H00D8FF&\fs40}What we want is a way to package up our exponent code
 Dialogue: 0,0:07:27.34,0:07:30.94,720P-CN,,0,0,0,,方便使用 获取结果 也可以忽略内部的复杂性\N{\c&H00D8FF&\fs40}so we can use it, get the result, and not have to see all the internal complexity.
 Dialogue: 0,0:07:30.94,0:07:33.88,720P-CN,,0,0,0,,我们再次提升了一个抽象等级\N{\c&H00D8FF&\fs40}We're once again moving up a new level of abstraction!
-Dialogue: 0,0:07:40.04,0:07:41.94,720P-CN,,0,0,0,,为了封装以及隐藏复杂性\N{\c&H00D8FF&\fs40}To compartmentalize and hide complexity,
+Dialogue: 0,0:07:40.04,0:07:41.94,720P-CN,,0,0,0,,为了分类以及隐藏复杂性\N{\c&H00D8FF&\fs40}To compartmentalize and hide complexity,
 Dialogue: 0,0:07:41.94,0:07:45.26,720P-CN,,0,0,0,,编程语言可以将多块代码封装为命名函数\N{\c&H00D8FF&\fs40}programming languages can package pieces of code into named functions,
 Dialogue: 0,0:07:45.26,0:07:48.92,720P-CN,,0,0,0,,在其他编程语言中也称为方法或子程序\N{\c&H00D8FF&\fs40}also called methods or subroutines in different programming languages.
 Dialogue: 0,0:07:48.92,0:07:53.34,720P-CN,,0,0,0,,这些函数能在程序的任意位置使用 只需要调用它的名字\N{\c&H00D8FF&\fs40}These functions can then be used by any other part of that program just by calling its name.
@@ -185,7 +185,7 @@ Dialogue: 0,0:08:10.40,0:08:13.30,720P-CN,,0,0,0,,它们俩的初始值来自程
 Dialogue: 0,0:08:13.30,0:08:15.26,720P-CN,,0,0,0,,将传递到函数中\N{\c&H00D8FF&\fs40} from some other part of the program.
 Dialogue: 0,0:08:15.26,0:08:17.56,720P-CN,,0,0,0,,剩下的代码和之前一样\N{\c&H00D8FF&\fs40}The rest of our code is the same as before, 
 Dialogue: 0,0:08:17.56,0:08:20.58,720P-CN,,0,0,0,,换用新的变量名放入函数中\N{\c&H00D8FF&\fs40}now tucked into our function and with new variable names.
-Dialogue: 0,0:08:20.58,0:08:23.14,720P-CN,,0,0,0,,最后 我们需要把指数代码的结果\N{\c&H00D8FF&\fs40}Finally, we need to send the result of our exponent code 
+Dialogue: 0,0:08:20.58,0:08:23.14,720P-CN,,0,0,0,,最后 我们需要把指数函数代码的结果\N{\c&H00D8FF&\fs40}Finally, we need to send the result of our exponent code 
 Dialogue: 0,0:08:23.14,0:08:25.30,720P-CN,,0,0,0,,回传给程序调用的部分\N{\c&H00D8FF&\fs40}back to the part of the program that requested it.
 Dialogue: 0,0:08:25.30,0:08:29.72,720P-CN,,0,0,0,,因此我们使用了RETURN语句 并返回保存了结果的变量“result”\N{\c&H00D8FF&\fs40}For this, we use a RETURN statement, and specify that the value in 'result' be returned.
 Dialogue: 0,0:08:29.72,0:08:31.90,720P-CN,,0,0,0,,完整的函数代码如下\N{\c&H00D8FF&\fs40}So our full function code looks like this:
