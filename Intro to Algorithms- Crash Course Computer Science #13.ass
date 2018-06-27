@@ -15,8 +15,10 @@ Audio File: Intro to Algorithms- Crash Course Computer Science #13.mp4
 Video File: Intro to Algorithms- Crash Course Computer Science #13.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.375000
-Video Position: 64
+Video Zoom Percent: 0.500000
+Scroll Position: 186
+Active Line: 204
+Video Position: 15826
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -28,40 +30,40 @@ Style: FOOT-NOTE,Noto Sans S Chinese Bold,45,&H00FFFFFF,&H000000FF,&H00000000,&H
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.64,0:00:04.64,OP-ED,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
-Dialogue: 0,0:00:02.66,0:00:05.66,720P-CN,,0,0,0,,大家好 我是凯莉·安 欢迎来到计算机速成课\N{\c&H00D8FF&\fs40}Hi, I'm Carrie Anne, and welcome to Crash Course Computer Science!
-Dialogue: 0,0:00:05.66,0:00:10.33,720P-CN,,0,0,0,,前两集里我们尝试了用高级编程语言编程\N{\c&H00D8FF&\fs40}Over the past two episodes, we got our first taste of programming in a high-level language,
+Dialogue: 0,0:00:02.66,0:00:05.66,720P-CN,,0,0,0,,大家好 我是凯莉·安 欢迎来到计算机科学速成课\N{\c&H00D8FF&\fs40}Hi, I'm Carrie Anne, and welcome to Crash Course Computer Science!
+Dialogue: 0,0:00:05.66,0:00:10.33,720P-CN,,0,0,0,,前两集里我们尝试了用高级语言编程\N{\c&H00D8FF&\fs40}Over the past two episodes, we got our first taste of programming in a high-level language,
 Dialogue: 0,0:00:10.33,0:00:11.40,720P-CN,,0,0,0,,例如Python或Java\N{\c&H00D8FF&\fs40}like Python or Java.
-Dialogue: 0,0:00:11.40,0:00:14.53,720P-CN,,0,0,0,,我们还说到了不同的编程语言语句 比如赋值语句\N{\c&H00D8FF&\fs40}We talked about different types of programming language statements – like assignments,
+Dialogue: 0,0:00:11.40,0:00:14.53,720P-CN,,0,0,0,,我们还说到了不同的编程语句 比如赋值语句\N{\c&H00D8FF&\fs40}We talked about different types of programming language statements – like assignments,
 Dialogue: 0,0:00:14.53,0:00:18.60,720P-CN,,0,0,0,,IF语句和循环语句 以及把语句放进函数 从而能执行计算\N{\c&H00D8FF&\fs40}ifs, and loops – as well as putting statements into functions that perform a computation,
 Dialogue: 0,0:00:18.60,0:00:20.13,720P-CN,,0,0,0,,例如计算指数幂\N{\c&H00D8FF&\fs40}like calculating an exponent.
-Dialogue: 0,0:00:20.13,0:00:24.46,720P-CN,,0,0,0,,重要的是我们写的计算指数幂的函数只是一种解决方法\N{\c&H00D8FF&\fs40}Importantly, the function we wrote to calculate exponents is only one possible solution.
-Dialogue: 0,0:00:24.46,0:00:27.93,720P-CN,,0,0,0,,还有其他写这个函数的方法——使用不同的语句和顺序 \N{\c&H00D8FF&\fs40}There are other ways to write this function – using different statements in different orders
+Dialogue: 0,0:00:20.13,0:00:24.46,720P-CN,,0,0,0,,重要的是 之前写的指数幂函数只是实现方式的一种\N{\c&H00D8FF&\fs40}Importantly, the function we wrote to calculate exponents is only one possible solution.
+Dialogue: 0,0:00:24.46,0:00:27.93,720P-CN,,0,0,0,,还有其他方法——按不同顺序执行不同语句 \N{\c&H00D8FF&\fs40}There are other ways to write this function – using different statements in different orders
 Dialogue: 0,0:00:27.93,0:00:30.46,720P-CN,,0,0,0,,也能得到同样的数值结果\N{\c&H00D8FF&\fs40}- that achieve exactly the same numerical result.
 Dialogue: 0,0:00:30.46,0:00:32.06,720P-CN,,0,0,0,,它们之间的差别就是算法\N{\c&H00D8FF&\fs40}The difference between them is the algorithm,
 Dialogue: 0,0:00:32.06,0:00:34.86,720P-CN,,0,0,0,,算法是完成计算的特定步骤\N{\c&H00D8FF&\fs40}that is the specific steps used to complete the computation.
-Dialogue: 0,0:00:34.86,0:00:38.20,720P-CN,,0,0,0,,有些算法优于其他 即使它们产生相同的结果\N{\c&H00D8FF&\fs40}Some algorithms are better than others even if they produce equal results.
+Dialogue: 0,0:00:34.86,0:00:38.20,720P-CN,,0,0,0,,即使得到的结果一样 有些算法也更好\N{\c&H00D8FF&\fs40}Some algorithms are better than others even if they produce equal results.
 Dialogue: 0,0:00:38.20,0:00:41.66,720P-CN,,0,0,0,,通常计算步骤越少 算法越好\N{\c&H00D8FF&\fs40}Generally, the fewer steps it takes to compute, the better it is,
-Dialogue: 0,0:00:41.66,0:00:45.53,720P-CN,,0,0,0,,不过有时候我们考虑其他因素 如占用多少内存\N{\c&H00D8FF&\fs40}though sometimes we care about other factors, like how much memory it uses.
-Dialogue: 0,0:00:45.53,0:00:49.80,720P-CN,,0,0,0,,算法这一术语来自于波斯博学家花拉子米\N{\c&H00D8FF&\fs40}The term algorithm comes from Persian polymath Muhammad Ibn Mūsā Al-Khwārizmī who was
-Dialogue: 0,0:00:49.80,0:00:52.06,720P-CN,,0,0,0,,他是一千多年前代数的鼻祖\N{\c&H00D8FF&\fs40}one of the fathers of algebra more than a millennium ago.
-Dialogue: 0,0:00:52.06,0:00:56.26,720P-CN,,0,0,0,,创造高效的算法这一早已存在于现代计算机之前的问题\N{\c&H00D8FF&\fs40}The crafting of efficient algorithms, a problem that existed long before modern computers
-Dialogue: 0,0:00:56.26,0:00:58.46,720P-CN,,0,0,0,,引发了围绕计算的一整个学科\N{\c&H00D8FF&\fs40}– led to a whole science surrounding computation,
-Dialogue: 0,0:00:58.46,0:01:02.73,720P-CN,,0,0,0,,接着进化成为现代的学科 没错 计算机科学\N{\c&H00D8FF&\fs40}which evolved into the modern discipline of... you guessed it! Computer Science!
-Dialogue: 0,0:01:11.66,0:01:15.40,720P-CN,,0,0,0,,排序是最常涉及的一种算法\N{\c&H00D8FF&\fs40}One of the most storied algorithmic problems in all of computer science is sorting
+Dialogue: 0,0:00:41.66,0:00:45.53,720P-CN,,0,0,0,,不过有时我们更在意其他因素 如占用内存的大小\N{\c&H00D8FF&\fs40}though sometimes we care about other factors, like how much memory it uses.
+Dialogue: 0,0:00:45.53,0:00:49.27,720P-CN,,0,0,0,,算法这一术语来自于波斯博学家 穆罕默德·伊本·穆萨·花拉子米\N{\c&H00D8FF&\fs40}The term algorithm comes from Persian polymath Muhammad Ibn Mūsā Al-Khwārizmī 
+Dialogue: 0,0:00:49.27,0:00:52.06,720P-CN,,0,0,0,,他在一千多年前开创了代数学\N{\c&H00D8FF&\fs40}who was one of the fathers of algebra more than a millennium ago.
+Dialogue: 0,0:00:52.06,0:00:56.26,720P-CN,,0,0,0,,早在现代计算机出现之前 如何设计高效算法就成为了人们关注的问题\N{\c&H00D8FF&\fs40}The crafting of efficient algorithms, a problem that existed long before modern computers
+Dialogue: 0,0:00:56.26,0:00:58.46,720P-CN,,0,0,0,,它催生了一门以计算为核心的科学\N{\c&H00D8FF&\fs40}– led to a whole science surrounding computation,
+Dialogue: 0,0:00:58.46,0:01:02.73,720P-CN,,0,0,0,,随后演变为一门现代学科 没错 就是计算机科学！\N{\c&H00D8FF&\fs40}which evolved into the modern discipline of... you guessed it! Computer Science!
+Dialogue: 0,0:01:11.66,0:01:15.40,720P-CN,,0,0,0,,计算机科学中最著名的一种算法问题是 排序\N{\c&H00D8FF&\fs40}One of the most storied algorithmic problems in all of computer science is sorting
 Dialogue: 0,0:01:15.40,0:01:17.93,720P-CN,,0,0,0,,像是排序名字 数字\N{\c&H00D8FF&\fs40}as in sorting names or sorting numbers.
 Dialogue: 0,0:01:17.93,0:01:19.80,720P-CN,,0,0,0,,计算机总是要排序\N{\c&H00D8FF&\fs40}Computers sort all the time.
-Dialogue: 0,0:01:19.80,0:01:23.00,720P-CN,,0,0,0,,查询最便宜的机票 按最近时间排列电子邮件\N{\c&H00D8FF&\fs40}Looking for the cheapest airfare, arranging your email by most recently sent,
+Dialogue: 0,0:01:19.80,0:01:23.00,720P-CN,,0,0,0,,查询最便宜的机票 按最近发送时间展示邮件\N{\c&H00D8FF&\fs40}Looking for the cheapest airfare, arranging your email by most recently sent,
 Dialogue: 0,0:01:23.00,0:01:27.00,720P-CN,,0,0,0,,按照姓氏展开通讯录 他们都需要排序\N{\c&H00D8FF&\fs40}or scrolling your contacts by last name - those all require sorting.
-Dialogue: 0,0:01:27.00,0:01:30.80,720P-CN,,0,0,0,,你可能会想 排序不那么难 能有多少种算法\N{\c&H00D8FF&\fs40}You might think “sorting isn't so tough... how many algorithms can there possibly be?”
+Dialogue: 0,0:01:27.00,0:01:30.80,720P-CN,,0,0,0,,你可能会想 排序不难 能有多少种算法呢\N{\c&H00D8FF&\fs40}You might think “sorting isn't so tough... how many algorithms can there possibly be?”
 Dialogue: 0,0:01:30.80,0:01:32.20,720P-CN,,0,0,0,,答案是：很多\N{\c&H00D8FF&\fs40}The answer is: a lot.
-Dialogue: 0,0:01:32.20,0:01:35.46,720P-CN,,0,0,0,,计算机学家花了几十年发明排序的算法\N{\c&H00D8FF&\fs40}Computer Scientists have spent decades inventing algorithms for sorting,
-Dialogue: 0,0:01:35.46,0:01:38.06,720P-CN,,0,0,0,,这些算法有一些炫酷的名字比如冒泡排序 意大利面排序\N{\c&H00D8FF&\fs40} with cool names like Bubble Sort and Spaghetti Sort.
+Dialogue: 0,0:01:32.20,0:01:35.46,720P-CN,,0,0,0,,几十年来 计算机学家发明了各种排序算法\N{\c&H00D8FF&\fs40}Computer Scientists have spent decades inventing algorithms for sorting,
+Dialogue: 0,0:01:35.46,0:01:38.06,720P-CN,,0,0,0,,有的名字很炫酷 比如冒泡排序 意大利面排序\N{\c&H00D8FF&\fs40} with cool names like Bubble Sort and Spaghetti Sort.
 Dialogue: 0,0:01:38.06,0:01:39.73,720P-CN,,0,0,0,,我们试一下排序\N{\c&H00D8FF&\fs40}Let's try sorting!
 Dialogue: 0,0:01:39.73,0:01:42.33,720P-CN,,0,0,0,,假设我们有一组去印第安纳波利斯的机票价格\N{\c&H00D8FF&\fs40}Imagine we have a set of airfare prices to Indianapolis.
 Dialogue: 0,0:01:42.33,0:01:46.86,720P-CN,,0,0,0,,我们下周会说到这样的数据如何在内存中表示 不过现在\N{\c&H00D8FF&\fs40}We'll talk about how data like this is represented in memory next week, but for now,
-Dialogue: 0,0:01:46.86,0:01:49.60,720P-CN,,0,0,0,,这样一系列的事物叫做数组\N{\c&H00D8FF&\fs40}a series of items like this is called an array.
-Dialogue: 0,0:01:49.60,0:01:53.00,720P-CN,,0,0,0,,让我们看看这些数字以决定如何程序化地排序\N{\c&H00D8FF&\fs40}Let's take a look at these numbers to help see how we might sort this programmatically.
-Dialogue: 0,0:01:53.00,0:01:55.00,720P-CN,,0,0,0,,一开始采用一个简单的算法\N{\c&H00D8FF&\fs40}We'll start with a simple algorithm.
+Dialogue: 0,0:01:46.86,0:01:49.60,720P-CN,,0,0,0,,这样一系列的对象叫做数组\N{\c&H00D8FF&\fs40}a series of items like this is called an array.
+Dialogue: 0,0:01:49.60,0:01:53.00,720P-CN,,0,0,0,,看下这些数字 以决定如何程序化地排序\N{\c&H00D8FF&\fs40}Let's take a look at these numbers to help see how we might sort this programmatically.
+Dialogue: 0,0:01:53.00,0:01:55.00,720P-CN,,0,0,0,,先用简单的算法\N{\c&H00D8FF&\fs40}We'll start with a simple algorithm.
 Dialogue: 0,0:01:55.00,0:01:57.73,720P-CN,,0,0,0,,首先向下扫描数组找到最小的数字\N{\c&H00D8FF&\fs40}First, let's scan down the array to find the smallest number.
 Dialogue: 0,0:01:57.73,0:01:59.73,720P-CN,,0,0,0,,最上面的是307\N{\c&H00D8FF&\fs40}Starting at the top with 307.
 Dialogue: 0,0:01:59.73,0:02:02.93,720P-CN,,0,0,0,,目前只看到它一个 所以是最小的\N{\c&H00D8FF&\fs40}It's the only number we've seen, so it's also the smallest.
@@ -70,50 +72,50 @@ Dialogue: 0,0:02:08.66,0:02:11.80,720P-CN,,0,0,0,,下一个是214 新的最小�
 Dialogue: 0,0:02:11.80,0:02:18.86,720P-CN,,0,0,0,,250不是 后面的384 299 312也都不是\N{\c&H00D8FF&\fs40}250 is not, neither is 384, 299, 223 or 312.
 Dialogue: 0,0:02:18.86,0:02:22.53,720P-CN,,0,0,0,,这样我们结束了扫描所有的数字 得到最小数字214\N{\c&H00D8FF&\fs40}So we've finished scanning all numbers, and 214 is the smallest.
 Dialogue: 0,0:02:22.53,0:02:27.73,720P-CN,,0,0,0,,为了按升序排列 把214和顶端的数字交换\N{\c&H00D8FF&\fs40}To put this into ascending order, we swap 214 with the number in the top location.
-Dialogue: 0,0:02:27.73,0:02:29.33,720P-CN,,0,0,0,,好的 我们整理好了第一个数字\N{\c&H00D8FF&\fs40}Great. We sorted one number!
-Dialogue: 0,0:02:29.33,0:02:32.26,720P-CN,,0,0,0,,现在重复同样的步骤 不过不是从最顶端开始\N{\c&H00D8FF&\fs40}Now we repeat the same procedure, but instead of starting at the top,
-Dialogue: 0,0:02:32.26,0:02:33.86,720P-CN,,0,0,0,,我们可以从下一个开始\N{\c&H00D8FF&\fs40} we can start one spot below.
+Dialogue: 0,0:02:27.73,0:02:29.33,720P-CN,,0,0,0,,好的 我们排序好了第一个数字\N{\c&H00D8FF&\fs40}Great. We sorted one number!
+Dialogue: 0,0:02:29.33,0:02:32.26,720P-CN,,0,0,0,,现在重复同样的步骤 不再从最顶端开始\N{\c&H00D8FF&\fs40}Now we repeat the same procedure, but instead of starting at the top,
+Dialogue: 0,0:02:32.26,0:02:33.86,720P-CN,,0,0,0,,我们可以从第二个开始\N{\c&H00D8FF&\fs40} we can start one spot below.
 Dialogue: 0,0:02:33.86,0:02:38.00,720P-CN,,0,0,0,,首先是239 作为新一轮的最小数字\N{\c&H00D8FF&\fs40}First we see 239, which we save as our new smallest number.
-Dialogue: 0,0:02:38.00,0:02:42.40,720P-CN,,0,0,0,,扫描余下的数组 发现223是第二最小的\N{\c&H00D8FF&\fs40}Scanning the rest of the array, we find 223 is the next smallest,
+Dialogue: 0,0:02:38.00,0:02:42.40,720P-CN,,0,0,0,,扫描余下的数组 发现223是第二小的\N{\c&H00D8FF&\fs40}Scanning the rest of the array, we find 223 is the next smallest,
 Dialogue: 0,0:02:42.40,0:02:44.80,720P-CN,,0,0,0,,于是把它和第二个位置的数字交换\N{\c&H00D8FF&\fs40}so we swap this with the number in the second spot.
 Dialogue: 0,0:02:44.80,0:02:47.73,720P-CN,,0,0,0,,再次重复 从第三个数字往下扫描\N{\c&H00D8FF&\fs40}Now we repeat again, starting from the third number down.
 Dialogue: 0,0:02:47.73,0:02:50.66,720P-CN,,0,0,0,,这一次 交换239和307\N{\c&H00D8FF&\fs40}This time, we swap 239 with 307.
-Dialogue: 0,0:02:50.66,0:02:55.00,720P-CN,,0,0,0,,这个过程一直持续到确定最后一个数字\N{\c&H00D8FF&\fs40}This process continues until we get to the very last number, and voila,
-Dialogue: 0,0:02:55.00,0:02:58.33,720P-CN,,0,0,0,,瞧 数组就排序好了 你可以预定去印第安纳波利斯的机票了\N{\c&H00D8FF&\fs40} the array is sorted and you're ready to book that flight to Indianapolis!
-Dialogue: 0,0:02:58.33,0:03:02.46,720P-CN,,0,0,0,,刚才的过程只是排序的一种方法 一种算法\N{\c&H00D8FF&\fs40}The process we just walked through is one way - or one algorithm - sorting an array.
-Dialogue: 0,0:03:02.46,0:03:05.60,720P-CN,,0,0,0,,它叫做选择排序 非常基础\N{\c&H00D8FF&\fs40}It's called Selection Sort - and it's pretty basic.
-Dialogue: 0,0:03:05.60,0:03:06.86,720P-CN,,0,0,0,,这是选择算法的伪代码\N{\c&H00D8FF&\fs40}Here's the pseudo-code.
+Dialogue: 0,0:02:50.66,0:02:55.00,720P-CN,,0,0,0,,一直重复这个步骤 直到确定最后一个数字\N{\c&H00D8FF&\fs40}This process continues until we get to the very last number, and voila,
+Dialogue: 0,0:02:55.00,0:02:58.33,720P-CN,,0,0,0,,瞧 数组排序好了 你可以预定去印第安纳波利斯的机票了\N{\c&H00D8FF&\fs40} the array is sorted and you're ready to book that flight to Indianapolis!
+Dialogue: 0,0:02:58.33,0:03:02.46,720P-CN,,0,0,0,,刚才的过程只是排序的方式/算法之一\N{\c&H00D8FF&\fs40}The process we just walked through is one way - or one algorithm - sorting an array.
+Dialogue: 0,0:03:02.46,0:03:05.60,720P-CN,,0,0,0,,叫做选择排序 非常基础\N{\c&H00D8FF&\fs40}It's called Selection Sort - and it's pretty basic.
+Dialogue: 0,0:03:05.60,0:03:06.86,720P-CN,,0,0,0,,下面它的伪代码\N{\c&H00D8FF&\fs40}Here's the pseudo-code.
 Dialogue: 0,0:03:06.86,0:03:10.80,720P-CN,,0,0,0,,这个函数可以排序8个 80个 或是8千万个数字\N{\c&H00D8FF&\fs40}This function can be used to sort 8, 80, or 80 million numbers
 Dialogue: 0,0:03:10.80,0:03:14.13,720P-CN,,0,0,0,,一旦写出了函数 就可以反复使用\N{\c&H00D8FF&\fs40}- and once you've written the function, you can use it over and over again.
-Dialogue: 0,0:03:14.13,0:03:17.80,720P-CN,,0,0,0,,这个算法里 我们从上到下遍历每一个位置\N{\c&H00D8FF&\fs40}With this sort algorithm, we loop through each position in the array, from top to bottom,
-Dialogue: 0,0:03:17.80,0:03:20.60,720P-CN,,0,0,0,,对每一个位置都要遍历一遍数列\N{\c&H00D8FF&\fs40}and then for each of those positions, we have to loop through the array
+Dialogue: 0,0:03:14.13,0:03:17.80,720P-CN,,0,0,0,,这个算法里 我们从上到下遍历数组每一个位置\N{\c&H00D8FF&\fs40}With this sort algorithm, we loop through each position in the array, from top to bottom,
+Dialogue: 0,0:03:17.80,0:03:20.60,720P-CN,,0,0,0,,对每一个位置都要遍历一遍数组\N{\c&H00D8FF&\fs40}and then for each of those positions, we have to loop through the array
 Dialogue: 0,0:03:20.60,0:03:22.26,720P-CN,,0,0,0,,找到最小的数字然后交换位置\N{\c&H00D8FF&\fs40}to find the smallest number to swap.
 Dialogue: 0,0:03:22.26,0:03:26.33,720P-CN,,0,0,0,,代码展示了这个过程 FOR循环里嵌套了另一个FOR循环\N{\c&H00D8FF&\fs40}You can see this in the code, where one FOR loop is nested inside of another FOR loop.
-Dialogue: 0,0:03:26.33,0:03:30.73,720P-CN,,0,0,0,,这表明 简单来说如排序N个事物就要循环N次\N{\c&H00D8FF&\fs40}This means, very roughly, that if we want to sort N items, we have to loop N times,
-Dialogue: 0,0:03:30.73,0:03:36.26,720P-CN,,0,0,0,,每一次循环里再循环N次 总计大约NxN或N的平方次\N{\c&H00D8FF&\fs40}inside of which, we loop N times, for a grand total of roughly N times N loops Or N squared.
+Dialogue: 0,0:03:26.33,0:03:30.73,720P-CN,,0,0,0,,这表明 简单来说如排序N个对象就要循环N次\N{\c&H00D8FF&\fs40}This means, very roughly, that if we want to sort N items, we have to loop N times,
+Dialogue: 0,0:03:30.73,0:03:36.26,720P-CN,,0,0,0,,每一次循环里再循环N次 总计大约NxN或N^2\N{\c&H00D8FF&\fs40}inside of which, we loop N times, for a grand total of roughly N times N loops Or N squared.
 Dialogue: 0,0:03:36.26,0:03:40.13,720P-CN,,0,0,0,,输入数据的大小与算法运行的步数之间的关系\N{\c&H00D8FF&\fs40}This relationship of input size to the number of steps the algorithm takes to run
-Dialogue: 0,0:03:40.13,0:03:44.00,720P-CN,,0,0,0,,刻画了选择排序算法的复杂度\N{\c&H00D8FF&\fs40} characterizes the complexity of the Selection Sort algorithm.
-Dialogue: 0,0:03:44.00,0:03:47.93,720P-CN,,0,0,0,,给出了算法速度快慢的估计\N{\c&H00D8FF&\fs40}It gives you an approximation of how fast, or slow, an algorithm is going to be.
-Dialogue: 0,0:03:47.93,0:03:52.40,720P-CN,,0,0,0,,计算机学家把这个增长阶数认真地写成\N{\c&H00D8FF&\fs40}Computer Scientists write this order of growth in something known as - no joke -
+Dialogue: 0,0:03:40.13,0:03:44.00,720P-CN,,0,0,0,,就是选择排序算法的复杂度\N{\c&H00D8FF&\fs40} characterizes the complexity of the Selection Sort algorithm.
+Dialogue: 0,0:03:44.00,0:03:47.93,720P-CN,,0,0,0,,复杂度给出了算法速度快慢的估计\N{\c&H00D8FF&\fs40}It gives you an approximation of how fast, or slow, an algorithm is going to be.
+Dialogue: 0,0:03:47.93,0:03:52.40,720P-CN,,0,0,0,,计算机科学家把这个增长阶数记为\N{\c&H00D8FF&\fs40}Computer Scientists write this order of growth in something known as - no joke -
 Dialogue: 0,0:03:52.40,0:03:53.80,720P-CN,,0,0,0,,大O符号\N{\c&H00D8FF&\fs40}“big O notation”.
-Dialogue: 0,0:03:53.80,0:03:55.80,720P-CN,,0,0,0,,N平方不是特别高效\N{\c&H00D8FF&\fs40}N squared is not particularly efficient.
+Dialogue: 0,0:03:53.80,0:03:55.80,720P-CN,,0,0,0,,O(n^2)算法效率不高\N{\c&H00D8FF&\fs40}N squared is not particularly efficient.
 Dialogue: 0,0:03:55.80,0:04:00.40,720P-CN,,0,0,0,,我们的例子数组中n=8 8的平方是64\N{\c&H00D8FF&\fs40}Our example array had n = 8 items, and 8 squared is 64.
-Dialogue: 0,0:04:00.40,0:04:03.73,720P-CN,,0,0,0,,如果把规模从8增加到80\N{\c&H00D8FF&\fs40}If we increase the size of our array from 8 items to 80,
+Dialogue: 0,0:04:00.40,0:04:03.73,720P-CN,,0,0,0,,如果把数组长度从8增加到80\N{\c&H00D8FF&\fs40}If we increase the size of our array from 8 items to 80,
 Dialogue: 0,0:04:03.73,0:04:07.93,720P-CN,,0,0,0,,运行时间就会是80的平方——6,400\N{\c&H00D8FF&\fs40}the running time is now 80 squared, which is 6,400.
 Dialogue: 0,0:04:07.93,0:04:11.06,720P-CN,,0,0,0,,所以即使数组只增长了10倍 从8到80\N{\c&H00D8FF&\fs40}So although our array only grew by 10 times - from 8 to 80
 Dialogue: 0,0:04:11.06,0:04:16.00,720P-CN,,0,0,0,,运行时间却增加了100倍 从64到6,400\N{\c&H00D8FF&\fs40}- the running time increased by 100 times - from 64 to 6,400!
-Dialogue: 0,0:04:16.00,0:04:18.60,720P-CN,,0,0,0,,当数组更大时这一现象会被放大\N{\c&H00D8FF&\fs40}This effect magnifies as the array gets larger.
+Dialogue: 0,0:04:16.00,0:04:18.60,720P-CN,,0,0,0,,当数组更大时 效果会更显著\N{\c&H00D8FF&\fs40}This effect magnifies as the array gets larger.
 Dialogue: 0,0:04:18.60,0:04:21.20,720P-CN,,0,0,0,,对谷歌这样的大公司会是很大的问题\N{\c&H00D8FF&\fs40}That's a big problem for a company like Google,
 Dialogue: 0,0:04:21.20,0:04:24.00,720P-CN,,0,0,0,,谷歌需要排序数百万至数十亿的条目\N{\c&H00D8FF&\fs40}which has to sort arrays with millions or billions of entries.
-Dialogue: 0,0:04:24.00,0:04:26.80,720P-CN,,0,0,0,,你可能会问 作为不断成长的计算机学家\N{\c&H00D8FF&\fs40}So, you might ask, as a burgeoning computer scientist,
+Dialogue: 0,0:04:24.00,0:04:26.80,720P-CN,,0,0,0,,你可能会问 作为迅速成长的计算机科学家\N{\c&H00D8FF&\fs40}So, you might ask, as a burgeoning computer scientist,
 Dialogue: 0,0:04:26.80,0:04:28.93,720P-CN,,0,0,0,,有没有更高效的排序算法\N{\c&H00D8FF&\fs40} is there a more efficient sorting algorithm?
-Dialogue: 0,0:04:28.93,0:04:33.33,720P-CN,,0,0,0,,让我们回到原来未排序的数组 尝试另一个不同的算法 归并算法\N{\c&H00D8FF&\fs40}Let's go back to our old, unsorted array and try a different algorithm, merge sort.
-Dialogue: 0,0:04:33.33,0:04:36.86,720P-CN,,0,0,0,,归并算法的第一步是检查数组大小是否大于1\N{\c&H00D8FF&\fs40}The first thing merge sort does is check if the size of the array is greater than 1.
+Dialogue: 0,0:04:28.93,0:04:33.33,720P-CN,,0,0,0,,让我们回到原来未排序的数组 尝试另一个不同的算法 归并排序\N{\c&H00D8FF&\fs40}Let's go back to our old, unsorted array and try a different algorithm, merge sort.
+Dialogue: 0,0:04:33.33,0:04:36.86,720P-CN,,0,0,0,,归并算法的第一步是检查数组长度是否大于1\N{\c&H00D8FF&\fs40}The first thing merge sort does is check if the size of the array is greater than 1.
 Dialogue: 0,0:04:36.86,0:04:39.20,720P-CN,,0,0,0,,如果大于1 就将数组分平分\N{\c&H00D8FF&\fs40}If it is, it splits the array into two halves.
 Dialogue: 0,0:04:39.20,0:04:42.80,720P-CN,,0,0,0,,我们的数组长度是8 它分为两个长度为4的数组\N{\c&H00D8FF&\fs40}Since our array is size 8, it gets split into two arrays of size 4.
 Dialogue: 0,0:04:42.80,0:04:47.26,720P-CN,,0,0,0,,这两个数组仍大于1 于是再次拆分 形成长度为2的数组\N{\c&H00D8FF&\fs40}These are still bigger than size 1, so they get split again, into arrays of size 2,
-Dialogue: 0,0:04:47.26,0:04:50.33,720P-CN,,0,0,0,,最后他们分裂成8个长度为1的数组\N{\c&H00D8FF&\fs40}and finally they split into 8 arrays with 1 item in each.
-Dialogue: 0,0:04:50.33,0:04:53.26,720P-CN,,0,0,0,,现在开始合并 这是归并排序名字的由来\N{\c&H00D8FF&\fs40}Now we are ready to merge, which is how “merge sort” gets its name.
+Dialogue: 0,0:04:47.26,0:04:50.33,720P-CN,,0,0,0,,最后他们分为8个长度为1的数组\N{\c&H00D8FF&\fs40}and finally they split into 8 arrays with 1 item in each.
+Dialogue: 0,0:04:50.33,0:04:53.26,720P-CN,,0,0,0,,现在开始合并 这是归并排序得名的原因\N{\c&H00D8FF&\fs40}Now we are ready to merge, which is how “merge sort” gets its name.
 Dialogue: 0,0:04:53.26,0:04:56.86,720P-CN,,0,0,0,,从前面两个数组开始 分别看它们的第一个 其实也是唯一一个数字\N{\c&H00D8FF&\fs40}Starting with the first two arrays, we read the first - and only - value in them,
 Dialogue: 0,0:04:56.86,0:05:00.33,720P-CN,,0,0,0,,在这里 307和239\N{\c&H00D8FF&\fs40}in this case, 307 and 239.
 Dialogue: 0,0:05:00.33,0:05:03.20,720P-CN,,0,0,0,,239更小 于是把它放在第一位\N{\c&H00D8FF&\fs40}239 is smaller, so we take that value first.
@@ -121,7 +123,7 @@ Dialogue: 0,0:05:03.20,0:05:07.20,720P-CN,,0,0,0,,唯一剩下的数字是307 �
 Dialogue: 0,0:05:07.20,0:05:09.20,720P-CN,,0,0,0,,我们成功合并了两个数组\N{\c&H00D8FF&\fs40}We've successfully merged two arrays.
 Dialogue: 0,0:05:09.20,0:05:13.53,720P-CN,,0,0,0,,接着重复这个过程合并后面的数组对 按大小排列\N{\c&H00D8FF&\fs40}We now repeat this process for the remaining pairs, putting them each in sorted order.
 Dialogue: 0,0:05:13.53,0:05:15.06,720P-CN,,0,0,0,,然后重复合并的步骤\N{\c&H00D8FF&\fs40}Then the merge process repeats.
-Dialogue: 0,0:05:15.06,0:05:19.06,720P-CN,,0,0,0,,同样的处理前两个数组 比较各自的第一个数字\N{\c&H00D8FF&\fs40}Again, we take the first two arrays, and we compare the first numbers in them.
+Dialogue: 0,0:05:15.06,0:05:19.06,720P-CN,,0,0,0,,同样方法处理前两个数组 比较各自的第一个数字\N{\c&H00D8FF&\fs40}Again, we take the first two arrays, and we compare the first numbers in them.
 Dialogue: 0,0:05:19.06,0:05:22.26,720P-CN,,0,0,0,,这一次是239和214\N{\c&H00D8FF&\fs40}This time its 239 and 214.
 Dialogue: 0,0:05:22.26,0:05:25.66,720P-CN,,0,0,0,,214更小 所以先取出它\N{\c&H00D8FF&\fs40}214 is lowest, so we take that number first.
 Dialogue: 0,0:05:25.66,0:05:30.86,720P-CN,,0,0,0,,然后再比较两个数组的第一个数 230和250\N{\c&H00D8FF&\fs40}Now we look again at the first two numbers in both arrays: 239 and 250.
@@ -138,100 +140,100 @@ Dialogue: 0,0:06:00.13,0:06:01.06,720P-CN,,0,0,0,,取出较小的\N{\c&H00D8FF&\
 Dialogue: 0,0:06:01.06,0:06:05.20,720P-CN,,0,0,0,,重复这一过程直到所有数字都合并 这样数组就再次完全排序好了\N{\c&H00D8FF&\fs40}We repeat this until all the numbers are merged, and then our array is fully sorted again!
 Dialogue: 0,0:06:05.20,0:06:09.00,720P-CN,,0,0,0,,坏消息是：无论我们排序了多少次 \N{\c&H00D8FF&\fs40}The bad news is: no matter how many times we sort these, you're still going to have
 Dialogue: 0,0:06:09.00,0:06:11.86,720P-CN,,0,0,0,,你仍然必须花214美元飞到印第安纳波利斯\N{\c&H00D8FF&\fs40}to pay $214 to get to Indianapolis.
-Dialogue: 0,0:06:11.86,0:06:16.66,720P-CN,,0,0,0,,无论如何 归并排序的计算复杂度“大O”是N x Log N\N{\c&H00D8FF&\fs40}Anyway, the “Big O” computational complexity of merge sort is N times the Log of N.
-Dialogue: 0,0:06:16.66,0:06:19.86,720P-CN,,0,0,0,,N来自需要比较合并元素的次数\N{\c&H00D8FF&\fs40}The N comes from the number of times we need to compare and merge items,
+Dialogue: 0,0:06:11.86,0:06:16.66,720P-CN,,0,0,0,,无论如何 归并排序的计算复杂度“大O”是 O(NlogN)\N{\c&H00D8FF&\fs40}Anyway, the “Big O” computational complexity of merge sort is N times the Log of N.
+Dialogue: 0,0:06:16.66,0:06:19.86,720P-CN,,0,0,0,,N是需要比较、合并元素的次数\N{\c&H00D8FF&\fs40}The N comes from the number of times we need to compare and merge items,
 Dialogue: 0,0:06:19.86,0:06:22.20,720P-CN,,0,0,0,,它正比于数组中元素的个数\N{\c&H00D8FF&\fs40}which is directly proportional to the number of items in the array.
-Dialogue: 0,0:06:22.20,0:06:25.26,720P-CN,,0,0,0,,Log N来自于合并的步数\N{\c&H00D8FF&\fs40}The Log N comes from the number of merge steps.
+Dialogue: 0,0:06:22.20,0:06:25.26,720P-CN,,0,0,0,,LogN是合并的步数\N{\c&H00D8FF&\fs40}The Log N comes from the number of merge steps.
 Dialogue: 0,0:06:25.26,0:06:29.86,720P-CN,,0,0,0,,我们的例子中 8个元素的数组被分解成4个的 然后2个的 最后1个的\N{\c&H00D8FF&\fs40}In our example, we broke our array of 8 items into 4, then 2, and finally 1.
-Dialogue: 0,0:06:29.86,0:06:31.06,720P-CN,,0,0,0,,是3词分解\N{\c&H00D8FF&\fs40}That's 3 splits.
-Dialogue: 0,0:06:31.06,0:06:33.86,720P-CN,,0,0,0,,这样对半分解的次数\N{\c&H00D8FF&\fs40}Splitting in half repeatedly like this has a logarithmic relationship
+Dialogue: 0,0:06:29.86,0:06:31.06,720P-CN,,0,0,0,,分割了3次\N{\c&H00D8FF&\fs40}That's 3 splits.
+Dialogue: 0,0:06:31.06,0:06:33.86,720P-CN,,0,0,0,,这样重复对半分割的算法复杂度\N{\c&H00D8FF&\fs40}Splitting in half repeatedly like this has a logarithmic relationship
 Dialogue: 0,0:06:33.86,0:06:35.86,720P-CN,,0,0,0,,是元素个数的对数 相信我\N{\c&H00D8FF&\fs40}with the number of items - trust me!
-Dialogue: 0,0:06:35.86,0:06:38.40,720P-CN,,0,0,0,,8的以2为底的对数等于3\N{\c&H00D8FF&\fs40}Log base 2 of 8 equals 3 splits.
+Dialogue: 0,0:06:35.86,0:06:38.40,720P-CN,,0,0,0,,log2(8)=3\N{\c&H00D8FF&\fs40}Log base 2 of 8 equals 3 splits.
 Dialogue: 0,0:06:38.40,0:06:42.26,720P-CN,,0,0,0,,如果增加元素个数到16 即两倍于原来的个数\N{\c&H00D8FF&\fs40}If we double the size of our array to 16 - that's twice as many items to sort
-Dialogue: 0,0:06:42.26,0:06:46.66,720P-CN,,0,0,0,,分解次数只增加1 因为16的以2为底的对数等于4\N{\c&H00D8FF&\fs40}- it only increases the number of split steps by 1 since log base 2 of 16 equals 4.
+Dialogue: 0,0:06:42.26,0:06:46.66,720P-CN,,0,0,0,,分割次数只增加1 因为log2(16)=4\N{\c&H00D8FF&\fs40}- it only increases the number of split steps by 1 since log base 2 of 16 equals 4.
 Dialogue: 0,0:06:46.66,0:06:49.93,720P-CN,,0,0,0,,即使增大数组长度超过一千倍\N{\c&H00D8FF&\fs40}Even if we increase the size of the array more than a thousand times,
-Dialogue: 0,0:06:49.93,0:06:53.93,720P-CN,,0,0,0,,从8到8,000个元素 分解步数仍旧很低\N{\c&H00D8FF&\fs40}from 8 items to 8000 items, the number of split steps stays pretty low.
-Dialogue: 0,0:06:53.93,0:06:56.66,720P-CN,,0,0,0,,8000的以2为底的对数大约是13\N{\c&H00D8FF&\fs40}Log base 2 of 8000 is roughly 13.
+Dialogue: 0,0:06:49.93,0:06:53.93,720P-CN,,0,0,0,,从8到8,000个元素 分割次数仍然不多\N{\c&H00D8FF&\fs40}from 8 items to 8000 items, the number of split steps stays pretty low.
+Dialogue: 0,0:06:53.93,0:06:56.66,720P-CN,,0,0,0,,log2(8000) ≈ 13\N{\c&H00D8FF&\fs40}Log base 2 of 8000 is roughly 13.
 Dialogue: 0,0:06:56.66,0:07:00.40,720P-CN,,0,0,0,,变大了 但比3大不了多少 大约4倍\N{\c&H00D8FF&\fs40}That's more, but not much more than 3 - about four times larger
-Dialogue: 0,0:07:00.40,0:07:02.40,720P-CN,,0,0,0,,所以我们可以排序更多的数字\N{\c&H00D8FF&\fs40}- and yet we're sorting a lot more numbers.
-Dialogue: 0,0:07:02.40,0:07:06.33,720P-CN,,0,0,0,,归并算法比选择算法高效得多\N{\c&H00D8FF&\fs40}For this reason, merge sort is much more efficient than selection sort.
-Dialogue: 0,0:07:06.33,0:07:10.06,720P-CN,,0,0,0,,现在我可以更快地按照名字排列我的陶瓷猫收藏\N{\c&H00D8FF&\fs40}And now I can put my ceramic cat collection in name order MUCH faster!
-Dialogue: 0,0:07:10.06,0:07:13.40,720P-CN,,0,0,0,,真的有几十种算法可以概述 \N{\c&H00D8FF&\fs40}There are literally dozens of sorting algorithms we could review, but instead,
-Dialogue: 0,0:07:13.40,0:07:17.33,720P-CN,,0,0,0,,不过我想继续说其他我喜欢的经典算法问题类型\N{\c&H00D8FF&\fs40}I want to move on to my other favorite category of classic algorithmic problems:
-Dialogue: 0,0:07:17.33,0:07:18.20,720P-CN,,0,0,0,,图的遍历\N{\c&H00D8FF&\fs40}graph search!
-Dialogue: 0,0:07:18.20,0:07:20.86,720P-CN,,0,0,0,,图是用边连接的顶点的网络\N{\c&H00D8FF&\fs40}A graph is a network of nodes connected by lines.
-Dialogue: 0,0:07:20.86,0:07:23.53,720P-CN,,0,0,0,,你可以把它想象为一个地图 有城市和之间的道路\N{\c&H00D8FF&\fs40}You can think of it like a map, with cities and roads connecting them.
-Dialogue: 0,0:07:23.53,0:07:26.13,720P-CN,,0,0,0,,城市间的道路需要花不同的时间\N{\c&H00D8FF&\fs40}Routes between these cities take different amounts of time.
-Dialogue: 0,0:07:26.13,0:07:29.60,720P-CN,,0,0,0,,我们可以用花费或权重标识每条边\N{\c&H00D8FF&\fs40}We can label each line with what is called a cost or weight.
-Dialogue: 0,0:07:29.60,0:07:31.46,720P-CN,,0,0,0,,在这里 是旅行花费的周数\N{\c&H00D8FF&\fs40}In this case, it's weeks of travel.
+Dialogue: 0,0:07:00.40,0:07:02.40,720P-CN,,0,0,0,,然而我们却排序了多得多的数字\N{\c&H00D8FF&\fs40}- and yet we're sorting a lot more numbers.
+Dialogue: 0,0:07:02.40,0:07:06.33,720P-CN,,0,0,0,,因此归并排序比选择排序高效得多\N{\c&H00D8FF&\fs40}For this reason, merge sort is much more efficient than selection sort.
+Dialogue: 0,0:07:06.33,0:07:10.06,720P-CN,,0,0,0,,现在我可以更快地按照名字排序自己的陶瓷猫了\N{\c&H00D8FF&\fs40}And now I can put my ceramic cat collection in name order MUCH faster!
+Dialogue: 0,0:07:10.06,0:07:13.40,720P-CN,,0,0,0,,真的 我们可以讲几十种算法 \N{\c&H00D8FF&\fs40}There are literally dozens of sorting algorithms we could review, but instead,
+Dialogue: 0,0:07:13.40,0:07:17.33,720P-CN,,0,0,0,,不过我想讲自己喜欢的其他经典算法问题\N{\c&H00D8FF&\fs40}I want to move on to my other favorite category of classic algorithmic problems:
+Dialogue: 0,0:07:17.33,0:07:18.20,720P-CN,,0,0,0,,图搜索\N{\c&H00D8FF&\fs40}graph search!
+Dialogue: 0,0:07:18.20,0:07:20.86,720P-CN,,0,0,0,,图是用边连接顶点的网络\N{\c&H00D8FF&\fs40}A graph is a network of nodes connected by lines.
+Dialogue: 0,0:07:20.86,0:07:23.53,720P-CN,,0,0,0,,你可以把它想象成地图 有城市和连接城市的道路\N{\c&H00D8FF&\fs40}You can think of it like a map, with cities and roads connecting them.
+Dialogue: 0,0:07:23.53,0:07:26.13,720P-CN,,0,0,0,,城市间的道路花费的时间不同\N{\c&H00D8FF&\fs40}Routes between these cities take different amounts of time.
+Dialogue: 0,0:07:26.13,0:07:29.60,720P-CN,,0,0,0,,我们可以用开销或权重标识每条边\N{\c&H00D8FF&\fs40}We can label each line with what is called a cost or weight.
+Dialogue: 0,0:07:29.60,0:07:31.46,720P-CN,,0,0,0,,例子里 它表示旅行需要的周数\N{\c&H00D8FF&\fs40}In this case, it's weeks of travel.
 Dialogue: 0,0:07:31.46,0:07:34.93,720P-CN,,0,0,0,,假设我们想为驻扎在高庭的军队找到最快的路线\N{\c&H00D8FF&\fs40}Now let's say we want to find the fastest route for an army at Highgarden
-Dialogue: 0,0:07:34.93,0:07:36.53,720P-CN,,0,0,0,,到临冬城的城堡\N{\c&H00D8FF&\fs40}to reach the castle at Winterfell.
-Dialogue: 0,0:07:36.53,0:07:40.06,720P-CN,,0,0,0,,最简单的方法是尝试遍每一条路线\N{\c&H00D8FF&\fs40}The simplest approach would just be to try every single path exhaustively
-Dialogue: 0,0:07:40.06,0:07:42.06,720P-CN,,0,0,0,,并计算每一条路线的总花费\N{\c&H00D8FF&\fs40}and calculate the total cost of each.
-Dialogue: 0,0:07:42.06,0:07:43.66,720P-CN,,0,0,0,,那是一种暴力的方法\N{\c&H00D8FF&\fs40}That's a brute force approach.
+Dialogue: 0,0:07:34.93,0:07:36.53,720P-CN,,0,0,0,,到达临冬城\N{\c&H00D8FF&\fs40}to reach the castle at Winterfell.
+Dialogue: 0,0:07:36.53,0:07:40.06,720P-CN,,0,0,0,,最简单的方法是穷尽每一条路线\N{\c&H00D8FF&\fs40}The simplest approach would just be to try every single path exhaustively
+Dialogue: 0,0:07:40.06,0:07:42.06,720P-CN,,0,0,0,,并计算每一条路线的总时间\N{\c&H00D8FF&\fs40}and calculate the total cost of each.
+Dialogue: 0,0:07:42.06,0:07:43.66,720P-CN,,0,0,0,,那是一种暴力方法\N{\c&H00D8FF&\fs40}That's a brute force approach.
 Dialogue: 0,0:07:43.66,0:07:46.46,720P-CN,,0,0,0,,我们本可以用暴力法排序\N{\c&H00D8FF&\fs40}We could have used a brute force approach in sorting,
-Dialogue: 0,0:07:46.46,0:07:50.60,720P-CN,,0,0,0,,即系统地尝试每一个数组的排列并检查是否有序\N{\c&H00D8FF&\fs40} by systematically trying every permutation of the array to check if it's sorted.
-Dialogue: 0,0:07:50.60,0:07:54.60,720P-CN,,0,0,0,,这回是N的阶乘的复杂度 阶乘是定点数\N{\c&H00D8FF&\fs40}This would have an N factorial complexity - that is the number of nodes,
-Dialogue: 0,0:07:54.60,0:07:58.33,720P-CN,,0,0,0,,乘上它减1 再乘上它减2 这样直到1\N{\c&H00D8FF&\fs40}times one less, times one less than that, and so on until 1.
-Dialogue: 0,0:07:58.33,0:08:01.33,720P-CN,,0,0,0,,这比N平方更缓慢\N{\c&H00D8FF&\fs40}Which is way worse than even N squared.
-Dialogue: 0,0:08:01.33,0:08:03.20,720P-CN,,0,0,0,,不过我们有更精巧的方法\N{\c&H00D8FF&\fs40}But, we can be way more clever!
-Dialogue: 0,0:08:03.20,0:08:05.93,720P-CN,,0,0,0,,解决图的遍历经典的算法是\N{\c&H00D8FF&\fs40}The classic algorithmic solution to this graph problem was invented
-Dialogue: 0,0:08:05.93,0:08:10.26,720P-CN,,0,0,0,,计算机科学理论与实践的大神 艾兹格·迪科斯彻发明的\N{\c&H00D8FF&\fs40}by one of the greatest minds in computer science practice and theory, Edsger Dijkstra,
-Dialogue: 0,0:08:10.26,0:08:12.53,720P-CN,,0,0,0,,这也合理的命名为迪科斯彻算法\N{\c&H00D8FF&\fs40}so it's appropriately named Dijkstra's algorithm.
-Dialogue: 0,0:08:12.53,0:08:16.33,720P-CN,,0,0,0,,高庭开始时花费0周\N{\c&H00D8FF&\fs40}We start in Highgarden with a cost of 0, which we mark inside the node.
-Dialogue: 0,0:08:16.33,0:08:18.93,720P-CN,,0,0,0,,往后 把其他城市用问号标注\N{\c&H00D8FF&\fs40}For now, we mark all other cities with question marks
-Dialogue: 0,0:08:18.93,0:08:20.93,720P-CN,,0,0,0,,因为还不知道到那里的花费\N{\c&H00D8FF&\fs40}- we don't know the cost of getting to them yet.
-Dialogue: 0,0:08:20.93,0:08:23.93,720P-CN,,0,0,0,,迪科斯彻算法总是从最低花费的顶点开始\N{\c&H00D8FF&\fs40}Dijkstra's algorithm always starts with the node with lowest cost.
-Dialogue: 0,0:08:23.93,0:08:27.93,720P-CN,,0,0,0,,在这里 只有一个顶点高庭 所以从这里开始\N{\c&H00D8FF&\fs40}In this case, it only knows about one node, Highgarden, so it starts there.
-Dialogue: 0,0:08:27.93,0:08:32.60,720P-CN,,0,0,0,,然后跟踪一步就到达的顶点的道路\N{\c&H00D8FF&\fs40}It follows all paths from that node to all connecting nodes that are one step away,
-Dialogue: 0,0:08:32.60,0:08:34.60,720P-CN,,0,0,0,,并记录到每一个顶点的花费\N{\c&H00D8FF&\fs40}and records the cost to get to each of them.
-Dialogue: 0,0:08:34.60,0:08:36.46,720P-CN,,0,0,0,,算法的一轮就结束了\N{\c&H00D8FF&\fs40}That completes one round of the algorithm.
-Dialogue: 0,0:08:36.46,0:08:40.33,720P-CN,,0,0,0,,我们还没有到达临冬城 所以循环再次运行迪科斯彻算法\N{\c&H00D8FF&\fs40}We haven't encountered Winterfell yet, so we loop and run Dijkstra's algorithm again.
-Dialogue: 0,0:08:40.33,0:08:44.20,720P-CN,,0,0,0,,高庭已经经过了 下一个最低的是君临城\N{\c&H00D8FF&\fs40}With Highgarden already checked, the next lowest cost node is King's Landing.
-Dialogue: 0,0:08:44.20,0:08:47.93,720P-CN,,0,0,0,,跟前面一样 跟踪每个未经过的路去到相连的城市\N{\c&H00D8FF&\fs40}Just as before, we follow every unvisited line to any connecting cities.
+Dialogue: 0,0:07:46.46,0:07:50.60,720P-CN,,0,0,0,,即系统地试验数组的所有组合以检查其是否有序\N{\c&H00D8FF&\fs40} by systematically trying every permutation of the array to check if it's sorted.
+Dialogue: 0,0:07:50.60,0:07:54.60,720P-CN,,0,0,0,,这是 O(N!) 的复杂度 等于顶点数N\N{\c&H00D8FF&\fs40}This would have an N factorial complexity - that is the number of nodes,
+Dialogue: 0,0:07:54.60,0:07:58.33,720P-CN,,0,0,0,,乘N-1 再乘N-2 这样直到1\N{\c&H00D8FF&\fs40}times one less, times one less than that, and so on until 1.
+Dialogue: 0,0:07:58.33,0:08:01.33,720P-CN,,0,0,0,,这比O(N^2)慢得多\N{\c&H00D8FF&\fs40}Which is way worse than even N squared.
+Dialogue: 0,0:08:01.33,0:08:03.20,720P-CN,,0,0,0,,不过我们有更聪明的方法\N{\c&H00D8FF&\fs40}But, we can be way more clever!
+Dialogue: 0,0:08:03.20,0:08:05.93,720P-CN,,0,0,0,,解决图搜索的经典算法是\N{\c&H00D8FF&\fs40}The classic algorithmic solution to this graph problem was invented
+Dialogue: 0,0:08:05.93,0:08:10.26,720P-CN,,0,0,0,,计算机科学理论与实践的大神 艾兹赫尔·戴克斯特拉发明的\N{\c&H00D8FF&\fs40}by one of the greatest minds in computer science practice and theory, Edsger Dijkstra,
+Dialogue: 0,0:08:10.26,0:08:12.53,720P-CN,,0,0,0,,也就命名为戴克斯特拉算法\N{\c&H00D8FF&\fs40}so it's appropriately named Dijkstra's algorithm.
+Dialogue: 0,0:08:12.53,0:08:16.33,720P-CN,,0,0,0,,从高庭开始出发 在顶点里写上时间为0\N{\c&H00D8FF&\fs40}We start in Highgarden with a cost of 0, which we mark inside the node.
+Dialogue: 0,0:08:16.33,0:08:18.93,720P-CN,,0,0,0,,现在暂时把其他城市标注上问号\N{\c&H00D8FF&\fs40}For now, we mark all other cities with question marks
+Dialogue: 0,0:08:18.93,0:08:20.93,720P-CN,,0,0,0,,因为还不知道到那里需要多少时间\N{\c&H00D8FF&\fs40}- we don't know the cost of getting to them yet.
+Dialogue: 0,0:08:20.93,0:08:23.93,720P-CN,,0,0,0,,戴克斯特拉算法总是从最低开销的顶点开始\N{\c&H00D8FF&\fs40}Dijkstra's algorithm always starts with the node with lowest cost.
+Dialogue: 0,0:08:23.93,0:08:27.93,720P-CN,,0,0,0,,在这里 只有一个已知顶点高庭 所以把它设为起点\N{\c&H00D8FF&\fs40}In this case, it only knows about one node, Highgarden, so it starts there.
+Dialogue: 0,0:08:27.93,0:08:32.60,720P-CN,,0,0,0,,算法遍历所有与高庭相邻的顶点\N{\c&H00D8FF&\fs40}It follows all paths from that node to all connecting nodes that are one step away,
+Dialogue: 0,0:08:32.60,0:08:34.60,720P-CN,,0,0,0,,并记录到从高庭到每一个顶点的时间\N{\c&H00D8FF&\fs40}and records the cost to get to each of them.
+Dialogue: 0,0:08:34.60,0:08:36.46,720P-CN,,0,0,0,,这时结束一轮计算\N{\c&H00D8FF&\fs40}That completes one round of the algorithm.
+Dialogue: 0,0:08:36.46,0:08:40.33,720P-CN,,0,0,0,,我们还没有到达临冬城 所以再次循环 执行戴克斯特拉算法\N{\c&H00D8FF&\fs40}We haven't encountered Winterfell yet, so we loop and run Dijkstra's algorithm again.
+Dialogue: 0,0:08:40.33,0:08:44.20,720P-CN,,0,0,0,,高庭计算过了 下一个最低开销顶点是君临\N{\c&H00D8FF&\fs40}With Highgarden already checked, the next lowest cost node is King's Landing.
+Dialogue: 0,0:08:44.20,0:08:47.93,720P-CN,,0,0,0,,跟前面一样 遍历每个通往相邻城市的未访问路径\N{\c&H00D8FF&\fs40}Just as before, we follow every unvisited line to any connecting cities.
 Dialogue: 0,0:08:47.93,0:08:49.93,720P-CN,,0,0,0,,去往三叉戟的路花费5周\N{\c&H00D8FF&\fs40}The line to The Trident has a cost of 5.
-Dialogue: 0,0:08:49.93,0:08:52.60,720P-CN,,0,0,0,,不过我们要记录的是从高庭来的连续花费\N{\c&H00D8FF&\fs40}However, we want to keep a running cost from Highgarden,
-Dialogue: 0,0:08:52.60,0:08:57.26,720P-CN,,0,0,0,,所以到三叉戟的总花费是8+5即13周\N{\c&H00D8FF&\fs40}so the total cost of getting to the Trident is 8 plus 5, which is 13 weeks.
+Dialogue: 0,0:08:49.93,0:08:52.60,720P-CN,,0,0,0,,不过我们要记录的是从高庭开始的总时间\N{\c&H00D8FF&\fs40}However, we want to keep a running cost from Highgarden,
+Dialogue: 0,0:08:52.60,0:08:57.26,720P-CN,,0,0,0,,所以到三叉戟的总时间是8+5=13周\N{\c&H00D8FF&\fs40}so the total cost of getting to the Trident is 8 plus 5, which is 13 weeks.
 Dialogue: 0,0:08:57.26,0:09:02.33,720P-CN,,0,0,0,,现在沿着另一条路到奔流城 花费时间高达25周 共33周\N{\c&H00D8FF&\fs40}Now we follow the offroad path to Riverrun, which has a high cost of 25, for a total of 33.
-Dialogue: 0,0:09:02.33,0:09:05.80,720P-CN,,0,0,0,,但是可以看到奔流城已经有了一条道路\N{\c&H00D8FF&\fs40}But we can see inside of Riverrun that we've already found a path
-Dialogue: 0,0:09:05.80,0:09:07.20,720P-CN,,0,0,0,,花费更低只是10周\N{\c&H00D8FF&\fs40} with a lower cost of just 10.
-Dialogue: 0,0:09:07.20,0:09:10.46,720P-CN,,0,0,0,,所以舍弃新路径 仍用原来更好的路\N{\c&H00D8FF&\fs40}So we disregard our new path, and stick with the previous, better path.
-Dialogue: 0,0:09:10.46,0:09:14.46,720P-CN,,0,0,0,,我们检查了所有从君临城出发的路 没有到达临冬城的\N{\c&H00D8FF&\fs40}We've now explored every line from King's Landing and didn't find Winterfell,
-Dialogue: 0,0:09:14.46,0:09:15.60,720P-CN,,0,0,0,,我们继续\N{\c&H00D8FF&\fs40}so we move on.
+Dialogue: 0,0:09:02.33,0:09:05.80,720P-CN,,0,0,0,,但是可以看到奔流城已经有了一条路\N{\c&H00D8FF&\fs40}But we can see inside of Riverrun that we've already found a path
+Dialogue: 0,0:09:05.80,0:09:07.20,720P-CN,,0,0,0,,时间更少 只有10周\N{\c&H00D8FF&\fs40} with a lower cost of just 10.
+Dialogue: 0,0:09:07.20,0:09:10.46,720P-CN,,0,0,0,,所以丢弃新路径 沿用原来那条路 时间更短\N{\c&H00D8FF&\fs40}So we disregard our new path, and stick with the previous, better path.
+Dialogue: 0,0:09:10.46,0:09:14.46,720P-CN,,0,0,0,,我们遍历了所有从君临城出发的路径 都无法到达临冬城\N{\c&H00D8FF&\fs40}We've now explored every line from King's Landing and didn't find Winterfell,
+Dialogue: 0,0:09:14.46,0:09:15.60,720P-CN,,0,0,0,,继续\N{\c&H00D8FF&\fs40}so we move on.
 Dialogue: 0,0:09:15.60,0:09:18.53,720P-CN,,0,0,0,,接下来最低花费的顶点是奔流城 10周\N{\c&H00D8FF&\fs40}The next lowest cost node is Riverrun, at 10 weeks.
-Dialogue: 0,0:09:18.53,0:09:23.00,720P-CN,,0,0,0,,先查看去三叉戟的道路 总共花费10＋2 12周\N{\c&H00D8FF&\fs40}First we check the path to The Trident, which has a total cost of 10 plus 2, or 12.
+Dialogue: 0,0:09:18.53,0:09:23.00,720P-CN,,0,0,0,,先查看去三叉戟的道路 总共花费10＋2=12周\N{\c&H00D8FF&\fs40}First we check the path to The Trident, which has a total cost of 10 plus 2, or 12.
 Dialogue: 0,0:09:23.00,0:09:26.73,720P-CN,,0,0,0,,比之前13周的路径稍微快一些 \N{\c&H00D8FF&\fs40}That's slightly better than the previous path we found, which had a cost of 13,
-Dialogue: 0,0:09:26.73,0:09:29.00,720P-CN,,0,0,0,,所以更新到三叉戟的路径和花费\N{\c&H00D8FF&\fs40}so we update the path and cost to The Trident.
+Dialogue: 0,0:09:26.73,0:09:29.00,720P-CN,,0,0,0,,所以更新到三叉戟的路径和时间\N{\c&H00D8FF&\fs40}so we update the path and cost to The Trident.
 Dialogue: 0,0:09:29.00,0:09:31.66,720P-CN,,0,0,0,,奔流城还有一条通往派克城的路花费3周\N{\c&H00D8FF&\fs40}There is also a line from Riverrun to Pyke with a cost of 3.
-Dialogue: 0,0:09:31.66,0:09:35.33,720P-CN,,0,0,0,,10+3 13 优于原来的花费14\N{\c&H00D8FF&\fs40}10 plus 3 is 13, which beats the previous cost of 14,
-Dialogue: 0,0:09:35.33,0:09:37.86,720P-CN,,0,0,0,,于是同样的更新派克城的路径和花费\N{\c&H00D8FF&\fs40}and so we update Pyke's path and cost as well.
+Dialogue: 0,0:09:31.66,0:09:35.33,720P-CN,,0,0,0,,10+3 13 优于原来的时间14\N{\c&H00D8FF&\fs40}10 plus 3 is 13, which beats the previous cost of 14,
+Dialogue: 0,0:09:35.33,0:09:37.86,720P-CN,,0,0,0,,同样的 更新派克城的路径和时间\N{\c&H00D8FF&\fs40}and so we update Pyke's path and cost as well.
 Dialogue: 0,0:09:37.86,0:09:40.73,720P-CN,,0,0,0,,从奔流城的所有道路都检查过了 你猜对了\N{\c&H00D8FF&\fs40}That's all paths from Riverrun checked... so... you guessed it,
-Dialogue: 0,0:09:40.73,0:09:42.40,720P-CN,,0,0,0,,迪科斯彻算法再次循环\N{\c&H00D8FF&\fs40} Dijkstra's algorithm loops again.
-Dialogue: 0,0:09:42.40,0:09:44.86,720P-CN,,0,0,0,,下一个最低花费的顶点是三叉戟\N{\c&H00D8FF&\fs40}The node with the next lowest cost is The Trident
-Dialogue: 0,0:09:44.86,0:09:48.86,720P-CN,,0,0,0,,三叉戟出发的唯一没检查的路是去临冬城的\N{\c&H00D8FF&\fs40}and the only line from The Trident that we haven't checked is a path to Winterfell!
+Dialogue: 0,0:09:40.73,0:09:42.40,720P-CN,,0,0,0,,戴克斯特拉算法再次循环\N{\c&H00D8FF&\fs40} Dijkstra's algorithm loops again.
+Dialogue: 0,0:09:42.40,0:09:44.86,720P-CN,,0,0,0,,下一个最低开销的顶点是三叉戟\N{\c&H00D8FF&\fs40}The node with the next lowest cost is The Trident
+Dialogue: 0,0:09:44.86,0:09:48.86,720P-CN,,0,0,0,,从三叉戟出发 唯一没检查的路是去临冬城的\N{\c&H00D8FF&\fs40}and the only line from The Trident that we haven't checked is a path to Winterfell!
 Dialogue: 0,0:09:48.86,0:09:53.40,720P-CN,,0,0,0,,花费10周 再加上到三叉戟的12周\N{\c&H00D8FF&\fs40}It has a cost of 10, plus we need to add in the cost of 12 it takes to get to The Trident,
 Dialogue: 0,0:09:53.40,0:09:55.40,720P-CN,,0,0,0,,总共是22周\N{\c&H00D8FF&\fs40}for a grand total cost of 22.
-Dialogue: 0,0:09:55.40,0:09:59.26,720P-CN,,0,0,0,,检查最后的路径从派克城到临冬城 总共31周\N{\c&H00D8FF&\fs40}We check our last path, from Pyke to Winterfell, which sums to 31.
-Dialogue: 0,0:09:59.26,0:10:02.60,720P-CN,,0,0,0,,我们得到了最低的总花费和最快的路径 \N{\c&H00D8FF&\fs40}Now we know the lowest total cost, and also the fastest route
-Dialogue: 0,0:10:02.60,0:10:05.20,720P-CN,,0,0,0,,军队绕过君临城到达临冬城\N{\c&H00D8FF&\fs40}for the army to get there, which avoids King's Landing!
-Dialogue: 0,0:10:05.20,0:10:07.93,720P-CN,,0,0,0,,迪科斯彻原创的算法与1956年提出\N{\c&H00D8FF&\fs40}Dijkstra's original algorithm, conceived in 1956,
-Dialogue: 0,0:10:07.93,0:10:10.93,720P-CN,,0,0,0,,复杂度是图中定点数的平方\N{\c&H00D8FF&\fs40} had a complexity of the number of nodes in the graph squared.
-Dialogue: 0,0:10:10.93,0:10:14.13,720P-CN,,0,0,0,,我们已经说过平方并不高效\N{\c&H00D8FF&\fs40}And squared, as we already discussed, is never great, because it means
-Dialogue: 0,0:10:14.13,0:10:17.86,720P-CN,,0,0,0,,因为这个算法不能扩展到更大的问题 如美国的公路地图\N{\c&H00D8FF&\fs40}the algorithm can't scale to big problems - like the entire road map of the United States.
-Dialogue: 0,0:10:17.86,0:10:21.20,720P-CN,,0,0,0,,幸运的是 迪科斯彻算法几年后得到了改进\N{\c&H00D8FF&\fs40}Fortunately, Dijkstra's algorithm was improved a few years later
+Dialogue: 0,0:09:55.40,0:09:59.26,720P-CN,,0,0,0,,检查最后从派克城到临冬城的路径 总共31周\N{\c&H00D8FF&\fs40}We check our last path, from Pyke to Winterfell, which sums to 31.
+Dialogue: 0,0:09:59.26,0:10:02.60,720P-CN,,0,0,0,,我们得到了军队到达临冬城的最短时间和最快路径 \N{\c&H00D8FF&\fs40}Now we know the lowest total cost, and also the fastest route
+Dialogue: 0,0:10:02.60,0:10:05.20,720P-CN,,0,0,0,,需要绕过君临城\N{\c&H00D8FF&\fs40}for the army to get there, which avoids King's Landing!
+Dialogue: 0,0:10:05.20,0:10:07.93,720P-CN,,0,0,0,,戴克斯特拉的原始算法于1956年提出\N{\c&H00D8FF&\fs40}Dijkstra's original algorithm, conceived in 1956,
+Dialogue: 0,0:10:07.93,0:10:10.93,720P-CN,,0,0,0,,复杂度是图中顶点数的平方O(n^2)\N{\c&H00D8FF&\fs40} had a complexity of the number of nodes in the graph squared.
+Dialogue: 0,0:10:10.93,0:10:14.13,720P-CN,,0,0,0,,我们已经说过O(n^2)并不高效\N{\c&H00D8FF&\fs40}And squared, as we already discussed, is never great, because it means
+Dialogue: 0,0:10:14.13,0:10:17.86,720P-CN,,0,0,0,,因为这个算法对大问题不适用 比如整个美国的公路地图\N{\c&H00D8FF&\fs40}the algorithm can't scale to big problems - like the entire road map of the United States.
+Dialogue: 0,0:10:17.86,0:10:21.20,720P-CN,,0,0,0,,幸运的是 几年后戴克斯特拉算法得到了改进\N{\c&H00D8FF&\fs40}Fortunately, Dijkstra's algorithm was improved a few years later
 Dialogue: 0,0:10:21.20,0:10:24.93,720P-CN,,0,0,0,,复杂度是顶点数乘顶点数的对数\N{\c&H00D8FF&\fs40}to take the number of nodes in the graph, times the log of the number of nodes,
-Dialogue: 0,0:10:24.93,0:10:26.40,720P-CN,,0,0,0,,加上边的条数\N{\c&H00D8FF&\fs40} PLUS the number of lines.
-Dialogue: 0,0:10:26.40,0:10:29.93,720P-CN,,0,0,0,,尽管看上去复杂一些 它确实更快\N{\c&H00D8FF&\fs40}Although this looks more complicated, it's actually quite a bit faster.
+Dialogue: 0,0:10:24.93,0:10:26.40,720P-CN,,0,0,0,,再加上边的条数\N{\c&H00D8FF&\fs40} PLUS the number of lines.
+Dialogue: 0,0:10:26.40,0:10:29.93,720P-CN,,0,0,0,,尽管看上去复杂一些 它确实快多了\N{\c&H00D8FF&\fs40}Although this looks more complicated, it's actually quite a bit faster.
 Dialogue: 0,0:10:29.93,0:10:33.40,720P-CN,,0,0,0,,代入示例的图来证明 有6个城市和9条路\N{\c&H00D8FF&\fs40}Plugging in our example graph, with 6 cities and 9 lines, proves it.
-Dialogue: 0,0:10:33.40,0:10:36.73,720P-CN,,0,0,0,,算法复杂度从36步下降到约14\N{\c&H00D8FF&\fs40}Our algorithm drops from 36 loops to around 14.
-Dialogue: 0,0:10:36.73,0:10:39.93,720P-CN,,0,0,0,,跟排序一样 图的遍历也有许多算法\N{\c&H00D8FF&\fs40}As with sorting, there are innumerable graph search algorithms,
-Dialogue: 0,0:10:39.93,0:10:41.40,720P-CN,,0,0,0,,有着各自的优缺点\N{\c&H00D8FF&\fs40}with different pros and cons.
-Dialogue: 0,0:10:41.40,0:10:45.13,720P-CN,,0,0,0,,你用谷歌地图查找线路时\N{\c&H00D8FF&\fs40}Every time you use a service like Google Maps to find directions, an algorithm
-Dialogue: 0,0:10:45.13,0:10:48.86,720P-CN,,0,0,0,,服务器会运行迪科斯彻类似的算法给你找出最好的路线\N{\c&H00D8FF&\fs40}much like Dijkstra's is running on servers to figure out the best route for you.
+Dialogue: 0,0:10:33.40,0:10:36.73,720P-CN,,0,0,0,,算法从36次循环下降到约14次\N{\c&H00D8FF&\fs40}Our algorithm drops from 36 loops to around 14.
+Dialogue: 0,0:10:36.73,0:10:39.93,720P-CN,,0,0,0,,跟排序一样 图搜索也有许多算法\N{\c&H00D8FF&\fs40}As with sorting, there are innumerable graph search algorithms,
+Dialogue: 0,0:10:39.93,0:10:41.40,720P-CN,,0,0,0,,它们各有优缺点\N{\c&H00D8FF&\fs40}with different pros and cons.
+Dialogue: 0,0:10:41.40,0:10:45.13,720P-CN,,0,0,0,,你用谷歌地图查找路线时\N{\c&H00D8FF&\fs40}Every time you use a service like Google Maps to find directions, an algorithm
+Dialogue: 0,0:10:45.13,0:10:48.86,720P-CN,,0,0,0,,服务器会运行类似戴克斯特拉的算法搜索最佳路线\N{\c&H00D8FF&\fs40}much like Dijkstra's is running on servers to figure out the best route for you.
 Dialogue: 0,0:10:48.86,0:10:52.60,720P-CN,,0,0,0,,算法随处可见 现代社会必不可少\N{\c&H00D8FF&\fs40}Algorithms are everywhere and the modern world would not be possible without them.
 Dialogue: 0,0:10:52.60,0:10:55.86,720P-CN,,0,0,0,,这一集我们只接触了算法的冰山一角\N{\c&H00D8FF&\fs40}We touched only the very tip of the algorithmic iceberg in this episode,
-Dialogue: 0,0:10:55.86,0:11:00.06,720P-CN,,0,0,0,,计算机科学家的核心任务是平衡现有的算法\N{\c&H00D8FF&\fs40} but a central part of being a computer scientist is leveraging existing algorithms
-Dialogue: 0,0:11:00.06,0:11:01.93,720P-CN,,0,0,0,,并根据需要写出新的算法\N{\c&H00D8FF&\fs40}and writing new ones when needed,
+Dialogue: 0,0:10:55.86,0:11:00.06,720P-CN,,0,0,0,,计算机科学家的核心任务\N{\c&H00D8FF&\fs40} but a central part of being a computer scientist is leveraging existing algorithms
+Dialogue: 0,0:11:00.06,0:11:01.93,720P-CN,,0,0,0,,是依据现有算法 在必要时创造新的\N{\c&H00D8FF&\fs40}and writing new ones when needed,
 Dialogue: 0,0:11:00.06,0:11:06.80,OP-ED,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
 Dialogue: 0,0:11:01.93,0:11:05.13,720P-CN,,0,0,0,,希望这个小小的体验能激发你进一步探索的兴趣\N{\c&H00D8FF&\fs40}and I hope this little taste has intrigued you to SEARCH further.
 Dialogue: 0,0:11:05.13,0:11:07.13,720P-CN,,0,0,0,,下周见\N{\c&H00D8FF&\fs40}I'll see you next week.
