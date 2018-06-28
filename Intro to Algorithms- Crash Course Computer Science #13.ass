@@ -84,7 +84,7 @@ Dialogue: 0,0:02:50.66,0:02:55.00,720P-CN,,0,0,0,,一直重复这个步骤 直�
 Dialogue: 0,0:02:55.00,0:02:58.33,720P-CN,,0,0,0,,瞧 数组排序好了 你可以预定去印第安纳波利斯的机票了\N{\c&H00D8FF&\fs40} the array is sorted and you're ready to book that flight to Indianapolis!
 Dialogue: 0,0:02:58.33,0:03:02.46,720P-CN,,0,0,0,,刚才的过程只是排序的方式/算法之一\N{\c&H00D8FF&\fs40}The process we just walked through is one way - or one algorithm - sorting an array.
 Dialogue: 0,0:03:02.46,0:03:05.60,720P-CN,,0,0,0,,叫做选择排序 非常基础\N{\c&H00D8FF&\fs40}It's called Selection Sort - and it's pretty basic.
-Dialogue: 0,0:03:05.60,0:03:06.86,720P-CN,,0,0,0,,下面它的伪代码\N{\c&H00D8FF&\fs40}Here's the pseudo-code.
+Dialogue: 0,0:03:05.60,0:03:06.86,720P-CN,,0,0,0,,下面是它的伪代码\N{\c&H00D8FF&\fs40}Here's the pseudo-code.
 Dialogue: 0,0:03:06.86,0:03:10.80,720P-CN,,0,0,0,,这个函数可以排序8个 80个 或是8千万个数字\N{\c&H00D8FF&\fs40}This function can be used to sort 8, 80, or 80 million numbers
 Dialogue: 0,0:03:10.80,0:03:14.13,720P-CN,,0,0,0,,一旦写出了函数 就可以反复使用\N{\c&H00D8FF&\fs40}- and once you've written the function, you can use it over and over again.
 Dialogue: 0,0:03:14.13,0:03:17.80,720P-CN,,0,0,0,,这个算法里 我们从上到下遍历数组每一个位置\N{\c&H00D8FF&\fs40}With this sort algorithm, we loop through each position in the array, from top to bottom,
@@ -94,7 +94,7 @@ Dialogue: 0,0:03:22.26,0:03:26.33,720P-CN,,0,0,0,,代码展示了这个过程 FO
 Dialogue: 0,0:03:26.33,0:03:30.73,720P-CN,,0,0,0,,这表明 简单来说如排序N个对象就要循环N次\N{\c&H00D8FF&\fs40}This means, very roughly, that if we want to sort N items, we have to loop N times,
 Dialogue: 0,0:03:30.73,0:03:36.26,720P-CN,,0,0,0,,每一次循环里再循环N次 总计大约NxN或N^2\N{\c&H00D8FF&\fs40}inside of which, we loop N times, for a grand total of roughly N times N loops Or N squared.
 Dialogue: 0,0:03:36.26,0:03:40.13,720P-CN,,0,0,0,,输入数据的大小与算法运行的步数之间的关系\N{\c&H00D8FF&\fs40}This relationship of input size to the number of steps the algorithm takes to run
-Dialogue: 0,0:03:40.13,0:03:44.00,720P-CN,,0,0,0,,就是选择排序算法的复杂度\N{\c&H00D8FF&\fs40} characterizes the complexity of the Selection Sort algorithm.
+Dialogue: 0,0:03:40.13,0:03:44.00,720P-CN,,0,0,0,,表征选择排序算法的复杂度\N{\c&H00D8FF&\fs40} characterizes the complexity of the Selection Sort algorithm.
 Dialogue: 0,0:03:44.00,0:03:47.93,720P-CN,,0,0,0,,复杂度给出了算法速度快慢的估计\N{\c&H00D8FF&\fs40}It gives you an approximation of how fast, or slow, an algorithm is going to be.
 Dialogue: 0,0:03:47.93,0:03:52.40,720P-CN,,0,0,0,,计算机科学家把这个增长阶数记为\N{\c&H00D8FF&\fs40}Computer Scientists write this order of growth in something known as - no joke -
 Dialogue: 0,0:03:52.40,0:03:53.80,720P-CN,,0,0,0,,大O符号\N{\c&H00D8FF&\fs40}“big O notation”.
@@ -110,7 +110,7 @@ Dialogue: 0,0:04:21.20,0:04:24.00,720P-CN,,0,0,0,,谷歌需要排序数百万至
 Dialogue: 0,0:04:24.00,0:04:26.80,720P-CN,,0,0,0,,你可能会问 作为迅速成长的计算机科学家\N{\c&H00D8FF&\fs40}So, you might ask, as a burgeoning computer scientist,
 Dialogue: 0,0:04:26.80,0:04:28.93,720P-CN,,0,0,0,,有没有更高效的排序算法\N{\c&H00D8FF&\fs40} is there a more efficient sorting algorithm?
 Dialogue: 0,0:04:28.93,0:04:33.33,720P-CN,,0,0,0,,让我们回到原来未排序的数组 尝试另一个不同的算法 归并排序\N{\c&H00D8FF&\fs40}Let's go back to our old, unsorted array and try a different algorithm, merge sort.
-Dialogue: 0,0:04:33.33,0:04:36.86,720P-CN,,0,0,0,,归并算法的第一步是检查数组长度是否大于1\N{\c&H00D8FF&\fs40}The first thing merge sort does is check if the size of the array is greater than 1.
+Dialogue: 0,0:04:33.33,0:04:36.86,720P-CN,,0,0,0,,归并排序的第一步是检查数组长度是否大于1\N{\c&H00D8FF&\fs40}The first thing merge sort does is check if the size of the array is greater than 1.
 Dialogue: 0,0:04:36.86,0:04:39.20,720P-CN,,0,0,0,,如果大于1 就将数组分平分\N{\c&H00D8FF&\fs40}If it is, it splits the array into two halves.
 Dialogue: 0,0:04:39.20,0:04:42.80,720P-CN,,0,0,0,,我们的数组长度是8 它分为两个长度为4的数组\N{\c&H00D8FF&\fs40}Since our array is size 8, it gets split into two arrays of size 4.
 Dialogue: 0,0:04:42.80,0:04:47.26,720P-CN,,0,0,0,,这两个数组仍大于1 于是再次拆分 形成长度为2的数组\N{\c&H00D8FF&\fs40}These are still bigger than size 1, so they get split again, into arrays of size 2,
