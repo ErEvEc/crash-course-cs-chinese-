@@ -15,7 +15,9 @@ Video File: Data Structures- Crash Course Computer Science #14.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Video Position: 77
+Scroll Position: 176
+Active Line: 193
+Video Position: 13256
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -27,197 +29,201 @@ Style: FOOT-NOTE,Noto Sans S Chinese Bold,45,&H00FFFFFF,&H000000FF,&H00000000,&H
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:03.19,0:00:07.93,OP-ED,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
-Dialogue: 0,0:00:03.20,0:00:05.46,720P-CN,,0,0,0,,大家好 我是凯莉·安 欢迎来到计算机速成课\N{\c&H00D8FF&\fs40}Hi, I'm Carrie Anne, and welcome to Crash Course Computer Science!
-Dialogue: 0,0:00:05.46,0:00:08.60,720P-CN,,0,0,0,,上一集 我们讨论了几个经典的算法案例\N{\c&H00D8FF&\fs40}Last episode, we discussed a few example classic algorithms,
-Dialogue: 0,0:00:08.60,0:00:12.06,720P-CN,,0,0,0,,像是给以列数字排序和找到图里的最短路径\N{\c&H00D8FF&\fs40} like sorting a list of numbers and finding the shortest path in a graph.
-Dialogue: 0,0:00:12.06,0:00:15.20,720P-CN,,0,0,0,,我们没有说算法执行的数据\N{\c&H00D8FF&\fs40}What we didn't talk much about, is how the data the algorithms ran on
-Dialogue: 0,0:00:15.20,0:00:16.66,720P-CN,,0,0,0,,是如何储存在计算机内存的\N{\c&H00D8FF&\fs40}was stored in computer memory.
+Dialogue: 0,0:00:03.20,0:00:05.46,720P-CN,,0,0,0,,大家好 我是凯莉·安 欢迎来到计算机科学速成课\N{\c&H00D8FF&\fs40}Hi, I'm Carrie Anne, and welcome to Crash Course Computer Science!
+Dialogue: 0,0:00:05.46,0:00:08.60,720P-CN,,0,0,0,,上一集 我们讨论了几个经典算法\N{\c&H00D8FF&\fs40}Last episode, we discussed a few example classic algorithms,
+Dialogue: 0,0:00:08.60,0:00:12.06,720P-CN,,0,0,0,,比如数字排序和图的最短路径\N{\c&H00D8FF&\fs40} like sorting a list of numbers and finding the shortest path in a graph.
+Dialogue: 0,0:00:12.06,0:00:15.20,720P-CN,,0,0,0,,我们没有说算法所需的数据\N{\c&H00D8FF&\fs40}What we didn't talk much about, is how the data the algorithms ran on
+Dialogue: 0,0:00:15.20,0:00:16.66,720P-CN,,0,0,0,,是如何储存在计算机内存里的\N{\c&H00D8FF&\fs40}was stored in computer memory.
 Dialogue: 0,0:00:16.66,0:00:21.53,FOOT-NOTE,,0,0,0,,{\pos(280,30)}【约翰·格林，美国作家，大学时双修了英语和宗教学】
-Dialogue: 0,0:00:16.66,0:00:19.40,720P-CN,,0,0,0,,你不想你的数据像约翰·格林的大学寝室\N{\c&H00D8FF&\fs40}You don't want your data to be like John Green's college dorm room,
-Dialogue: 0,0:00:19.40,0:00:21.40,720P-CN,,0,0,0,,食物 衣服 纸张扔的到处都是\N{\c&H00D8FF&\fs40}with food, clothing and papers strewn everywhere.
-Dialogue: 0,0:00:21.40,0:00:24.80,720P-CN,,0,0,0,,相反我们希望数据有一定结构 才能有顺序\N{\c&H00D8FF&\fs40}Instead, we want our data to be structured, so that it's organized,
-Dialogue: 0,0:00:24.80,0:00:26.86,720P-CN,,0,0,0,,使得数据能容易的取出和读取\N{\c&H00D8FF&\fs40}allowing things to be easily retrieved and read.
-Dialogue: 0,0:00:26.86,0:00:29.86,720P-CN,,0,0,0,,为此计算机学家使用数据结构\N{\c&H00D8FF&\fs40}For this, computer scientists use Data Structures!
-Dialogue: 0,0:00:38.93,0:00:42.53,720P-CN,,0,0,0,,我们上集已经介绍了一个基本的数据结构 数组\N{\c&H00D8FF&\fs40}We already introduced one basic data structure last episode, Arrays,
+Dialogue: 0,0:00:16.66,0:00:19.40,720P-CN,,0,0,0,,{\pos(640,722)}你不希望你的数据像约翰·格林的大学寝室一样乱\N{\c&H00D8FF&\fs40}You don't want your data to be like John Green's college dorm room,
+Dialogue: 0,0:00:19.40,0:00:21.40,720P-CN,,0,0,0,,{\pos(640,720)}食物 衣服 纸张扔的到处都是\N{\c&H00D8FF&\fs40}with food, clothing and papers strewn everywhere.
+Dialogue: 0,0:00:17.20,0:00:21.40,FOOT-NOTE,,0,0,0,,{\pos(150,568)}【声明：图中不是约翰·格林】
+Dialogue: 0,0:00:21.40,0:00:24.80,720P-CN,,0,0,0,,{\pos(640,718)}相反我们希望结构化数据 以便于组织 \N{\c&H00D8FF&\fs40}Instead, we want our data to be structured, so that it's organized,
+Dialogue: 0,0:00:24.80,0:00:26.86,720P-CN,,0,0,0,,{\pos(640,724)}使数据读取更容易\N{\c&H00D8FF&\fs40}allowing things to be easily retrieved and read.
+Dialogue: 0,0:00:22.20,0:00:26.86,FOOT-NOTE,,0,0,0,,{\pos(368,576)}【图中也不是约翰·格林】
+Dialogue: 0,0:00:26.86,0:00:29.86,720P-CN,,0,0,0,,所以计算机学家使用了数据结构\N{\c&H00D8FF&\fs40}For this, computer scientists use Data Structures!
+Dialogue: 0,0:00:38.93,0:00:42.53,720P-CN,,0,0,0,,我们上集已经介绍了一个基本数据结构 数组\N{\c&H00D8FF&\fs40}We already introduced one basic data structure last episode, Arrays,
 Dialogue: 0,0:00:42.53,0:00:45.40,720P-CN,,0,0,0,,某些语言中也叫列表或向量\N{\c&H00D8FF&\fs40}also called lists or Vectors in some languages.
-Dialogue: 0,0:00:45.40,0:00:47.53,720P-CN,,0,0,0,,内存中储存了一系列数值 \N{\c&H00D8FF&\fs40}These are a series of values stored in memory.
-Dialogue: 0,0:00:47.53,0:00:51.13,720P-CN,,0,0,0,,不是一个数字存入一个变量 像是j=5这种\N{\c&H00D8FF&\fs40}So instead of just a single value being saved into a variable, like ‘j equals 5’,
-Dialogue: 0,0:00:51.13,0:00:53.06,720P-CN,,0,0,0,,我们可以定义一整列数字\N{\c&H00D8FF&\fs40}we can define a whole series of numbers,
-Dialogue: 0,0:00:53.06,0:00:55.20,720P-CN,,0,0,0,,存入一个数组变量\N{\c&H00D8FF&\fs40}and save that into an array variable.
-Dialogue: 0,0:00:55.20,0:00:59.06,720P-CN,,0,0,0,,为了找到数组里的某个数 需要明确指标\N{\c&H00D8FF&\fs40}To be able to find a particular value in this array, we have to specify an index.
-Dialogue: 0,0:00:59.06,0:01:02.66,720P-CN,,0,0,0,,几乎所有编程语言的数组从指标0开始\N{\c&H00D8FF&\fs40}Almost all programming languages start arrays at index 0,
-Dialogue: 0,0:01:02.66,0:01:05.40,720P-CN,,0,0,0,,用方括号的格式访问数组\N{\c&H00D8FF&\fs40} and use a square bracket syntax to denote array access.
-Dialogue: 0,0:01:05.40,0:01:09.66,720P-CN,,0,0,0,,例如 我们想相加数组j中第一个和第三个数\N{\c&H00D8FF&\fs40}So, for example, if we want to add the values in the first and third spots of our array
-Dialogue: 0,0:01:09.66,0:01:14.06,720P-CN,,0,0,0,,并保存到a中 就可以写一行这样的代码\N{\c&H00D8FF&\fs40}‘j’, and save that into a variable ‘a’, we would write a line of code like this.
+Dialogue: 0,0:00:45.40,0:00:47.53,720P-CN,,0,0,0,,它是在内存中储存的一系列数值 \N{\c&H00D8FF&\fs40}These are a series of values stored in memory.
+Dialogue: 0,0:00:47.53,0:00:51.13,720P-CN,,0,0,0,,(有了它) 变量每次就不限于保存单个数字 像j=5这种\N{\c&H00D8FF&\fs40}So instead of just a single value being saved into a variable, like 'j equals 5',
+Dialogue: 0,0:00:51.13,0:00:53.06,720P-CN,,0,0,0,,而使我们能定义一整列数字\N{\c&H00D8FF&\fs40}we can define a whole series of numbers,
+Dialogue: 0,0:00:53.06,0:00:55.20,720P-CN,,0,0,0,,并保存到数组变量中\N{\c&H00D8FF&\fs40}and save that into an array variable.
+Dialogue: 0,0:00:55.20,0:00:59.06,720P-CN,,0,0,0,,为了找到数组里的某个数 需要指定索引\N{\c&H00D8FF&\fs40}To be able to find a particular value in this array, we have to specify an index.
+Dialogue: 0,0:00:59.06,0:01:02.66,720P-CN,,0,0,0,,几乎所有编程语言的数组索引都从0开始\N{\c&H00D8FF&\fs40}Almost all programming languages start arrays at index 0,
+Dialogue: 0,0:00:59.06,0:01:02.66,FOOT-NOTE,,0,0,0,,{\pos(34,28)}【索引从1开始的语言，如COBOL, Fortran, Lua, Mathmatica, MATLAB, Smalltalk等】
+Dialogue: 0,0:01:02.66,0:01:05.40,720P-CN,,0,0,0,,用方括号语法[ ] 访问数组元素\N{\c&H00D8FF&\fs40} and use a square bracket syntax to denote array access.
+Dialogue: 0,0:01:05.40,0:01:09.66,720P-CN,,0,0,0,,例如 我们相加数组j中第一个和第三个元素\N{\c&H00D8FF&\fs40}So, for example, if we want to add the values in the first and third spots of our array
+Dialogue: 0,0:01:09.66,0:01:14.06,720P-CN,,0,0,0,,并保存到a中 就可以写一行这样的代码\N{\c&H00D8FF&\fs40}'j', and save that into a variable 'a', we would write a line of code like this.
 Dialogue: 0,0:01:14.06,0:01:16.86,720P-CN,,0,0,0,,数组在内存中的储存方式很直观\N{\c&H00D8FF&\fs40}How an array is stored in memory is pretty straightforward.
 Dialogue: 0,0:01:16.86,0:01:21.53,720P-CN,,0,0,0,,为了简便 假设编译器选择内存地址1000储存我们的数组\N{\c&H00D8FF&\fs40}For simplicity, let's say that the compiler chose to store ours at memory location 1,000.
-Dialogue: 0,0:01:21.53,0:01:25.60,720P-CN,,0,0,0,,这个数组有7个数字 它们一个接一个的存在内存里\N{\c&H00D8FF&\fs40}The array contains 7 numbers, and these are stored one after another in memory,
+Dialogue: 0,0:01:21.53,0:01:25.60,720P-CN,,0,0,0,,这个数组有7个数字 它们先后存储在内存里\N{\c&H00D8FF&\fs40}The array contains 7 numbers, and these are stored one after another in memory,
 Dialogue: 0,0:01:25.60,0:01:26.26,720P-CN,,0,0,0,,如图所示\N{\c&H00D8FF&\fs40}as seen here.
-Dialogue: 0,0:01:26.26,0:01:30.66,720P-CN,,0,0,0,,这样当我们写 j[0] 时计算机访问内存地址1,000\N{\c&H00D8FF&\fs40}So when we write “j index of 0”, the computer goes to memory location 1,000,
-Dialogue: 0,0:01:30.66,0:01:33.60,720P-CN,,0,0,0,,偏置值是0 所以得到数值5\N{\c&H00D8FF&\fs40}with an offset of 0, and we get the value 5.
-Dialogue: 0,0:01:33.60,0:01:38.60,720P-CN,,0,0,0,,如果想获取 j[5] 程序去到内存地址1,000\N{\c&H00D8FF&\fs40}If we wanted to retrieve “j index of 5”, our program goes to memory location 1000,
-Dialogue: 0,0:01:38.60,0:01:42.00,720P-CN,,0,0,0,,加上偏置量5 这里储存的是数值4\N{\c&H00D8FF&\fs40}plus an offset of 5, which in this case, holds a value of 4.
-Dialogue: 0,0:01:42.00,0:01:45.20,720P-CN,,0,0,0,,数组里的第5个数和指标5的数容易被混淆\N{\c&H00D8FF&\fs40}It's easy to confuse the fifth number in the array with the number at index 5.
+Dialogue: 0,0:01:26.26,0:01:30.66,720P-CN,,0,0,0,,这样当我们写 j[0] 时  计算机访问内存地址1,000\N{\c&H00D8FF&\fs40}So when we write "j index of 0", the computer goes to memory location 1,000,
+Dialogue: 0,0:01:30.66,0:01:33.60,720P-CN,,0,0,0,,内存偏移地址是0 取值5\N{\c&H00D8FF&\fs40}with an offset of 0, and we get the value 5.
+Dialogue: 0,0:01:33.60,0:01:38.60,720P-CN,,0,0,0,,如果想取 j[5]  程序到内存地址1,000\N{\c&H00D8FF&\fs40}If we wanted to retrieve "j index of 5", our program goes to memory location 1000,
+Dialogue: 0,0:01:38.60,0:01:42.00,720P-CN,,0,0,0,,加上内存偏移地址5 这里的值是4\N{\c&H00D8FF&\fs40}plus an offset of 5, which in this case, holds a value of 4.
+Dialogue: 0,0:01:42.00,0:01:45.20,720P-CN,,0,0,0,,有个概念容易搞混 数组里的第5个数 和 数组里索引为5的数\N{\c&H00D8FF&\fs40}It's easy to confuse the fifth number in the array with the number at index 5.
 Dialogue: 0,0:01:45.20,0:01:46.53,720P-CN,,0,0,0,,它们不一样\N{\c&H00D8FF&\fs40}They are not the same.
-Dialogue: 0,0:01:46.53,0:01:49.53,720P-CN,,0,0,0,,记住 指标5的数是数组的第6个数\N{\c&H00D8FF&\fs40}Remember, the number index 5 is the 6th number in the array
-Dialogue: 0,0:01:49.53,0:01:51.46,720P-CN,,0,0,0,,因为第一个数从指标0开始\N{\c&H00D8FF&\fs40} cause the first number is at index 0.
-Dialogue: 0,0:01:51.46,0:01:54.80,720P-CN,,0,0,0,,数组是很通用的数据结构 它一直被用到\N{\c&H00D8FF&\fs40}Arrays are extremely versatile data structures, used all the time,
-Dialogue: 0,0:01:54.80,0:01:57.60,720P-CN,,0,0,0,,所以有很多处理它们的有用函数\N{\c&H00D8FF&\fs40} and so there are many functions that can handle them to do useful things.
-Dialogue: 0,0:01:57.60,0:02:00.26,720P-CN,,0,0,0,,比如 相当多编程语言有\N{\c&H00D8FF&\fs40}For example, pretty much every programming language comes with
-Dialogue: 0,0:02:00.26,0:02:04.26,720P-CN,,0,0,0,,内置的排序函数 你只要传递数组 它就返回排序好的数组\N{\c&H00D8FF&\fs40} a built-in sort function, where you just pass in your array, and it comes back sorted.
+Dialogue: 0,0:01:46.53,0:01:49.53,720P-CN,,0,0,0,,记住 索引为5的数是数组中第6个数\N{\c&H00D8FF&\fs40}Remember, the number index 5 is the 6th number in the array
+Dialogue: 0,0:01:49.53,0:01:51.46,720P-CN,,0,0,0,,因为第一个数从0索引开始\N{\c&H00D8FF&\fs40} cause the first number is at index 0.
+Dialogue: 0,0:01:51.46,0:01:54.80,720P-CN,,0,0,0,,数组是很通用的数据结构 它很常用\N{\c&H00D8FF&\fs40}Arrays are extremely versatile data structures, used all the time,
+Dialogue: 0,0:01:54.80,0:01:57.60,720P-CN,,0,0,0,,所以有很多有用的相关函数\N{\c&H00D8FF&\fs40} and so there are many functions that can handle them to do useful things.
+Dialogue: 0,0:01:57.60,0:02:00.26,720P-CN,,0,0,0,,比如 相当多编程语言有内置的排序函数 \N{\c&H00D8FF&\fs40}For example, pretty much every programming language comes with
+Dialogue: 0,0:02:00.26,0:02:04.26,720P-CN,,0,0,0,,它接受数组 将其排序后再返回结果\N{\c&H00D8FF&\fs40} a built-in sort function, where you just pass in your array, and it comes back sorted.
 Dialogue: 0,0:02:04.26,0:02:06.93,720P-CN,,0,0,0,,这样就不用从头写排序的算法了\N{\c&H00D8FF&\fs40}So there's no need to write that algorithm from scratch.
 Dialogue: 0,0:02:06.93,0:02:10.13,720P-CN,,0,0,0,,与数组十分相近的是字符串 它是字符的的数组\N{\c&H00D8FF&\fs40}Very closely related are Strings, which are just arrays of characters,
 Dialogue: 0,0:02:10.13,0:02:13.26,720P-CN,,0,0,0,,字符包括字母 数字 标点符号和其他书写符号\N{\c&H00D8FF&\fs40}like letters, numbers, punctuation and other written symbols.
 Dialogue: 0,0:02:13.26,0:02:16.40,720P-CN,,0,0,0,,第4集曾说过计算机如何储存字符\N{\c&H00D8FF&\fs40}We talked about how computers store characters way back in Episode 4.
-Dialogue: 0,0:02:16.40,0:02:20.40,720P-CN,,0,0,0,,通常 向内存中存入字符串 只需这样用引号括起来\N{\c&H00D8FF&\fs40}Most often, to save a string into memory, you just put it in quotes, like so.
+Dialogue: 0,0:02:16.40,0:02:20.40,720P-CN,,0,0,0,,通常 新建字符串只需这样用双引号括起来\N{\c&H00D8FF&\fs40}Most often, to save a string into memory, you just put it in quotes, like so.
 Dialogue: 0,0:02:20.40,0:02:22.40,720P-CN,,0,0,0,,虽然看上去不像数组 但确实是\N{\c&H00D8FF&\fs40}Although it doesn't look like an array, it is.
-Dialogue: 0,0:02:22.40,0:02:24.80,720P-CN,,0,0,0,,表面之下 内存是这样的\N{\c&H00D8FF&\fs40}Behind the scenes, the memory looks like this.
-Dialogue: 0,0:02:24.80,0:02:27.46,720P-CN,,0,0,0,,需要注意字符串在内存中终结于一个0\N{\c&H00D8FF&\fs40}Note that the string ends with a zero in memory.
-Dialogue: 0,0:02:27.46,0:02:30.86,720P-CN,,0,0,0,,不是字符0 而是二进制数值0\N{\c&H00D8FF&\fs40}It's not the character zero, but the binary value 0.
-Dialogue: 0,0:02:30.86,0:02:34.80,720P-CN,,0,0,0,,它叫做空字符 标志着字符串在内存中终止\N{\c&H00D8FF&\fs40}This is called the null character, and denotes the end of the string in memory.
-Dialogue: 0,0:02:34.80,0:02:38.40,720P-CN,,0,0,0,,它很重要 当我调用函数打印一列\N{\c&H00D8FF&\fs40}This is important because if I call a function like “print quote”, which writes the string
-Dialogue: 0,0:02:38.40,0:02:42.80,720P-CN,,0,0,0,,即把字符串显示在屏幕上 它从第一个内存地址按顺序打印出每个字符\N{\c&H00D8FF&\fs40}to the screen, it prints out each character in turn starting at the first memory location,
-Dialogue: 0,0:02:42.80,0:02:44.26,720P-CN,,0,0,0,,但需要知道何时停止\N{\c&H00D8FF&\fs40}but it needs to know when to stop!
-Dialogue: 0,0:02:44.26,0:02:48.00,720P-CN,,0,0,0,,否则就会打印出内存中的所有 成了文本\N{\c&H00D8FF&\fs40}Otherwise, it would print out every single thing in memory as text.
+Dialogue: 0,0:02:22.40,0:02:24.80,720P-CN,,0,0,0,,实际上内存里是这样存储的\N{\c&H00D8FF&\fs40}Behind the scenes, the memory looks like this.
+Dialogue: 0,0:02:24.80,0:02:27.46,720P-CN,,0,0,0,,注意内存中的字符串以0结尾\N{\c&H00D8FF&\fs40}Note that the string ends with a zero in memory.
+Dialogue: 0,0:02:27.46,0:02:30.86,720P-CN,,0,0,0,,不是字符0 而是二进制数0\N{\c&H00D8FF&\fs40}It's not the character zero, but the binary value 0.
+Dialogue: 0,0:02:30.86,0:02:34.80,720P-CN,,0,0,0,,它叫做空字符(结束符) 表示字符串的结尾\N{\c&H00D8FF&\fs40}This is called the null character, and denotes the end of the string in memory.
+Dialogue: 0,0:02:34.80,0:02:38.40,720P-CN,,0,0,0,,空字符很重要 当我调用函数"print quote"时\N{\c&H00D8FF&\fs40}This is important because if I call a function like "print quote", which writes the string
+Dialogue: 0,0:02:38.40,0:02:42.80,720P-CN,,0,0,0,,函数会把字符串显示在屏幕上 它从第一个内存地址依次打印出每个字符\N{\c&H00D8FF&\fs40}to the screen, it prints out each character in turn starting at the first memory location,
+Dialogue: 0,0:02:42.80,0:02:44.26,720P-CN,,0,0,0,,但函数需要知道什么时候停止\N{\c&H00D8FF&\fs40}but it needs to know when to stop!
+Dialogue: 0,0:02:44.26,0:02:48.00,720P-CN,,0,0,0,,否则就会以文本形式打印出内存中的所有内容\N{\c&H00D8FF&\fs40}Otherwise, it would print out every single thing in memory as text.
 Dialogue: 0,0:02:48.00,0:02:50.93,720P-CN,,0,0,0,,0告诉字符串函数该停止了\N{\c&H00D8FF&\fs40}The zero tells string functions when to stop.
 Dialogue: 0,0:02:50.93,0:02:52.73,720P-CN,,0,0,0,,因为计算机经常处理文本\N{\c&H00D8FF&\fs40}Because computers work with text so often,
 Dialogue: 0,0:02:52.73,0:02:55.33,720P-CN,,0,0,0,,所以有很多专门处理字符串的函数\N{\c&H00D8FF&\fs40}there are many functions that specifically handle strings.
-Dialogue: 0,0:02:55.33,0:02:58.53,720P-CN,,0,0,0,,例如 许多编程语言有字符串合并函数\N{\c&H00D8FF&\fs40}For example, many programming languages have a string concatenation function,
-Dialogue: 0,0:02:58.53,0:03:01.46,720P-CN,,0,0,0,,记作 strcat 输入两个字符串\N{\c&H00D8FF&\fs40}or “strcat”, which takes in two strings,
+Dialogue: 0,0:02:55.33,0:02:58.53,720P-CN,,0,0,0,,例如 许多编程语言有字符串拼接函数\N{\c&H00D8FF&\fs40}For example, many programming languages have a string concatenation function,
+Dialogue: 0,0:02:58.53,0:03:01.46,720P-CN,,0,0,0,,记作 strcat 它接受两个字符串\N{\c&H00D8FF&\fs40}or "strcat", which takes in two strings,
 Dialogue: 0,0:03:01.46,0:03:03.20,720P-CN,,0,0,0,,把第二个复制到第一个后面 \N{\c&H00D8FF&\fs40} and copies the second one to the end of the first.
-Dialogue: 0,0:03:03.20,0:03:05.80,720P-CN,,0,0,0,,数组可以成为一维列表\N{\c&H00D8FF&\fs40}We can use arrays for making one dimensional lists,
-Dialogue: 0,0:03:05.80,0:03:08.93,720P-CN,,0,0,0,,有时你需要操作二维的数据\N{\c&H00D8FF&\fs40} but sometimes you want to manipulate data that is two dimensional,
-Dialogue: 0,0:03:08.93,0:03:12.06,720P-CN,,0,0,0,,像是电子表格中的网状数字 或计算机屏幕的像素\N{\c&H00D8FF&\fs40}like a grid of numbers in a spreadsheet, or the pixels on your computer screen.
-Dialogue: 0,0:03:12.06,0:03:14.06,720P-CN,,0,0,0,,为此需要用矩阵\N{\c&H00D8FF&\fs40}For this, we need a Matrix.
-Dialogue: 0,0:03:14.06,0:03:16.80,720P-CN,,0,0,0,,可以把矩阵想象成数组的数组\N{\c&H00D8FF&\fs40}You can think of a Matrix as an array of arrays!
+Dialogue: 0,0:03:03.20,0:03:05.80,720P-CN,,0,0,0,,数组可以作为一维列表\N{\c&H00D8FF&\fs40}We can use arrays for making one dimensional lists,
+Dialogue: 0,0:03:05.80,0:03:08.93,720P-CN,,0,0,0,,但有时需要操作二维数据\N{\c&H00D8FF&\fs40} but sometimes you want to manipulate data that is two dimensional,
+Dialogue: 0,0:03:08.93,0:03:12.06,720P-CN,,0,0,0,,像是电子表格中的数字 或计算机屏幕的像素\N{\c&H00D8FF&\fs40}like a grid of numbers in a spreadsheet, or the pixels on your computer screen.
+Dialogue: 0,0:03:12.06,0:03:14.06,720P-CN,,0,0,0,,这个需要用矩阵\N{\c&H00D8FF&\fs40}For this, we need a Matrix.
+Dialogue: 0,0:03:14.06,0:03:16.80,720P-CN,,0,0,0,,可以把矩阵想象成以数组为元素的数组\N{\c&H00D8FF&\fs40}You can think of a Matrix as an array of arrays!
 Dialogue: 0,0:03:16.80,0:03:19.73,720P-CN,,0,0,0,,3x3数组其实是一个长度为3的数组\N{\c&H00D8FF&\fs40}So a 3 by 3 matrix is really an array of size 3,
-Dialogue: 0,0:03:19.73,0:03:22.53,720P-CN,,0,0,0,,每个指标里储存了一个长度为3的数组\N{\c&H00D8FF&\fs40}with each index storing an array of size 3.
+Dialogue: 0,0:03:19.73,0:03:22.53,720P-CN,,0,0,0,,它的每个元素又是一个长度为3的数组\N{\c&H00D8FF&\fs40}with each index storing an array of size 3.
 Dialogue: 0,0:03:22.53,0:03:24.53,720P-CN,,0,0,0,,如图初始化矩阵\N{\c&H00D8FF&\fs40}We can initialize a matrix like so.
-Dialogue: 0,0:03:24.53,0:03:27.46,720P-CN,,0,0,0,,内存中这样按顺序打包在一起\N{\c&H00D8FF&\fs40}In memory, this is packed together in order like this.
-Dialogue: 0,0:03:27.46,0:03:30.26,720P-CN,,0,0,0,,要访问数值 需要确定两个指标\N{\c&H00D8FF&\fs40}To access a value, you need to specify two indexes,
-Dialogue: 0,0:03:30.26,0:03:33.86,720P-CN,,0,0,0,,如 j[2][1] 它告诉计算机\N{\c&H00D8FF&\fs40}like “J index of 2, then index of 1” - this tells the computer
-Dialogue: 0,0:03:33.86,0:03:36.93,720P-CN,,0,0,0,,寻找2号子数组的1号位的数值\N{\c&H00D8FF&\fs40}you're looking for the item in subarray 2 at position 1.
+Dialogue: 0,0:03:24.53,0:03:27.46,720P-CN,,0,0,0,,在内存里 就像这样的顺序保存在一起\N{\c&H00D8FF&\fs40}In memory, this is packed together in order like this.
+Dialogue: 0,0:03:27.46,0:03:30.26,720P-CN,,0,0,0,,要访问(二维数组的)一个元素 需要指定两个索引\N{\c&H00D8FF&\fs40}To access a value, you need to specify two indexes,
+Dialogue: 0,0:03:30.26,0:03:33.86,720P-CN,,0,0,0,,如 j[2][1] 它告诉计算机\N{\c&H00D8FF&\fs40}like "J index of 2, then index of 1" - this tells the computer
+Dialogue: 0,0:03:33.86,0:03:36.93,720P-CN,,0,0,0,,寻找2号子数组 索引为1的元素\N{\c&H00D8FF&\fs40}you're looking for the item in subarray 2 at position 1.
 Dialogue: 0,0:03:36.93,0:03:38.86,720P-CN,,0,0,0,,这样得到数值12\N{\c&H00D8FF&\fs40}And this would give us the value 12.
-Dialogue: 0,0:03:38.86,0:03:41.86,720P-CN,,0,0,0,,矩阵厉害之处是它不局限于3x3\N{\c&H00D8FF&\fs40}The cool thing about matrices is we're not limited to 3 by 3
-Dialogue: 0,0:03:41.86,0:03:43.86,720P-CN,,0,0,0,,可以是任意的大小\N{\c&H00D8FF&\fs40}- we can make them any size we want
-Dialogue: 0,0:03:43.86,0:03:46.53,720P-CN,,0,0,0,,也可以按需要创造任意的维数\N{\c&H00D8FF&\fs40}- and we can also make them any number of dimensions we want.
-Dialogue: 0,0:03:46.53,0:03:50.40,720P-CN,,0,0,0,,例如 可以如图创造5维的矩阵并访问\N{\c&H00D8FF&\fs40}For example, we can create a five dimensional matrix and access it like this.
-Dialogue: 0,0:03:50.40,0:03:54.66,720P-CN,,0,0,0,,好 你现在知道如何访5维矩阵了 告诉朋友吧\N{\c&H00D8FF&\fs40}That's right, you now know how to access a five dimensional matrix - tell your friends!
-Dialogue: 0,0:03:54.66,0:03:58.93,720P-CN,,0,0,0,,我们在数组或矩阵储存单个的数字或字母\N{\c&H00D8FF&\fs40}So far, we've been storing individual numbers or letters into our arrays or matrices.
-Dialogue: 0,0:03:58.93,0:04:02.33,720P-CN,,0,0,0,,经常储存一块相关的变量很有用\N{\c&H00D8FF&\fs40}But often it's useful to store a block of related variables together.
+Dialogue: 0,0:03:38.86,0:03:41.86,720P-CN,,0,0,0,,矩阵的神奇之处在于它不仅限于3x3的大小\N{\c&H00D8FF&\fs40}The cool thing about matrices is we're not limited to 3 by 3
+Dialogue: 0,0:03:41.86,0:03:43.86,720P-CN,,0,0,0,,它可以是任意大小\N{\c&H00D8FF&\fs40}- we can make them any size we want
+Dialogue: 0,0:03:43.86,0:03:46.53,720P-CN,,0,0,0,,我们也可以按需创建任意维度的数组\N{\c&H00D8FF&\fs40}- and we can also make them any number of dimensions we want.
+Dialogue: 0,0:03:46.53,0:03:50.40,720P-CN,,0,0,0,,例如 可以创建一个5维矩阵 并像这样取值\N{\c&H00D8FF&\fs40}For example, we can create a five dimensional matrix and access it like this.
+Dialogue: 0,0:03:50.40,0:03:54.66,720P-CN,,0,0,0,,好 你现在知道5维矩阵如何取值了 告诉朋友吧\N{\c&H00D8FF&\fs40}That's right, you now know how to access a five dimensional matrix - tell your friends!
+Dialogue: 0,0:03:54.66,0:03:58.93,720P-CN,,0,0,0,,我们在数组或矩阵储存单个数字或字母\N{\c&H00D8FF&\fs40}So far, we've been storing individual numbers or letters into our arrays or matrices.
+Dialogue: 0,0:03:58.93,0:04:02.33,720P-CN,,0,0,0,,但储存一块相关变量通常很有用\N{\c&H00D8FF&\fs40}But often it's useful to store a block of related variables together.
 Dialogue: 0,0:04:02.33,0:04:05.33,720P-CN,,0,0,0,,比如你想把银行账号和余额存在一起 \N{\c&H00D8FF&\fs40}Like, you might want to store a bank account number along with its balance.
-Dialogue: 0,0:04:05.33,0:04:08.93,720P-CN,,0,0,0,,这样的一组变量可以合并成一个结构体\N{\c&H00D8FF&\fs40}Groups of variables like these can be bundled together into a Struct.
-Dialogue: 0,0:04:08.93,0:04:11.80,720P-CN,,0,0,0,,现在可以创造不只一个数字的变凉了\N{\c&H00D8FF&\fs40}Now we can create variables that aren't just single numbers,
-Dialogue: 0,0:04:11.80,0:04:16.06,720P-CN,,0,0,0,,而是合并的数据结构体 一次性储存几种数据\N{\c&H00D8FF&\fs40}but are compound data structures, able to store several pieces of data at once.
-Dialogue: 0,0:04:16.06,0:04:18.40,720P-CN,,0,0,0,,还可以创造结自定义构体的数组\N{\c&H00D8FF&\fs40}We can even make arrays of structs that we define,
-Dialogue: 0,0:04:18.40,0:04:20.60,720P-CN,,0,0,0,,几个结构体在内存中打包在一起\N{\c&H00D8FF&\fs40}which are automatically bundled together in memory.
-Dialogue: 0,0:04:20.60,0:04:25.46,720P-CN,,0,0,0,,如果访问 j[0] 就得到哪里存储的整个结构体整个\N{\c&H00D8FF&\fs40}If we access, for example, J index of 0, we get back the whole struct stored there,
-Dialogue: 0,0:04:25.46,0:04:28.73,720P-CN,,0,0,0,,然后取出选定的账号数和余额\N{\c&H00D8FF&\fs40} and we can pull the specific account number and balance data we want.
-Dialogue: 0,0:04:28.73,0:04:32.13,720P-CN,,0,0,0,,这个结构体的数组 像其他数组一样 创建时是固定大小\N{\c&H00D8FF&\fs40}This array of structs, like any other array, gets created at a fixed size
-Dialogue: 0,0:04:32.13,0:04:34.13,720P-CN,,0,0,0,,不能再扩增\N{\c&H00D8FF&\fs40}that can't be enlarged to add more items.
+Dialogue: 0,0:04:05.33,0:04:08.93,720P-CN,,0,0,0,,这样的一组变量可以存储在结构体中\N{\c&H00D8FF&\fs40}Groups of variables like these can be bundled together into a Struct.
+Dialogue: 0,0:04:08.93,0:04:11.80,720P-CN,,0,0,0,,现在可以创建多个数字的变量了\N{\c&H00D8FF&\fs40}Now we can create variables that aren't just single numbers,
+Dialogue: 0,0:04:11.80,0:04:16.06,720P-CN,,0,0,0,,它是复合数据结构 能够一次性储存多个数据\N{\c&H00D8FF&\fs40}but are compound data structures, able to store several pieces of data at once.
+Dialogue: 0,0:04:16.06,0:04:18.40,720P-CN,,0,0,0,,还可以创建自定义结构体的数组\N{\c&H00D8FF&\fs40}We can even make arrays of structs that we define,
+Dialogue: 0,0:04:18.40,0:04:20.60,720P-CN,,0,0,0,,这些结构体在内存中合并存储在一起\N{\c&H00D8FF&\fs40}which are automatically bundled together in memory.
+Dialogue: 0,0:04:20.60,0:04:25.46,720P-CN,,0,0,0,,如果访问 j[0] 就得到该位置的整个结构体\N{\c&H00D8FF&\fs40}If we access, for example, J index of 0, we get back the whole struct stored there,
+Dialogue: 0,0:04:25.46,0:04:28.73,720P-CN,,0,0,0,,然后可以取出指定的银行账号和余额\N{\c&H00D8FF&\fs40} and we can pull the specific account number and balance data we want.
+Dialogue: 0,0:04:28.73,0:04:32.13,720P-CN,,0,0,0,,像其他数组一样 这个结构体数组在创建时长度是固定的\N{\c&H00D8FF&\fs40}This array of structs, like any other array, gets created at a fixed size
+Dialogue: 0,0:04:32.13,0:04:34.13,720P-CN,,0,0,0,,不能再变大\N{\c&H00D8FF&\fs40}that can't be enlarged to add more items.
 Dialogue: 0,0:04:34.13,0:04:36.60,720P-CN,,0,0,0,,此外 数组必须按顺序存在内存中\N{\c&H00D8FF&\fs40}Also, arrays must be stored in order in memory,
 Dialogue: 0,0:04:36.60,0:04:38.60,720P-CN,,0,0,0,,难以在中间插入新元素\N{\c&H00D8FF&\fs40} making it hard to add a new item to the middle.
-Dialogue: 0,0:04:38.60,0:04:40.66,720P-CN,,0,0,0,,但是结构体这一数据结构可用于\N{\c&H00D8FF&\fs40}But, the struct data structure can be used for
-Dialogue: 0,0:04:40.66,0:04:44.26,720P-CN,,0,0,0,,搭建更复杂的结构来避免这些限制\N{\c&H00D8FF&\fs40}building more complicated data structures that avoid these restrictions.
-Dialogue: 0,0:04:44.26,0:04:46.26,720P-CN,,0,0,0,,让我们看看叫 节点 的结构体\N{\c&H00D8FF&\fs40}Let's take a look at this struct that's called a “node”.
-Dialogue: 0,0:04:46.26,0:04:49.20,720P-CN,,0,0,0,,它储存一个变量例如数字 和一个指针\N{\c&H00D8FF&\fs40}It stores a variable, like a number, and also a pointer.
-Dialogue: 0,0:04:49.20,0:04:53.86,720P-CN,,0,0,0,,指针是一种特殊的变量 正如名字所示 它指向一个内存地址\N{\c&H00D8FF&\fs40}A pointer is a special variable that points, hence the name, to a location in memory.
-Dialogue: 0,0:04:53.86,0:04:57.73,720P-CN,,0,0,0,,使用这种结构体 可以创造链表 一种灵活多变的数据结构\N{\c&H00D8FF&\fs40}Using this struct, we can create a linked list, which is a flexible data structure
-Dialogue: 0,0:04:57.73,0:04:59.06,720P-CN,,0,0,0,,它储存许多节点\N{\c&H00D8FF&\fs40}that can store many nodes.
-Dialogue: 0,0:04:59.06,0:05:02.53,720P-CN,,0,0,0,,通过让每个节点指向下一个节点形成链表\N{\c&H00D8FF&\fs40}It does this by having each node point to the next node in the list.
+Dialogue: 0,0:04:38.60,0:04:40.66,720P-CN,,0,0,0,,但是结构体可以用来创建更复杂的数据结构\N{\c&H00D8FF&\fs40}But, the struct data structure can be used for
+Dialogue: 0,0:04:40.66,0:04:44.26,720P-CN,,0,0,0,,来避开这些限制\N{\c&H00D8FF&\fs40}building more complicated data structures that avoid these restrictions.
+Dialogue: 0,0:04:44.26,0:04:46.26,720P-CN,,0,0,0,,让我们看看称为 节点 的结构体\N{\c&H00D8FF&\fs40}Let's take a look at this struct that's called a "node".
+Dialogue: 0,0:04:46.26,0:04:49.20,720P-CN,,0,0,0,,它保存 一个变量(例如数字) 和 一个指针\N{\c&H00D8FF&\fs40}It stores a variable, like a number, and also a pointer.
+Dialogue: 0,0:04:49.20,0:04:53.86,720P-CN,,0,0,0,,指针是一种特殊的变量 正如其名 它指向一个内存地址\N{\c&H00D8FF&\fs40}A pointer is a special variable that points, hence the name, to a location in memory.
+Dialogue: 0,0:04:53.86,0:04:56.10,720P-CN,,0,0,0,,节点可以用于实现链表\N{\c&H00D8FF&\fs40}Using this struct, we can create a linked list, 
+Dialogue: 0,0:04:56.10,0:04:59.06,720P-CN,,0,0,0,,链表是一种灵活多变的数据结构 它可以保存多个节点\N{\c&H00D8FF&\fs40}which is a flexible data structure that can store many nodes.
+Dialogue: 0,0:04:59.06,0:05:02.53,720P-CN,,0,0,0,,链表中的每个节点都会指向下一个节点\N{\c&H00D8FF&\fs40}It does this by having each node point to the next node in the list.
 Dialogue: 0,0:05:02.53,0:05:05.53,720P-CN,,0,0,0,,假设内存中有三个节点\N{\c&H00D8FF&\fs40}Let's imagine we have three node structs saved in memory,
 Dialogue: 0,0:05:05.53,0:05:08.93,720P-CN,,0,0,0,,分别位于1000 1002 和1008\N{\c&H00D8FF&\fs40}at locations 1000, 1002 and 1008.
-Dialogue: 0,0:05:08.93,0:05:12.86,720P-CN,,0,0,0,,他们也许会分隔开 因为是不同时间创立的\N{\c&H00D8FF&\fs40}They might be spaced apart, because they were created at different times,
-Dialogue: 0,0:05:12.86,0:05:14.73,720P-CN,,0,0,0,,他们中间会有其他数据\N{\c&H00D8FF&\fs40} and other data can sit between them.
-Dialogue: 0,0:05:14.73,0:05:17.26,720P-CN,,0,0,0,,第一个节点储存数值 7\N{\c&H00D8FF&\fs40}So, you see that the first node contains the value 7,
-Dialogue: 0,0:05:17.26,0:05:19.86,720P-CN,,0,0,0,,指向下一个的指针是地址1008\N{\c&H00D8FF&\fs40}and the location 1008 in its “next” pointer.
+Dialogue: 0,0:05:08.93,0:05:12.86,720P-CN,,0,0,0,,因为创建时间不同 所以它们的存储位置未必连续\N{\c&H00D8FF&\fs40}They might be spaced apart, because they were created at different times,
+Dialogue: 0,0:05:12.86,0:05:14.73,720P-CN,,0,0,0,,并且相互之间可能有其他数据\N{\c&H00D8FF&\fs40} and other data can sit between them.
+Dialogue: 0,0:05:14.73,0:05:17.26,720P-CN,,0,0,0,,第一个节点值是 7\N{\c&H00D8FF&\fs40}So, you see that the first node contains the value 7,
+Dialogue: 0,0:05:17.26,0:05:19.86,720P-CN,,0,0,0,,指向地址1008\N{\c&H00D8FF&\fs40}and the location 1008 in its "next" pointer.
 Dialogue: 0,0:05:19.86,0:05:24.00,720P-CN,,0,0,0,,表明链表中的下一个节点位于内存地址1008\N{\c&H00D8FF&\fs40}This means that the next node in the linked list is located at memory location 1008.
-Dialogue: 0,0:05:24.00,0:05:26.00,720P-CN,,0,0,0,,沿着链表往下到下一节点\N{\c&H00D8FF&\fs40}Looking down the linked list, to the next node,
-Dialogue: 0,0:05:26.00,0:05:30.93,720P-CN,,0,0,0,,这里储存了数值112并指向地址1002的节点\N{\c&H00D8FF&\fs40} we see it stores the value 112 and points to another node at location 1002.
-Dialogue: 0,0:05:30.93,0:05:34.40,720P-CN,,0,0,0,,跟随指引 得到数值14的节点\N{\c&H00D8FF&\fs40}If we follow that, we find a node that contains the value 14
-Dialogue: 0,0:05:34.40,0:05:37.80,720P-CN,,0,0,0,,它指回了地址1000的第一个节点\N{\c&H00D8FF&\fs40}and points back to the first node at location 1000.
-Dialogue: 0,0:05:37.80,0:05:41.73,720P-CN,,0,0,0,,所以这个链表恰好是个循环 但它也可以终止\N{\c&H00D8FF&\fs40}So this linked list happened to be circular, but it could also have been terminated by
-Dialogue: 0,0:05:41.73,0:05:44.80,720P-CN,,0,0,0,,通过设置下一个的指针为数值0——空值\N{\c&H00D8FF&\fs40}using a next pointer value of 0 - the null value -
-Dialogue: 0,0:05:44.80,0:05:46.80,720P-CN,,0,0,0,,表示表的结束\N{\c&H00D8FF&\fs40}which would indicate we've reached the end of the list.
+Dialogue: 0,0:05:24.00,0:05:26.00,720P-CN,,0,0,0,,沿着链表找到下一节点\N{\c&H00D8FF&\fs40}Looking down the linked list, to the next node,
+Dialogue: 0,0:05:26.00,0:05:30.93,720P-CN,,0,0,0,,值是112 同时指向地址1002的节点\N{\c&H00D8FF&\fs40} we see it stores the value 112 and points to another node at location 1002.
+Dialogue: 0,0:05:30.93,0:05:34.40,720P-CN,,0,0,0,,然后找到了节点 它的值是14\N{\c&H00D8FF&\fs40}If we follow that, we find a node that contains the value 14
+Dialogue: 0,0:05:34.40,0:05:37.80,720P-CN,,0,0,0,,它又指回了地址1000的第一个节点\N{\c&H00D8FF&\fs40}and points back to the first node at location 1000.
+Dialogue: 0,0:05:37.80,0:05:39.77,720P-CN,,0,0,0,,所以这恰好是个循环链表\N{\c&H00D8FF&\fs40}So this linked list happened to be circular, 
+Dialogue: 0,0:05:39.77,0:05:43.69,720P-CN,,0,0,0,,但它也可以是单链表 只要下一个指针的值为0\N{\c&H00D8FF&\fs40}but it could also have been terminated by using a next pointer value of 0
+Dialogue: 0,0:05:43.69,0:05:46.80,720P-CN,,0,0,0,,即是空值 代表链表的尾部\N{\c&H00D8FF&\fs40}- the null value - which would indicate we've reached the end of the list.
 Dialogue: 0,0:05:46.80,0:05:49.73,720P-CN,,0,0,0,,程序员使用链表时\N{\c&H00D8FF&\fs40}When programmers use linked lists, they rarely look at the memory values
-Dialogue: 0,0:05:49.73,0:05:51.26,720P-CN,,0,0,0,,很少关注下一个指针的数值\N{\c&H00D8FF&\fs40}stored in the next pointers.
-Dialogue: 0,0:05:51.26,0:05:54.66,720P-CN,,0,0,0,,而是如图抽象链表\N{\c&H00D8FF&\fs40}Instead, they can use an abstraction of a linked list, that looks like this,
-Dialogue: 0,0:05:54.66,0:05:56.66,720P-CN,,0,0,0,,更容易理解\N{\c&H00D8FF&\fs40} which is much easier to conceptualize.
-Dialogue: 0,0:05:56.66,0:05:59.13,720P-CN,,0,0,0,,与数组的大小提前定义不同 \N{\c&H00D8FF&\fs40}Unlike an array, whose size has to be pre-defined,
-Dialogue: 0,0:05:59.13,0:06:01.80,720P-CN,,0,0,0,,链表可以动态的扩展和缩减\N{\c&H00D8FF&\fs40}linked lists can be dynamically extended or shortened.
-Dialogue: 0,0:06:01.80,0:06:05.93,720P-CN,,0,0,0,,比如 我们可以分配新的节点并插入这个表\N{\c&H00D8FF&\fs40}For example, we can allocate a new node in memory, and insert it into this list,
-Dialogue: 0,0:06:05.93,0:06:07.60,720P-CN,,0,0,0,,只用改变指向下一个的指针\N{\c&H00D8FF&\fs40}just by changing the next pointers.
-Dialogue: 0,0:06:07.60,0:06:11.53,720P-CN,,0,0,0,,链表可以轻松的重新排序 缩减 分裂 倒置\N{\c&H00D8FF&\fs40}Linked Lists can also easily be re-ordered, trimmed, split, reversed, and so on.
-Dialogue: 0,0:06:11.53,0:06:12.93,720P-CN,,0,0,0,,非常简洁高效\N{\c&H00D8FF&\fs40}Which is pretty nifty!
-Dialogue: 0,0:06:12.93,0:06:16.73,720P-CN,,0,0,0,,对于上周所说的排序十分有用\N{\c&H00D8FF&\fs40}And pretty useful for algorithms like sorting, which we talked about last week.
+Dialogue: 0,0:05:49.73,0:05:51.26,720P-CN,,0,0,0,,基本不关注指针指向哪里\N{\c&H00D8FF&\fs40}stored in the next pointers.
+Dialogue: 0,0:05:51.26,0:05:54.66,720P-CN,,0,0,0,,而是如上图 使用链表的抽象模型\N{\c&H00D8FF&\fs40}Instead, they can use an abstraction of a linked list, that looks like this,
+Dialogue: 0,0:05:54.66,0:05:56.66,720P-CN,,0,0,0,,这样更容易理解\N{\c&H00D8FF&\fs40} which is much easier to conceptualize.
+Dialogue: 0,0:05:56.66,0:05:59.13,720P-CN,,0,0,0,,数组必须预先指定大小 \N{\c&H00D8FF&\fs40}Unlike an array, whose size has to be pre-defined,
+Dialogue: 0,0:05:59.13,0:06:01.80,720P-CN,,0,0,0,,而链表与它不同 可以动态增减大小\N{\c&H00D8FF&\fs40}linked lists can be dynamically extended or shortened.
+Dialogue: 0,0:06:01.80,0:06:05.93,720P-CN,,0,0,0,,比如 我们可以创建新节点 再插入链表\N{\c&H00D8FF&\fs40}For example, we can allocate a new node in memory, and insert it into this list,
+Dialogue: 0,0:06:05.93,0:06:07.60,720P-CN,,0,0,0,,这个过程只用改变指针的指向\N{\c&H00D8FF&\fs40}just by changing the next pointers.
+Dialogue: 0,0:06:07.60,0:06:11.53,720P-CN,,0,0,0,,链表可以轻松的重新排序 缩减 分割 逆序等等\N{\c&H00D8FF&\fs40}Linked Lists can also easily be re-ordered, trimmed, split, reversed, and so on,
+Dialogue: 0,0:06:11.53,0:06:12.93,720P-CN,,0,0,0,,非常简洁高效\N{\c&H00D8FF&\fs40}which is pretty nifty,
+Dialogue: 0,0:06:12.93,0:06:16.73,720P-CN,,0,0,0,,对于上周所说的排序十分有用\N{\c&H00D8FF&\fs40}and pretty useful for algorithms like sorting, which we talked about last week.
 Dialogue: 0,0:06:16.73,0:06:19.60,720P-CN,,0,0,0,,由于它的灵活性\N{\c&H00D8FF&\fs40}Owing to this flexibility, many more complex data structures
-Dialogue: 0,0:06:19.60,0:06:21.20,720P-CN,,0,0,0,,很多更复杂的数据结构基于它构建而成\N{\c&H00D8FF&\fs40}are built on top of linked lists.
+Dialogue: 0,0:06:19.60,0:06:21.20,720P-CN,,0,0,0,,很多复杂数据结构都以链表实现\N{\c&H00D8FF&\fs40}are built on top of linked lists.
 Dialogue: 0,0:06:21.20,0:06:24.13,720P-CN,,0,0,0,,最著名的是队列和栈\N{\c&H00D8FF&\fs40}The most famous and universal are queues and stacks.
-Dialogue: 0,0:06:24.13,0:06:27.33,720P-CN,,0,0,0,,队列 像是邮局里的 按照到来顺序流动\N{\c&H00D8FF&\fs40}A queue - like the line at your post office - goes in order of arrival.
-Dialogue: 0,0:06:27.33,0:06:30.00,720P-CN,,0,0,0,,等待时间最长的人先获得服务\N{\c&H00D8FF&\fs40}The person who has been waiting the longest, gets served first.
-Dialogue: 0,0:06:30.00,0:06:33.26,720P-CN,,0,0,0,,无论你怎样的不愉快 你只不过想买邮票\N{\c&H00D8FF&\fs40}No matter how frustrating it is that all you want to do is buying stamps
-Dialogue: 0,0:06:33.26,0:06:36.00,720P-CN,,0,0,0,,却要等你前面的人要邮寄23个包裹\N{\c&H00D8FF&\fs40}and the person in front of you seems to be mailing 23 packages.
-Dialogue: 0,0:06:36.00,0:06:40.20,720P-CN,,0,0,0,,不管怎样 这个行为叫做先进先出或FIFO\N{\c&H00D8FF&\fs40}But, regardless, this behavior is called First-In First-Out, or FIFO.
+Dialogue: 0,0:06:24.13,0:06:27.33,720P-CN,,0,0,0,,队列 按先来后到顺序执行 就像邮局里排队 \N{\c&H00D8FF&\fs40}A queue - like the line at your post office - goes in order of arrival.
+Dialogue: 0,0:06:27.33,0:06:30.00,720P-CN,,0,0,0,,最早来的人先获得服务\N{\c&H00D8FF&\fs40}The person who has been waiting the longest, gets served first.
+Dialogue: 0,0:06:30.00,0:06:33.26,720P-CN,,0,0,0,,你只想买邮票 而你前面那个人却好像要寄23个包裹\N{\c&H00D8FF&\fs40}No matter how frustrating it is that all you want to do is buying stamps
+Dialogue: 0,0:06:33.26,0:06:36.00,720P-CN,,0,0,0,,再怎么不爽(你也只能等着)\N{\c&H00D8FF&\fs40}and the person in front of you seems to be mailing 23 packages.
+Dialogue: 0,0:06:36.00,0:06:40.20,720P-CN,,0,0,0,,这种机制叫做 先进先出 简称FIFO\N{\c&H00D8FF&\fs40}But, regardless, this behavior is called First-In First-Out, or FIFO.
 Dialogue: 0,0:06:40.20,0:06:43.00,720P-CN,,0,0,0,,这才是重点 而不是23个包裹\N{\c&H00D8FF&\fs40}That's the first part. Not the 23 packages thing.
-Dialogue: 0,0:06:43.00,0:06:45.40,720P-CN,,0,0,0,,假设我们有一个名为 邮局队伍 的指针\N{\c&H00D8FF&\fs40}Imagine we have a pointer, named “post office queue”,
+Dialogue: 0,0:06:43.00,0:06:45.40,720P-CN,,0,0,0,,假设我们有一个名为 "邮局队列" 的指针\N{\c&H00D8FF&\fs40}Imagine we have a pointer, named "post office queue",
 Dialogue: 0,0:06:45.40,0:06:47.40,720P-CN,,0,0,0,,它指向链表的第一个节点\N{\c&H00D8FF&\fs40} that points to the first node in our linked list.
-Dialogue: 0,0:06:47.40,0:06:51.06,720P-CN,,0,0,0,,汉克的服务结束 可以读取汉克下一个的指针\N{\c&H00D8FF&\fs40}Once we're done serving Hank, we can read Hank's next pointer,
-Dialogue: 0,0:06:51.06,0:06:54.60,720P-CN,,0,0,0,,更新邮局队伍指针指向队伍的下一位\N{\c&H00D8FF&\fs40} and update our “post office queue” pointer to the next person in the line.
-Dialogue: 0,0:06:54.60,0:06:58.13,720P-CN,,0,0,0,,我们成功将汉克从队伍中移出 他走了办完事了\N{\c&H00D8FF&\fs40}We've successfully dequeued Hank -- he's gone, done, finished.
-Dialogue: 0,0:06:58.13,0:07:01.06,720P-CN,,0,0,0,,如果我们想把某人加入队列 \N{\c&H00D8FF&\fs40}If we want to enqueue someone, that is, add them to the line,
-Dialogue: 0,0:07:01.06,0:07:04.13,720P-CN,,0,0,0,,必须穿过整个链表 直到最后\N{\c&H00D8FF&\fs40}we have to traverse down the linked list until we hit the end,
-Dialogue: 0,0:07:04.13,0:07:06.80,720P-CN,,0,0,0,,把它的下一个指针指向新来的人\N{\c&H00D8FF&\fs40}and then change that next pointer to point to the new person.
-Dialogue: 0,0:07:06.80,0:07:10.20,720P-CN,,0,0,0,,小小的变化 就可以把链表改成栈 \N{\c&H00D8FF&\fs40}With just a small change, we can use linked lists as stacks, which are LIFO…
-Dialogue: 0,0:07:10.20,0:07:11.53,720P-CN,,0,0,0,,后进先出\N{\c&H00D8FF&\fs40}Last-In First-Out.
-Dialogue: 0,0:07:11.53,0:07:13.66,720P-CN,,0,0,0,,你可以看成一叠松饼\N{\c&H00D8FF&\fs40}You can think of this like a stack of pancakes...
-Dialogue: 0,0:07:13.66,0:07:16.06,720P-CN,,0,0,0,,你制作的时候摆在最上面\N{\c&H00D8FF&\fs40}as you make them, you add them to the top of stack.
+Dialogue: 0,0:06:47.40,0:06:51.06,720P-CN,,0,0,0,,汉克的服务结束 可以读取汉克的指针\N{\c&H00D8FF&\fs40}Once we're done serving Hank, we can read Hank's next pointer,
+Dialogue: 0,0:06:51.06,0:06:54.60,720P-CN,,0,0,0,,更新"邮局队列"指针 指向队列的下一个人\N{\c&H00D8FF&\fs40} and update our "post office queue" pointer to the next person in the line.
+Dialogue: 0,0:06:54.60,0:06:58.13,720P-CN,,0,0,0,,汉克"出队"了  他完事了\N{\c&H00D8FF&\fs40}We've successfully dequeued Hank -- he's gone, done, finished.
+Dialogue: 0,0:06:58.13,0:07:01.06,720P-CN,,0,0,0,,如果我们想让人"入队" 即把某人加入队列 \N{\c&H00D8FF&\fs40}If we want to enqueue someone, that is, add them to the line,
+Dialogue: 0,0:07:01.06,0:07:04.13,720P-CN,,0,0,0,,必须遍历整个链表 直到其尾部\N{\c&H00D8FF&\fs40}we have to traverse down the linked list until we hit the end,
+Dialogue: 0,0:07:04.13,0:07:06.80,720P-CN,,0,0,0,,然后把尾部的指针指向新来的人\N{\c&H00D8FF&\fs40}and then change that next pointer to point to the new person.
+Dialogue: 0,0:07:06.80,0:07:10.20,720P-CN,,0,0,0,,稍微改变下 就能把链表改为栈 \N{\c&H00D8FF&\fs40}With just a small change, we can use linked lists as stacks, which are LIFO…
+Dialogue: 0,0:07:10.20,0:07:11.53,720P-CN,,0,0,0,,栈是后进先出 简称LIFO\N{\c&H00D8FF&\fs40}Last-In First-Out.
+Dialogue: 0,0:07:11.53,0:07:13.66,720P-CN,,0,0,0,,你可以把栈看做一堆煎饼\N{\c&H00D8FF&\fs40}You can think of this like a stack of pancakes...
+Dialogue: 0,0:07:13.66,0:07:16.06,720P-CN,,0,0,0,,每做好一个 就把它放在饼堆的最上面\N{\c&H00D8FF&\fs40}as you make them, you add them to the top of stack.
 Dialogue: 0,0:07:16.06,0:07:18.93,720P-CN,,0,0,0,,吃的时候从最上面拿\N{\c&H00D8FF&\fs40}And when you want to eat one, you take them from the top of the stack.
-Dialogue: 0,0:07:18.93,0:07:20.20,720P-CN,,0,0,0,,美味！\N{\c&H00D8FF&\fs40}Delicious!
-Dialogue: 0,0:07:20.20,0:07:21.80,720P-CN,,0,0,0,,不说成入队和出队\N{\c&H00D8FF&\fs40}Instead of enqueueing and dequeuing,
-Dialogue: 0,0:07:21.80,0:07:25.00,720P-CN,,0,0,0,,而说把数据推进和弹出栈\N{\c&H00D8FF&\fs40}data is pushed onto the stack and popped from the stacks.
-Dialogue: 0,0:07:25.00,0:07:27.00,720P-CN,,0,0,0,,没错 那两个是专业名词\N{\c&H00D8FF&\fs40}Yep, those are the official terms!
-Dialogue: 0,0:07:27.00,0:07:31.13,720P-CN,,0,0,0,,如果更新节点的结构体 不仅包含一个指针 而是两个\N{\c&H00D8FF&\fs40}If we update our node struct to contain not just one, but two pointers,
-Dialogue: 0,0:07:31.13,0:07:34.86,720P-CN,,0,0,0,,就能构造树 另一种广泛应用的数据结构 \N{\c&H00D8FF&\fs40}we can build trees, another data structure that's used in many algorithms.
-Dialogue: 0,0:07:34.86,0:07:37.33,720P-CN,,0,0,0,,同样程序员不看指针的具体数值\N{\c&H00D8FF&\fs40}Again, programmers rarely look at the values of these pointers,
-Dialogue: 0,0:07:37.33,0:07:41.86,720P-CN,,0,0,0,,把树理解为这样的概念：最上面的节点叫根\N{\c&H00D8FF&\fs40}and instead conceptualize trees like this: The top most node is called the root.
-Dialogue: 0,0:07:41.86,0:07:45.20,720P-CN,,0,0,0,,从其他节点垂下来的叫子节点\N{\c&H00D8FF&\fs40}And any nodes that hang from other nodes are called children nodes.
-Dialogue: 0,0:07:45.20,0:07:48.06,720P-CN,,0,0,0,,容易猜出 子节点上的叫父节点 \N{\c&H00D8FF&\fs40}As you might expect, nodes above children are called parent nodes.
-Dialogue: 0,0:07:48.07,0:07:51.86,FOOT-NOTE,,0,0,0,,{\pos(160,30)}【托马斯·杰斐逊是美国第三任总统，阿伦·伯尔是他在任期间的副总统】
+Dialogue: 0,0:07:18.93,0:07:20.20,720P-CN,,0,0,0,,真好吃！\N{\c&H00D8FF&\fs40}Delicious!
+Dialogue: 0,0:07:20.20,0:07:21.80,720P-CN,,0,0,0,,不像队列称为"入队"和"出队"\N{\c&H00D8FF&\fs40}Instead of enqueueing and dequeuing,
+Dialogue: 0,0:07:21.80,0:07:25.00,720P-CN,,0,0,0,,栈的进出操作 称为"入栈"和"出栈"\N{\c&H00D8FF&\fs40}data is pushed onto the stack and popped from the stacks.
+Dialogue: 0,0:07:25.00,0:07:27.00,720P-CN,,0,0,0,,没错 都是专有名词\N{\c&H00D8FF&\fs40}Yep, those are the official terms!
+Dialogue: 0,0:07:27.00,0:07:31.13,720P-CN,,0,0,0,,如果节点的结构体 不止一个指针 而是有两个\N{\c&H00D8FF&\fs40}If we update our node struct to contain not just one, but two pointers,
+Dialogue: 0,0:07:31.13,0:07:34.86,720P-CN,,0,0,0,,就能构造另一种数据结构 树 很多算法都用到了它\N{\c&H00D8FF&\fs40}we can build trees, another data structure that's used in many algorithms.
+Dialogue: 0,0:07:34.86,0:07:37.33,720P-CN,,0,0,0,,同样的 程序员不看指针的值\N{\c&H00D8FF&\fs40}Again, programmers rarely look at the values of these pointers,
+Dialogue: 0,0:07:37.33,0:07:41.86,720P-CN,,0,0,0,,他们像这样抽象化树的结构：最上面的节点称为根节点\N{\c&H00D8FF&\fs40}and instead conceptualize trees like this: The top most node is called the root.
+Dialogue: 0,0:07:41.86,0:07:45.20,720P-CN,,0,0,0,,任意节点之下的节点都称为子节点\N{\c&H00D8FF&\fs40}And any nodes that hang from other nodes are called children nodes.
+Dialogue: 0,0:07:41.86,0:07:45.20,FOOT-NOTE,,0,0,0,,{\pos(320,32)}【注：即根节点之下的所有节点都是子节点】
+Dialogue: 0,0:07:45.20,0:07:48.06,720P-CN,,0,0,0,,容易猜出 子节点之上的叫父节点 \N{\c&H00D8FF&\fs40}As you might expect, nodes above children are called parent nodes.
+Dialogue: 0,0:07:48.07,0:07:51.86,FOOT-NOTE,,0,0,0,,{\pos(156,28)}【托马斯·杰斐逊是美国第三任总统，阿伦·伯尔是他在任期间的副总统】
+Dialogue: 0,0:07:45.20,0:07:51.86,FOOT-NOTE,,0,0,0,,{\pos(156,62)}【注：图中VP(副总统)节点之上正好是PRESIDENT(总统)节点】
 Dialogue: 0,0:07:48.06,0:07:52.26,720P-CN,,0,0,0,,这是不是意味着托马斯·杰斐逊是阿伦·伯尔的父亲呢？\N{\c&H00D8FF&\fs40}Does this example imply that Thomas Jefferson is the parent of Aaron Burr?
-Dialogue: 0,0:07:52.26,0:07:54.26,720P-CN,,0,0,0,,你们自己想一想\N{\c&H00D8FF&\fs40}I'll leave that to your fanfiction to decide.
-Dialogue: 0,0:07:54.26,0:07:57.73,720P-CN,,0,0,0,,最后 树的末尾没有子节点的节点\N{\c&H00D8FF&\fs40}And finally, any nodes that have no children - where the tree ends
+Dialogue: 0,0:07:52.26,0:07:54.26,720P-CN,,0,0,0,,你在同人里怎么写都可以\N{\c&H00D8FF&\fs40}I'll leave that to your fanfiction to decide.
+Dialogue: 0,0:07:54.26,0:07:57.73,720P-CN,,0,0,0,,最后 树的末端 所有没有子节点的节点\N{\c&H00D8FF&\fs40}And finally, any nodes that have no children - where the tree ends
 Dialogue: 0,0:07:57.73,0:07:58.80,720P-CN,,0,0,0,,叫做叶节点\N{\c&H00D8FF&\fs40}- are called Leaf Nodes.
-Dialogue: 0,0:07:58.80,0:08:02.13,720P-CN,,0,0,0,,我们的例子里节点最多有两个子节点 \N{\c&H00D8FF&\fs40}In our example, nodes can have up to two children, and for that reason,
+Dialogue: 0,0:07:58.80,0:08:02.13,720P-CN,,0,0,0,,我们的例子里每个节点最多有两个子节点 \N{\c&H00D8FF&\fs40}In our example, nodes can have up to two children, and for that reason,
 Dialogue: 0,0:08:02.13,0:08:04.53,720P-CN,,0,0,0,,所以这个特殊数据结构叫做二叉树\N{\c&H00D8FF&\fs40}this particular data structure is called a binary tree.
-Dialogue: 0,0:08:04.53,0:08:08.40,720P-CN,,0,0,0,,不过你可以随意设置树的子节点数 或三个或四个\N{\c&H00D8FF&\fs40}But you could just as easily have trees with three, four or any number of children
-Dialogue: 0,0:08:08.40,0:08:10.40,720P-CN,,0,0,0,,通过相应修改数据结构\N{\c&H00D8FF&\fs40}by modifying the data structure accordingly.
-Dialogue: 0,0:08:10.40,0:08:13.20,720P-CN,,0,0,0,,你甚至可以创造使用链表的树节点\N{\c&H00D8FF&\fs40}You can even have tree nodes that use linked lists
-Dialogue: 0,0:08:13.20,0:08:15.20,720P-CN,,0,0,0,,储存所有指向的节点\N{\c&H00D8FF&\fs40}to store all the nodes they point to.
+Dialogue: 0,0:08:04.53,0:08:08.40,720P-CN,,0,0,0,,不过你可以随意设置树的子节点数 3个，4个或者其他任意数量\N{\c&H00D8FF&\fs40}But you could just as easily have trees with three, four or any number of children
+Dialogue: 0,0:08:08.40,0:08:10.40,720P-CN,,0,0,0,,通过相应修改数据结构就可以实现\N{\c&H00D8FF&\fs40}by modifying the data structure accordingly.
+Dialogue: 0,0:08:10.40,0:08:13.20,720P-CN,,0,0,0,,你甚至可以创造使用链表实现的树节点\N{\c&H00D8FF&\fs40}You can even have tree nodes that use linked lists
+Dialogue: 0,0:08:13.20,0:08:15.20,720P-CN,,0,0,0,,用来储存所有指向的节点\N{\c&H00D8FF&\fs40}to store all the nodes they point to.
 Dialogue: 0,0:08:15.20,0:08:18.00,720P-CN,,0,0,0,,无论在在现实中还是数据结构中 树的最重要特点\N{\c&H00D8FF&\fs40}An important property of trees - both in real life and in data structures
-Dialogue: 0,0:08:18.00,0:08:20.60,720P-CN,,0,0,0,,是从根到叶有且只有一条路径\N{\c&H00D8FF&\fs40} - is that there's a one-way path from roots to leaves.
-Dialogue: 0,0:08:20.60,0:08:23.60,720P-CN,,0,0,0,,从根出发的叶再连向根会很奇怪\N{\c&H00D8FF&\fs40}It'd be weird if roots connected to leaves, that connected to roots.
-Dialogue: 0,0:08:23.60,0:08:26.80,720P-CN,,0,0,0,,对于随意连接的数据 会产生回路\N{\c&H00D8FF&\fs40}For data that links arbitrarily, that include things like loops,
+Dialogue: 0,0:08:18.00,0:08:20.60,720P-CN,,0,0,0,,是从根节点到叶节点是单向的\N{\c&H00D8FF&\fs40} - is that there's a one-way path from roots to leaves.
+Dialogue: 0,0:08:20.60,0:08:23.60,720P-CN,,0,0,0,,如果根节点连向叶节点 叶节点连向根节点 会有点怪\N{\c&H00D8FF&\fs40}It'd be weird if roots connected to leaves, that connected to roots.
+Dialogue: 0,0:08:23.60,0:08:26.80,720P-CN,,0,0,0,,对于任意连接的数据 包括环状数据在内\N{\c&H00D8FF&\fs40}For data that links arbitrarily, that include things like loops,
 Dialogue: 0,0:08:26.80,0:08:28.80,720P-CN,,0,0,0,,我们则用数据结构 图\N{\c&H00D8FF&\fs40}we can use a graph data structure instead.
-Dialogue: 0,0:08:28.80,0:08:32.20,720P-CN,,0,0,0,,还记得上一集有包含道路连接的城市的图吗\N{\c&H00D8FF&\fs40}Remember our graph from last episode of cities connected by roads?
+Dialogue: 0,0:08:28.80,0:08:32.20,720P-CN,,0,0,0,,还记得上一集由道路连接的城市图吗\N{\c&H00D8FF&\fs40}Remember our graph from last episode of cities connected by roads?
 Dialogue: 0,0:08:32.20,0:08:35.86,720P-CN,,0,0,0,,它可以用含有许多指针的节点储存 很像树\N{\c&H00D8FF&\fs40}This can be stored as nodes with many pointers, very much like a tree,
-Dialogue: 0,0:08:35.86,0:08:38.93,720P-CN,,0,0,0,,但没有根和叶 子和父的概念\N{\c&H00D8FF&\fs40}but there is no notion of roots and leaves, and children and parents…
-Dialogue: 0,0:08:38.93,0:08:40.40,720P-CN,,0,0,0,,元素间可以任意指向\N{\c&H00D8FF&\fs40}Anything can point to anything!
-Dialogue: 0,0:08:40.40,0:08:44.00,720P-CN,,0,0,0,,以上只是计算机科学中很多基本数据结构的概览\N{\c&H00D8FF&\fs40}So that's a whirlwind overview of pretty much all of the fundamental data structures
-Dialogue: 0,0:08:44.00,0:08:45.33,720P-CN,,0,0,0,,以上只是计算机科学中很多基本数据结构的概览\N{\c&H00D8FF&\fs40}used in computer science.
-Dialogue: 0,0:08:45.33,0:08:48.33,720P-CN,,0,0,0,,在此基础上 程序员创建了各种各样\N{\c&H00D8FF&\fs40}On top of these basic building blocks, programmers have built all sorts of
-Dialogue: 0,0:08:48.33,0:08:51.86,720P-CN,,0,0,0,,精巧的变体 性质有轻微差异\N{\c&H00D8FF&\fs40}clever variants, with slightly different properties - data structures like
-Dialogue: 0,0:08:51.86,0:08:54.86,720P-CN,,0,0,0,,例如红黑树 堆 没时间涉及了\N{\c&H00D8FF&\fs40}red-black trees and heaps, which we don't have time to cover.
+Dialogue: 0,0:08:35.86,0:08:38.93,720P-CN,,0,0,0,,但没有根节点和叶节点 子节点和父节点这些概念\N{\c&H00D8FF&\fs40}but there is no notion of roots and leaves, and children and parents…
+Dialogue: 0,0:08:38.93,0:08:40.40,720P-CN,,0,0,0,,节点间可以任意指向\N{\c&H00D8FF&\fs40}Anything can point to anything!
+Dialogue: 0,0:08:40.40,0:08:44.00,720P-CN,,0,0,0,,计算机的这些基本数据结构 我们差不多突击讲完了\N{\c&H00D8FF&\fs40}So that's a whirlwind overview of pretty much all of the fundamental data structures
+Dialogue: 0,0:08:44.00,0:08:45.33,720P-CN,,0,0,0,,计算机的这些基本数据结构 我们差不多突击讲完了\N{\c&H00D8FF&\fs40}used in computer science.
+Dialogue: 0,0:08:45.33,0:08:48.33,720P-CN,,0,0,0,,在此基础上 程序员创建了各种各样精巧的新算法 \N{\c&H00D8FF&\fs40}On top of these basic building blocks, programmers have built all sorts of
+Dialogue: 0,0:08:48.33,0:08:51.86,720P-CN,,0,0,0,,它们的性质略有不同\N{\c&H00D8FF&\fs40}clever variants, with slightly different properties - data structures like
+Dialogue: 0,0:08:51.86,0:08:54.86,720P-CN,,0,0,0,,例如红黑树 堆 我们没时间讲了\N{\c&H00D8FF&\fs40}red-black trees and heaps, which we don't have time to cover.
 Dialogue: 0,0:08:54.86,0:08:56.86,720P-CN,,0,0,0,,这些不同的数据结构\N{\c&H00D8FF&\fs40}These different data structures have properties
-Dialogue: 0,0:08:56.86,0:08:58.86,720P-CN,,0,0,0,,有着适合特定计算的性质\N{\c&H00D8FF&\fs40}that are useful for particular computations.
-Dialogue: 0,0:08:58.86,0:09:02.66,720P-CN,,0,0,0,,选择正确的数据结构可以使工作大大简化\N{\c&H00D8FF&\fs40}The right choice of data structure can make your job a lot easier, so it pays off
-Dialogue: 0,0:09:02.66,0:09:05.66,720P-CN,,0,0,0,,所以开始前很值得花时间思考如何构造数据\N{\c&H00D8FF&\fs40} to think about how you want to structure your data before you jump in.
-Dialogue: 0,0:09:05.66,0:09:08.13,720P-CN,,0,0,0,,幸运的是 大部分编程语言有\N{\c&H00D8FF&\fs40}Fortunately, most programming languages come with libraries
-Dialogue: 0,0:09:08.13,0:09:10.13,720P-CN,,0,0,0,,包装了现成数据结构的库\N{\c&H00D8FF&\fs40}packed full of ready-made data structures.
-Dialogue: 0,0:09:10.13,0:09:12.86,720P-CN,,0,0,0,,例如 c++的标准模板库\N{\c&H00D8FF&\fs40}For example, C++ has its Standard Template Library,
-Dialogue: 0,0:09:12.86,0:09:15.06,720P-CN,,0,0,0,,Java的Java类库\N{\c&H00D8FF&\fs40} and Java has the Java Class Library.
-Dialogue: 0,0:09:15.06,0:09:17.66,720P-CN,,0,0,0,,这样 程序员不用浪费时间\N{\c&H00D8FF&\fs40}These mean programmers don't have to waste time
-Dialogue: 0,0:09:17.66,0:09:22.13,720P-CN,,0,0,0,,从头实现功能 而是利用数据结构\N{\c&H00D8FF&\fs40}implementing things from scratch, and can instead wield the power of data structures
-Dialogue: 0,0:09:22.13,0:09:24.73,720P-CN,,0,0,0,,做更多有趣的事情\N{\c&H00D8FF&\fs40}to do more interesting things, once again
-Dialogue: 0,0:09:24.71,0:09:28.86,OP-ED,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
-Dialogue: 0,0:09:24.73,0:09:27.20,720P-CN,,0,0,0,,再一次 我们进入高一层的抽象\N{\c&H00D8FF&\fs40}allowing us to operate at a new level of abstraction!
+Dialogue: 0,0:08:56.86,0:08:58.86,720P-CN,,0,0,0,,适合某些特定计算\N{\c&H00D8FF&\fs40}that are useful for particular computations.
+Dialogue: 0,0:08:58.86,0:09:02.66,720P-CN,,0,0,0,,正确选择数据结构可以极大简化工作\N{\c&H00D8FF&\fs40}The right choice of data structure can make your job a lot easier, so it pays off
+Dialogue: 0,0:09:02.66,0:09:05.66,720P-CN,,0,0,0,,所以开始写代码前 值得花时间思考如何组织数据\N{\c&H00D8FF&\fs40} to think about how you want to structure your data before you jump in.
+Dialogue: 0,0:09:05.66,0:09:08.13,720P-CN,,0,0,0,,幸运的是 大部分编程语言\N{\c&H00D8FF&\fs40}Fortunately, most programming languages come with libraries
+Dialogue: 0,0:09:08.13,0:09:10.13,720P-CN,,0,0,0,,都有包含现成数据结构的库\N{\c&H00D8FF&\fs40}packed full of ready-made data structures.
+Dialogue: 0,0:09:10.13,0:09:12.86,720P-CN,,0,0,0,,例如 C++的STL标准模板库\N{\c&H00D8FF&\fs40}For example, C++ has its Standard Template Library,
+Dialogue: 0,0:09:12.86,0:09:15.06,720P-CN,,0,0,0,,Java的JCL Java类库\N{\c&H00D8FF&\fs40} and Java has the Java Class Library.
+Dialogue: 0,0:09:15.06,0:09:19.53,720P-CN,,0,0,0,,程序员就不必浪费时间从头实现功能\N{\c&H00D8FF&\fs40}These mean programmers don't have to waste time implementing things from scratch, 
+Dialogue: 0,0:09:19.53,0:09:23.79,720P-CN,,0,0,0,,而能利用数据结构做更多有趣的事情\N{\c&H00D8FF&\fs40}and can instead wield the power of data structures to do more interesting things, 
+Dialogue: 0,0:09:23.79,0:09:27.20,720P-CN,,0,0,0,,我们的抽象也更进了一步\N{\c&H00D8FF&\fs40}once again allowing us to operate at a new level of abstraction!
 Dialogue: 0,0:09:27.20,0:09:29.20,720P-CN,,0,0,0,,下周见\N{\c&H00D8FF&\fs40}I'll see you next week.
+Dialogue: 0,0:09:29.20,0:09:35.20,OP-ED,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
