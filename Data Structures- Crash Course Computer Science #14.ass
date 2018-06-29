@@ -15,8 +15,8 @@ Video File: Data Structures- Crash Course Computer Science #14.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 176
-Active Line: 193
+Scroll Position: 76
+Active Line: 77
 Video Position: 13256
 
 [V4+ Styles]
@@ -105,7 +105,7 @@ Dialogue: 0,0:03:33.86,0:03:36.93,720P-CN,,0,0,0,,寻找2号子数组 索引为1
 Dialogue: 0,0:03:36.93,0:03:38.86,720P-CN,,0,0,0,,这样得到数值12\N{\c&H00D8FF&\fs40}And this would give us the value 12.
 Dialogue: 0,0:03:38.86,0:03:41.86,720P-CN,,0,0,0,,矩阵的神奇之处在于它不仅限于3x3的大小\N{\c&H00D8FF&\fs40}The cool thing about matrices is we're not limited to 3 by 3
 Dialogue: 0,0:03:41.86,0:03:43.86,720P-CN,,0,0,0,,它可以是任意大小\N{\c&H00D8FF&\fs40}- we can make them any size we want
-Dialogue: 0,0:03:43.86,0:03:46.53,720P-CN,,0,0,0,,我们也可以按需创建任意维度的数组\N{\c&H00D8FF&\fs40}- and we can also make them any number of dimensions we want.
+Dialogue: 0,0:03:43.86,0:03:46.53,720P-CN,,0,0,0,,我们也可以按需创建任意维度的矩阵\N{\c&H00D8FF&\fs40}- and we can also make them any number of dimensions we want.
 Dialogue: 0,0:03:46.53,0:03:50.40,720P-CN,,0,0,0,,例如 可以创建一个5维矩阵 并像这样取值\N{\c&H00D8FF&\fs40}For example, we can create a five dimensional matrix and access it like this.
 Dialogue: 0,0:03:50.40,0:03:54.66,720P-CN,,0,0,0,,好 你现在知道5维矩阵如何取值了 告诉朋友吧\N{\c&H00D8FF&\fs40}That's right, you now know how to access a five dimensional matrix - tell your friends!
 Dialogue: 0,0:03:54.66,0:03:58.93,720P-CN,,0,0,0,,我们在数组或矩阵储存单个数字或字母\N{\c&H00D8FF&\fs40}So far, we've been storing individual numbers or letters into our arrays or matrices.
@@ -127,7 +127,7 @@ Dialogue: 0,0:04:40.66,0:04:44.26,720P-CN,,0,0,0,,来避开这些限制\N{\c&H00
 Dialogue: 0,0:04:44.26,0:04:46.26,720P-CN,,0,0,0,,让我们看看称为 节点 的结构体\N{\c&H00D8FF&\fs40}Let's take a look at this struct that's called a "node".
 Dialogue: 0,0:04:46.26,0:04:49.20,720P-CN,,0,0,0,,它保存 一个变量(例如数字) 和 一个指针\N{\c&H00D8FF&\fs40}It stores a variable, like a number, and also a pointer.
 Dialogue: 0,0:04:49.20,0:04:53.86,720P-CN,,0,0,0,,指针是一种特殊的变量 正如其名 它指向一个内存地址\N{\c&H00D8FF&\fs40}A pointer is a special variable that points, hence the name, to a location in memory.
-Dialogue: 0,0:04:53.86,0:04:56.10,720P-CN,,0,0,0,,节点可以用于实现链表\N{\c&H00D8FF&\fs40}Using this struct, we can create a linked list, 
+Dialogue: 0,0:04:53.86,0:04:56.10,720P-CN,,0,0,0,,节点可以用于实现链表\N{\c&H00D8FF&\fs40}Using this struct, we can create a linked list,
 Dialogue: 0,0:04:56.10,0:04:59.06,720P-CN,,0,0,0,,链表是一种灵活多变的数据结构 它可以保存多个节点\N{\c&H00D8FF&\fs40}which is a flexible data structure that can store many nodes.
 Dialogue: 0,0:04:59.06,0:05:02.53,720P-CN,,0,0,0,,链表中的每个节点都会指向下一个节点\N{\c&H00D8FF&\fs40}It does this by having each node point to the next node in the list.
 Dialogue: 0,0:05:02.53,0:05:05.53,720P-CN,,0,0,0,,假设内存中有三个节点\N{\c&H00D8FF&\fs40}Let's imagine we have three node structs saved in memory,
@@ -141,7 +141,7 @@ Dialogue: 0,0:05:24.00,0:05:26.00,720P-CN,,0,0,0,,沿着链表找到下一节点
 Dialogue: 0,0:05:26.00,0:05:30.93,720P-CN,,0,0,0,,值是112 同时指向地址1002的节点\N{\c&H00D8FF&\fs40} we see it stores the value 112 and points to another node at location 1002.
 Dialogue: 0,0:05:30.93,0:05:34.40,720P-CN,,0,0,0,,然后找到了节点 它的值是14\N{\c&H00D8FF&\fs40}If we follow that, we find a node that contains the value 14
 Dialogue: 0,0:05:34.40,0:05:37.80,720P-CN,,0,0,0,,它又指回了地址1000的第一个节点\N{\c&H00D8FF&\fs40}and points back to the first node at location 1000.
-Dialogue: 0,0:05:37.80,0:05:39.77,720P-CN,,0,0,0,,所以这恰好是个循环链表\N{\c&H00D8FF&\fs40}So this linked list happened to be circular, 
+Dialogue: 0,0:05:37.80,0:05:39.77,720P-CN,,0,0,0,,所以这恰好是个循环链表\N{\c&H00D8FF&\fs40}So this linked list happened to be circular,
 Dialogue: 0,0:05:39.77,0:05:43.69,720P-CN,,0,0,0,,但它也可以是单链表 只要下一个指针的值为0\N{\c&H00D8FF&\fs40}but it could also have been terminated by using a next pointer value of 0
 Dialogue: 0,0:05:43.69,0:05:46.80,720P-CN,,0,0,0,,即是空值 代表链表的尾部\N{\c&H00D8FF&\fs40}- the null value - which would indicate we've reached the end of the list.
 Dialogue: 0,0:05:46.80,0:05:49.73,720P-CN,,0,0,0,,程序员使用链表时\N{\c&H00D8FF&\fs40}When programmers use linked lists, they rarely look at the memory values
@@ -222,8 +222,8 @@ Dialogue: 0,0:09:05.66,0:09:08.13,720P-CN,,0,0,0,,幸运的是 大部分编程�
 Dialogue: 0,0:09:08.13,0:09:10.13,720P-CN,,0,0,0,,都有包含现成数据结构的库\N{\c&H00D8FF&\fs40}packed full of ready-made data structures.
 Dialogue: 0,0:09:10.13,0:09:12.86,720P-CN,,0,0,0,,例如 C++的STL标准模板库\N{\c&H00D8FF&\fs40}For example, C++ has its Standard Template Library,
 Dialogue: 0,0:09:12.86,0:09:15.06,720P-CN,,0,0,0,,Java的JCL Java类库\N{\c&H00D8FF&\fs40} and Java has the Java Class Library.
-Dialogue: 0,0:09:15.06,0:09:19.53,720P-CN,,0,0,0,,程序员就不必浪费时间从头实现功能\N{\c&H00D8FF&\fs40}These mean programmers don't have to waste time implementing things from scratch, 
-Dialogue: 0,0:09:19.53,0:09:23.79,720P-CN,,0,0,0,,而能利用数据结构做更多有趣的事情\N{\c&H00D8FF&\fs40}and can instead wield the power of data structures to do more interesting things, 
+Dialogue: 0,0:09:15.06,0:09:19.53,720P-CN,,0,0,0,,程序员就不必浪费时间从头实现功能\N{\c&H00D8FF&\fs40}These mean programmers don't have to waste time implementing things from scratch,
+Dialogue: 0,0:09:19.53,0:09:23.79,720P-CN,,0,0,0,,而能利用数据结构做更多有趣的事情\N{\c&H00D8FF&\fs40}and can instead wield the power of data structures to do more interesting things,
 Dialogue: 0,0:09:23.79,0:09:27.20,720P-CN,,0,0,0,,我们的抽象也更进了一步\N{\c&H00D8FF&\fs40}once again allowing us to operate at a new level of abstraction!
 Dialogue: 0,0:09:27.20,0:09:29.20,720P-CN,,0,0,0,,下周见\N{\c&H00D8FF&\fs40}I'll see you next week.
 Dialogue: 0,0:09:29.20,0:09:35.20,OP-ED,,0,0,0,,{\pos(633.333,305.333)}{\c&H00D8FF&\fs55\pos(960,340)}阿尔法小分队荣誉译制\N{\c&H00D8FF&\fs45}{\c&H43DEAA&\fs45}翻：@ErrorEnvyEnchant 校：@Auriance 压制：@Mihael_Ho \N{\c&H00D8FF&\fs45}{\c&H00D8FF&\fs55}长期招募 详情见微博置顶@阿尔法小分队科教组
