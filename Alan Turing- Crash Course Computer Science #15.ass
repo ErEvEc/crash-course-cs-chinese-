@@ -15,7 +15,7 @@ Video File: Alan Turing- Crash Course Computer Science #15.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 220
+Scroll Position: 213
 Active Line: 241
 Video Position: 17913
 
@@ -39,10 +39,10 @@ Dialogue: 0,0:00:15.66,0:00:19.84,720P-CN,,0,0,0,,认识现代计算理论的奠
 Dialogue: 0,0:00:19.84,0:00:24.48,720P-CN,,0,0,0,,计算机科学之父 长得不像本尼迪克特·康伯巴奇的 艾伦·图灵 \N{\c&H00D8FF&\fs40}The father of computer science and not quite Benedict Cumberbatch lookalike Alan Turing.
 Dialogue: 0,0:00:19.84,0:00:24.48,FOOT-NOTE,,0,0,0,,{\pos(124,26)}【本尼迪克特·康伯巴奇，即“卷福”，在电影《模仿游戏》中饰演图灵】
 Dialogue: 0,0:00:33.42,0:00:36.30,720P-CN,,0,0,0,,艾伦·麦席森·图灵 1912年生于伦敦\N{\c&H00D8FF&\fs40}Alan Mathison Turing was born in London in 1912
-Dialogue: 0,0:00:36.30,0:00:40.32,720P-CN,,0,0,0,,早年就在数学和科技方面展现了惊人的天赋\N{\c&H00D8FF&\fs40}and showed an incredible aptitude for maths and science throughout his early education.
-Dialogue: 0,0:00:40.32,0:00:44.10,720P-CN,,0,0,0,,他与计算机科学的首次接触在1935年\N{\c&H00D8FF&\fs40}His first brush of what we now call computer science came in 1935
+Dialogue: 0,0:00:36.30,0:00:40.32,720P-CN,,0,0,0,,早年就在数学和科学方面展现了惊人的天赋\N{\c&H00D8FF&\fs40}and showed an incredible aptitude for maths and science throughout his early education.
+Dialogue: 0,0:00:40.32,0:00:44.10,720P-CN,,0,0,0,,他与计算机科学的首次接触在1935年 当时还没有计算机科学的叫法\N{\c&H00D8FF&\fs40}His first brush of what we now call computer science came in 1935
 Dialogue: 0,0:00:44.10,0:00:46.90,720P-CN,,0,0,0,,当时还是剑桥大学国王学院的硕士研究生\N{\c&H00D8FF&\fs40}while he was a master's student at King's College in Cambridge.
-Dialogue: 0,0:00:46.90,0:00:50.32,720P-CN,,0,0,0,,他决定完成德国数学家大卫·希尔伯特提出的问题\N{\c&H00D8FF&\fs40}He set out to solve a problem posed by German Mathematician David Hilbert
+Dialogue: 0,0:00:46.90,0:00:50.32,720P-CN,,0,0,0,,他决定解决德国数学家大卫·希尔伯特提出的问题\N{\c&H00D8FF&\fs40}He set out to solve a problem posed by German Mathematician David Hilbert
 Dialogue: 0,0:00:50.32,0:00:54.40,720P-CN,,0,0,0,,就是可判定性问题\N{\c&H00D8FF&\fs40}known as the Entscheidungsproblem or decision problem, which asked the following:
 Dialogue: 0,0:00:54.40,0:00:58.24,720P-CN,,0,0,0,,它提出 是否存在一个算法能够接受以形式逻辑表述的问题\N{\c&H00D8FF&\fs40}is there an algorithm that takes as input a statement written in formal logic,
 Dialogue: 0,0:00:58.24,0:01:01.34,720P-CN,,0,0,0,,并总是能正确的回答“是”或“否”\N{\c&H00D8FF&\fs40}and produces a "yes" or "no" answer that's always accurate?
@@ -50,13 +50,13 @@ Dialogue: 0,0:01:01.34,0:01:04.44,720P-CN,,0,0,0,,如果存在这样的算法 �
 Dialogue: 0,0:01:04.44,0:01:06.40,720P-CN,,0,0,0,,比如 “是否存在比所有数字都大的数”\N{\c&H00D8FF&\fs40}"Is there a number bigger than all numbers?"
 Dialogue: 0,0:01:06.40,0:01:08.71,720P-CN,,0,0,0,,当然不存在 这个问题我们已经知道答案了\N{\c&H00D8FF&\fs40}No, there's not. We know the answer to that one,
 Dialogue: 0,0:01:08.71,0:01:12.10,720P-CN,,0,0,0,,但我们还想知道其他数学问题的答案\N{\c&H00D8FF&\fs40}but there are many other questions in mathematics that we'd like to know the answer to.
-Dialogue: 0,0:01:12.10,0:01:15.06,720P-CN,,0,0,0,,所以我们也想知道 这种算法是否存在 \N{\c&H00D8FF&\fs40}So if this algorithm existed, we'd want to know it.
+Dialogue: 0,0:01:12.10,0:01:15.06,720P-CN,,0,0,0,,所以如果这种算法存在 我们想知道它\N{\c&H00D8FF&\fs40}So if this algorithm existed, we'd want to know it.
 Dialogue: 0,0:01:15.06,0:01:17.43,720P-CN,,0,0,0,,美国数学家 阿伦索·丘奇于1935年首先提出了解答\N{\c&H00D8FF&\fs40}The American mathematician Alonzo Church
 Dialogue: 0,0:01:17.43,0:01:19.98,720P-CN,,0,0,0,,美国数学家 阿伦索·丘奇于1935年首先提出了解答\N{\c&H00D8FF&\fs40}first presented a solution to this problem in 1935.
 Dialogue: 0,0:01:19.98,0:01:23.66,720P-CN,,0,0,0,,他创造了一个数学表达系统 称为 λ演算/λ算子\N{\c&H00D8FF&\fs40}He developed a system of mathematical expressions called Lambda Calculus
 Dialogue: 0,0:01:23.66,0:01:26.76,720P-CN,,0,0,0,,并证明了这种通用算法不存在\N{\c&H00D8FF&\fs40}and demonstrated that no such universal algorithm could exist.
 Dialogue: 0,0:01:26.76,0:01:30.10,720P-CN,,0,0,0,,尽管λ演算可以表示任意计算\N{\c&H00D8FF&\fs40}Although Lambda Calculus was capable of representing any computation,
-Dialogue: 0,0:01:30.10,0:01:33.28,720P-CN,,0,0,0,,其数学技巧既难理解又难掌握\N{\c&H00D8FF&\fs40}the mathematical technique was difficult to apply and understand.
+Dialogue: 0,0:01:30.10,0:01:33.28,720P-CN,,0,0,0,,其数学技巧既难理解又难应用\N{\c&H00D8FF&\fs40}the mathematical technique was difficult to apply and understand.
 Dialogue: 0,0:01:33.28,0:01:36.07,720P-CN,,0,0,0,,大约同时期的大西洋彼岸\N{\c&H00D8FF&\fs40}At pretty much the same time on the other side of the Atlantic,
 Dialogue: 0,0:01:36.07,0:01:39.10,720P-CN,,0,0,0,,艾伦·图灵独立研究出了另一种解法\N{\c&H00D8FF&\fs40}Alan Turing came up with his own approach to solve the decision problem.
 Dialogue: 0,0:01:39.10,0:01:43.52,720P-CN,,0,0,0,,他提出了一个理想化计算装置 现在称为图灵机\N{\c&H00D8FF&\fs40}He proposed a hypothetical computing machine, which we now call a Turing Machine.
@@ -83,7 +83,7 @@ Dialogue: 0,0:02:37.59,0:02:40.16,720P-CN,,0,0,0,,然后计算这个二进制数
 Dialogue: 0,0:02:40.16,0:02:44.96,720P-CN,,0,0,0,,如果是 那么机器在纸带上写"1"  否则写"0"\N{\c&H00D8FF&\fs40}If that's true, the machine will write a one to the tape and if it's false, it'll write a zero.
 Dialogue: 0,0:02:44.96,0:02:47.40,720P-CN,,0,0,0,,首先需要确定图灵机的规则\N{\c&H00D8FF&\fs40}First we need to define our Turing machine rules.
 Dialogue: 0,0:02:47.40,0:02:50.60,720P-CN,,0,0,0,,如果状态为偶 且 纸带的当前符号为1\N{\c&H00D8FF&\fs40}If the state is even and the current symbol of the tape is one,
-Dialogue: 0,0:02:50.60,0:02:54.32,720P-CN,,0,0,0,,我们就更新图灵机的状态为寄 右移读写头\N{\c&H00D8FF&\fs40}then we update the machine state to odd and move the head to the right.
+Dialogue: 0,0:02:50.60,0:02:54.32,720P-CN,,0,0,0,,我们就更新图灵机的状态为奇 右移读写头\N{\c&H00D8FF&\fs40}then we update the machine state to odd and move the head to the right.
 Dialogue: 0,0:02:54.32,0:02:57.78,720P-CN,,0,0,0,,反之 如果状态为偶 且 当前符号为0\N{\c&H00D8FF&\fs40}On the other hand if the state is even and the current symbol is zero,
 Dialogue: 0,0:02:57.78,0:02:59.82,720P-CN,,0,0,0,,这说明已经到了字符串的末尾\N{\c&H00D8FF&\fs40}which means we've reached the end of the string of ones,
 Dialogue: 0,0:02:59.82,0:03:02.62,720P-CN,,0,0,0,,我们在纸带上写1 并将 图灵机状态写为停止\N{\c&H00D8FF&\fs40}then we write one to the tape and change the state to halt,
@@ -92,7 +92,7 @@ Dialogue: 0,0:03:06.16,0:03:09.10,720P-CN,,0,0,0,,我们还需要奇状态下的
 Dialogue: 0,0:03:09.10,0:03:13.04,720P-CN,,0,0,0,,一个对应纸带上符号为0 另一个对应符号为1\N{\c&H00D8FF&\fs40}one rule for the symbol on the tape is a zero and another for when it is one.
 Dialogue: 0,0:03:13.04,0:03:16.58,720P-CN,,0,0,0,,最后还需要定义一个起始状态 我们会设为偶状态\N{\c&H00D8FF&\fs40}Lastly we need to define a starting state, which we'll set to be even.
 Dialogue: 0,0:03:16.58,0:03:19.47,720P-CN,,0,0,0,,这样就完成了图灵机起始状态的所有规则\N{\c&H00D8FF&\fs40}Now we've defined the rules in the starting state of our Turing machine,
-Dialogue: 0,0:03:19.47,0:03:23.36,720P-CN,,0,0,0,,这和计算机程序很类似 我们来用测试输入来运行一下\N{\c&H00D8FF&\fs40}which is comparable to a computer program, we can run it on some example input.
+Dialogue: 0,0:03:19.47,0:03:23.36,720P-CN,,0,0,0,,这和计算机程序很类似 我们用测试输入来运行一下\N{\c&H00D8FF&\fs40}which is comparable to a computer program, we can run it on some example input.
 Dialogue: 0,0:03:23.36,0:03:25.68,720P-CN,,0,0,0,,假设我们在纸带上存储了 1 1 0\N{\c&H00D8FF&\fs40}Let's say we store 1 1 0 onto tape.
 Dialogue: 0,0:03:25.68,0:03:28.54,720P-CN,,0,0,0,,2个1意味着有偶数个1\N{\c&H00D8FF&\fs40}That's two ones which means there is an even number of ones,
 Dialogue: 0,0:03:28.54,0:03:31.90,720P-CN,,0,0,0,,如果还不熟悉这个概念 我们也许应该学一下数学速成课\N{\c&H00D8FF&\fs40}and if that's news to you, we should probably get working on crash course Math.
@@ -197,7 +197,7 @@ Dialogue: 0,0:08:33.84,0:08:36.60,720P-CN,,0,0,0,,总计有数十亿种设置\N{
 Dialogue: 0,0:08:36.60,0:08:40.66,720P-CN,,0,0,0,,如果你有一个enigma机，并且知道正确的转子和面板设置\N{\c&H00D8FF&\fs40}If you had your own enigma machine and you knew the correct rotor and plug board settings
 Dialogue: 0,0:08:40.66,0:08:44.38,720P-CN,,0,0,0,,输入XWDBJ 你就可以得到"hello"\N{\c&H00D8FF&\fs40}you could type in XWDBJ and hello would come out.
 Dialogue: 0,0:08:44.38,0:08:46.74,720P-CN,,0,0,0,,换句话说 你就破译了这条信息\N{\c&H00D8FF&\fs40}In other words, you decrypted the message.
-Dialogue: 0,0:08:46.74,0:08:50.38,720P-CN,,0,0,0,,德军当然不会在社交网络上分享自己的enigma设置\N{\c&H00D8FF&\fs40}Of course the German military wasn't sharing their enigma settings on Social Media
+Dialogue: 0,0:08:46.74,0:08:50.38,720P-CN,,0,0,0,,德军当然不会在公共网络上分享自己的enigma设置\N{\c&H00D8FF&\fs40}Of course the German military wasn't sharing their enigma settings on Social Media
 Dialogue: 0,0:08:50.38,0:08:52.20,720P-CN,,0,0,0,,所以盟军必须破解这些密码\N{\c&H00D8FF&\fs40}so the allies had to break the code.
 Dialogue: 0,0:08:52.20,0:08:54.38,720P-CN,,0,0,0,,考虑到转子和插板的组合之多\N{\c&H00D8FF&\fs40}With billions of Rotor and plug board combinations
 Dialogue: 0,0:08:54.38,0:08:56.38,720P-CN,,0,0,0,,手工破译是不可能的\N{\c&H00D8FF&\fs40}there was no way to check them all by hand.
@@ -211,14 +211,14 @@ Dialogue: 0,0:09:14.78,0:09:19.28,720P-CN,,0,0,0,,给定一条加密后的消息
 Dialogue: 0,0:09:19.28,0:09:23.04,720P-CN,,0,0,0,,如果它找到一种设置 其解密后的字母没有改变\N{\c&H00D8FF&\fs40}If the Bombe found a setting that led to a letter being encoded as itself
 Dialogue: 0,0:09:23.04,0:09:26.92,720P-CN,,0,0,0,,我们知道真正的enigma机肯定不会这样 所以这个组合不成立\N{\c&H00D8FF&\fs40}which we know the real Enigma machine couldn't do, that combination was discarded
 Dialogue: 0,0:09:26.92,0:09:29.36,720P-CN,,0,0,0,,然后机器继续计算下一个\N{\c&H00D8FF&\fs40}then the machine moved on to try another combination.
-Dialogue: 0,0:09:29.36,0:09:32.84,720P-CN,,0,0,0,,于是炸弹机用于缩减enigma机器设置的范围\N{\c&H00D8FF&\fs40}So Bombes were used to greatly narrow the number of Possible enigma settings.
+Dialogue: 0,0:09:29.36,0:09:32.84,720P-CN,,0,0,0,,于是炸弹机用于大幅缩减enigma机器设置的范围\N{\c&H00D8FF&\fs40}So Bombes were used to greatly narrow the number of Possible enigma settings.
 Dialogue: 0,0:09:32.84,0:09:36.76,720P-CN,,0,0,0,,这样译码员只需要破译可能性最大的组合\N{\c&H00D8FF&\fs40}This allowed human code breakers to hone their efforts on the most probable solutions
 Dialogue: 0,0:09:36.76,0:09:40.18,720P-CN,,0,0,0,,在解码后的信息中寻找常见的德语单词\N{\c&H00D8FF&\fs40}looking for things like common german words in fragments of decoded text.
 Dialogue: 0,0:09:40.18,0:09:43.64,720P-CN,,0,0,0,,为避免密码被破译\N{\c&H00D8FF&\fs40}Periodically the Germans would suspect someone was decoding their communications
 Dialogue: 0,0:09:43.64,0:09:45.44,720P-CN,,0,0,0,,德军会定期升级enigma机器\N{\c&H00D8FF&\fs40}and upgrade the enigma machine
 Dialogue: 0,0:09:45.44,0:09:48.56,720P-CN,,0,0,0,,比如会增加一个转子 这样会新增更多组合 \N{\c&H00D8FF&\fs40} like they'd add another rotor creating many more combinations
 Dialogue: 0,0:09:48.56,0:09:51.14,720P-CN,,0,0,0,,甚至还会重新制造新的加密设备\N{\c&H00D8FF&\fs40}they even built entirely new encryption machines.
-Dialogue: 0,0:09:51.14,0:09:53.78,720P-CN,,0,0,0,,整个战争期间 图灵和他布莱切利园的同事们\N{\c&H00D8FF&\fs40}Throughout the war Turing and his colleagues at bletchley park
+Dialogue: 0,0:09:51.14,0:09:53.78,720P-CN,,0,0,0,,整个战争期间 图灵和他布莱切利园的同事们\N{\c&H00D8FF&\fs40}Throughout the war Turing and his colleagues at Bletchley Park
 Dialogue: 0,0:09:53.78,0:09:56.02,720P-CN,,0,0,0,,不知不倦的破译密码\N{\c&H00D8FF&\fs40}worked tirelessly to defeat these mechanisms
 Dialogue: 0,0:09:56.02,0:09:59.45,720P-CN,,0,0,0,,总的来说 破译德军通讯获得的情报\N{\c&H00D8FF&\fs40}and overall the intelligence gained from decrypted German communications
 Dialogue: 0,0:09:59.45,0:10:01.86,720P-CN,,0,0,0,,让盟军在许多情形下占得先机\N{\c&H00D8FF&\fs40}gave the allies an edge in many theatres
